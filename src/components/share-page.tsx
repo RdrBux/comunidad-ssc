@@ -10,7 +10,7 @@ export default function SharePage({ url, text }: Props) {
 	return (
 		<div className="w-full flex justify-center items-center gap-2">
 			<a title="Compartir en Facebook" aria-label="Compartir en Facebook" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-[#0866FF] hover:text-white duration-100" href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer">
-				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
 			</a>
 
 			<a title="Compartir en X" aria-label="Compartir en X" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-black hover:text-white duration-100" href={`https://twitter.com/intent/tweet?text=${encodedUrl}&amp;url=${encodedText}`} target="_blank" rel="noopener noreferrer">
@@ -27,11 +27,11 @@ export default function SharePage({ url, text }: Props) {
 			</a>
 
 			<a title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-[#0077B5] hover:text-white duration-100" href={`https://www.linkedin.com/shareArticle?mini=true&amp;url=${encodedUrl}&amp;title=${encodedText}&amp;summary=${encodedText}&amp;source=${encodedUrl}`} target="_blank" rel="noopener noreferrer">
-				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
 			</a>
 
 			<a title="Compartir por Correo" aria-label="Compartir por Correo" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-neutral-600 hover:text-white duration-100" href={`mailto:?subject=${encodedText}&body=${encodedUrl}`} target="_blank" rel="noopener noreferrer">
-				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
+				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
 			</a>
 		</div>
 	)

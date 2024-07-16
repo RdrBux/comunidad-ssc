@@ -201,34 +201,34 @@ export const ImgCubes = () => (
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1495.92 838.22">
 		<g>
 			<g>
-				<line x1="194.46" y1="168.34" x2="199.78" y2="171.11" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
-				<line x1="217.64" y1="180.43" x2="1179.98" y2="682.45" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="12.08 20.14" />
-				<line x1="1188.91" y1="687.11" x2="1194.23" y2="689.88" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
+				<line x1="194.46" y1="168.34" x2="199.78" y2="171.11" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
+				<line x1="217.64" y1="180.43" x2="1179.98" y2="682.45" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" strokeDasharray="12.08 20.14" />
+				<line x1="1188.91" y1="687.11" x2="1194.23" y2="689.88" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
 			</g>
 			<g>
-				<line x1="86.7" y1="231.79" x2="92.02" y2="234.57" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
-				<line x1="109.62" y1="243.75" x2="1030.34" y2="723.97" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="11.91 19.86" />
-				<line x1="1039.14" y1="728.56" x2="1044.46" y2="731.34" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
+				<line x1="86.7" y1="231.79" x2="92.02" y2="234.57" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
+				<line x1="109.62" y1="243.75" x2="1030.34" y2="723.97" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" strokeDasharray="11.91 19.86" />
+				<line x1="1039.14" y1="728.56" x2="1044.46" y2="731.34" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
 			</g>
 			<g>
-				<line x1="0.46" y1="306.34" x2="5.78" y2="309.11" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
-				<line x1="23.4" y1="318.26" x2="888.33" y2="767.99" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="11.91 19.85" />
-				<line x1="897.14" y1="772.57" x2="902.46" y2="775.34" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
+				<line x1="0.46" y1="306.34" x2="5.78" y2="309.11" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
+				<line x1="23.4" y1="318.26" x2="888.33" y2="767.99" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" strokeDasharray="11.91 19.85" />
+				<line x1="897.14" y1="772.57" x2="902.46" y2="775.34" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
 			</g>
 			<g>
-				<line x1="1503.46" y1="126.34" x2="1498.14" y2="129.11" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
-				<line x1="1480.41" y1="138.36" x2="524.65" y2="636.94" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="12 20" />
-				<line x1="515.78" y1="641.56" x2="510.46" y2="644.34" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
+				<line x1="1503.46" y1="126.34" x2="1498.14" y2="129.11" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
+				<line x1="1480.41" y1="138.36" x2="524.65" y2="636.94" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" strokeDasharray="12 20" />
+				<line x1="515.78" y1="641.56" x2="510.46" y2="644.34" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
 			</g>
 			<g>
-				<line x1="1320.23" y1="75.79" x2="1314.91" y2="78.56" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
-				<line x1="1297.42" y1="87.68" x2="326.76" y2="593.55" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="11.83 19.72" />
-				<line x1="318.02" y1="598.11" x2="312.7" y2="600.88" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
+				<line x1="1320.23" y1="75.79" x2="1314.91" y2="78.56" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
+				<line x1="1297.42" y1="87.68" x2="326.76" y2="593.55" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" strokeDasharray="11.83 19.72" />
+				<line x1="318.02" y1="598.11" x2="312.7" y2="600.88" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
 			</g>
 			<g>
-				<line x1="1119.46" y1="30.34" x2="1114.14" y2="33.11" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
-				<line x1="1096.67" y1="42.23" x2="154.75" y2="533.55" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="11.83 19.71" />
-				<line x1="146.02" y1="538.11" x2="140.7" y2="540.88" fill="none" stroke="#555" stroke-miterlimit="10" stroke-width="2" />
+				<line x1="1119.46" y1="30.34" x2="1114.14" y2="33.11" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
+				<line x1="1096.67" y1="42.23" x2="154.75" y2="533.55" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" strokeDasharray="11.83 19.71" />
+				<line x1="146.02" y1="538.11" x2="140.7" y2="540.88" fill="none" stroke="#555" strokeMiterlimit="10" strokeWidth="2" />
 			</g>
 		</g>
 		<g>

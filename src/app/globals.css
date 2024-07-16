@@ -34,3 +34,17 @@
 .cube__face--front  { transform: rotateY( 45deg) translateZ(5px); }
 .cube__face--left   { transform: rotateY(-45deg) translateZ(5px); }
 .cube__face--top    { transform: rotateX( 90deg) rotateZ(45deg) translateZ(5px); }
+
+
+/* Mobile nav */
+.mobile-menu {
+	transition: .2s ease-out;
+}
+
+.open {
+	transform: translateX(0);
+}
+
+.closed {
+	transform: translateX(-100%);
+}
