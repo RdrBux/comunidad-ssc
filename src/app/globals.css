@@ -48,3 +48,168 @@
 .closed {
 	transform: translateX(-100%);
 }
+
+
+/* SVG ANIMATIONS */
+.front-box {
+	animation: front-move 5s ease-out forwards infinite;
+}
+
+.back-box {
+	animation: back-move 5s ease-out forwards infinite;
+}
+
+@keyframes front-move {
+	0%, 10% {
+		transform: translateX(0%) translateY(0%)
+	}
+	32.5%, 55% {
+		transform: translateX(7%) translateY(7%)
+	}
+	77.5%, 100% {
+		transform: translateX(15%) translateY(0%)
+	}
+}
+
+@keyframes back-move {
+	0%, 32.5% {
+		transform: translateX(0%) translateY(0%)
+	}
+	55%, 77.5% {
+		transform: translateX(-7%) translateY(-7%)
+	}
+	100% {
+		transform: translateX(-15%) translateY(0%)
+	}
+}
+
+.rotate {
+	animation: rotate 20s ease-in-out infinite;
+	will-change: transform;
+}
+
+.float {
+	animation: float 20s linear infinite;
+}
+
+.ping-1 {
+	animation: ping-1 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.ping-2 {
+	animation: ping-2 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.ping-3 {
+	animation: ping-3 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.ping-4 {
+	animation: ping-4 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(-0.5deg);
+	}
+	50% {
+		transform: rotate(0.5deg);
+	}
+	100% {
+		transform: rotate(-0.5deg);
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translate(0, 0);
+	}
+	25% {
+		transform: translate(4%, 4%)
+	}
+	50% {
+		transform: translate(0, 8%);
+	}
+	75% {
+		transform: translate(-4%, 4%);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes ping-1 {
+	0% {
+		opacity: 1;
+	}
+	15% {
+		transform: scale(2);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes ping-2 {
+	0%, 25% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	40% {
+		transform: scale(2);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes ping-3 {
+	0%, 50% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	65% {
+		transform: scale(2);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes ping-4 {
+	0%, 75% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	90% {
+		transform: scale(2);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.outer {
+	animation: spin 30s linear infinite;
+
+}
+
+.inner {
+	animation: spin-backwards 60s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin-backwards {
+	to {
+		transform: rotate(-360deg);
+	}
+}
