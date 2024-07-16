@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scene {
+	width: 10px;
+	height: 10px;
+	perspective: 10000px;
+}
+
+.cube {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	transform: rotateX(-90deg);
+	transition: transform 0.3s;
+}
+
+.nav-link:hover .cube {
+	transform: rotateX(-45deg);
+}
+
+.cube__face {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+}
+
+.cube__face--front  { background: #222624; }
+.cube__face--left   { background: #6F7271; }
+.cube__face--top    { background: #1DD68F; }
+
+.cube__face--front  { transform: rotateY( 45deg) translateZ(5px); }
+.cube__face--left   { transform: rotateY(-45deg) translateZ(5px); }
+.cube__face--top    { transform: rotateX( 90deg) rotateZ(45deg) translateZ(5px); }

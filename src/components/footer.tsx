@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./svgs";
+import { ROUTES } from "@/utils/constants";
 
 export default function Footer() {
 	return (
@@ -21,11 +22,11 @@ export default function Footer() {
 
 					<div className="p-8 xl:px-12 flex flex-col gap-8 justify-evenly">
 						<ul className="grid grid-cols-2 gap-2">
-							<li><Link className="hover:text-secondary-500 duration-300" href="/">Inicio</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href="/teoria">La teoría</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href="/actores">Los actores</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href="/camino">El camino</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href="/">Blog</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.INICIO}>Inicio</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.TEORIA}>La teoría</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.ACTORES}>Los actores</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.CAMINO}>El camino</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.BLOG}>Blog</Link></li>
 						</ul>
 
 						<a className="hidden lg:block underline hover:text-secondary-500 duration-300" href="mailto:sabersupercomplejo@gmail.com">sabersupercomplejo@gmail.com</a>

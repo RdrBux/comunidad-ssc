@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import NextRead from "@/components/next-read";
 import SharePage from "@/components/share-page";
 import { ImgNet } from "@/components/svgs";
+import { ROUTES } from "@/utils/constants";
 import Link from "next/link";
 
 export default function Teoria() {
@@ -60,8 +61,8 @@ export default function Teoria() {
 			<NextRead>
 				<h5 className="font-semibold tracking-tight text-4xl lg:text-5xl">Continuar leyendo</h5>
 				<div className="mt-4 flex gap-4">
-					<Link className="w-fit text-lg mt-4 block px-4 py-2 border rounded-full border-neutral-950 hover:bg-neutral-950 hover:text-secondary-300 duration-300" href="/actores">Los Actores</Link>
-					<Link className="w-fit text-lg mt-4 block px-4 py-2 border rounded-full border-neutral-950 hover:bg-neutral-950 hover:text-secondary-300 duration-300" href="/camino">El Camino</Link>
+					<Link className="w-fit text-lg mt-4 block px-4 py-2 border rounded-full border-neutral-950 hover:bg-neutral-950 hover:text-secondary-300 duration-300" href={ROUTES.ACTORES}>Los Actores</Link>
+					<Link className="w-fit text-lg mt-4 block px-4 py-2 border rounded-full border-neutral-950 hover:bg-neutral-950 hover:text-secondary-300 duration-300" href={ROUTES.CAMINO}>El Camino</Link>
 				</div>
 			</NextRead>
 

@@ -1,3 +1,4 @@
+import { ROUTES } from "@/utils/constants";
 import ButtonSection from "../button-section";
 import { ImgCubes } from "../svgs";
 
@@ -40,7 +41,7 @@ export default function Pathway() {
 						<h2 className="font-medium">EL CAMINO</h2>
 						<h3 className="text-4xl xl:text-5xl tracking-tight font-semibold mt-6">¿Qué acciones permiten que nuestros proyectos, nuestra comunidad y sus miembros crezcan?</h3>
 						<p className="mt-8 lg:text-lg font-light text-neutral-300">Se trata de construir escenarios concretos de crecimiento de la teoría y de las propuestas de intervención desde este nuevo paradigma. Un futuro mejor es posible y el Saber Supercomplejo quiere estar presente en el desarrollo de comprensiones y alternativas de acción para potencial el desarrollo institucional, personal y profesional y, con ello, brindar propuestas concretas para las grandes problemáticas sociales y planetarias.</p>
-						<ButtonSection href="/camino" text="Leer sobre el camino" />
+						<ButtonSection route={ROUTES.CAMINO} text="Leer sobre el camino" />
 					</div>
 
 				</div>

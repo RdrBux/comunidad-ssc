@@ -1,3 +1,4 @@
+import { ROUTES } from "@/utils/constants";
 import ButtonSection from "../button-section";
 import { ImgSSC } from "../svgs";
 
@@ -15,7 +16,7 @@ export default function Community() {
 						<h3 className="text-4xl xl:text-5xl tracking-tight font-semibold mt-6">¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros? </h3>
 						<p className="mt-8 lg:text-lg font-light text-neutral-300">La Comunidad del Saber Supercomplejo es un equipo de investigación y desarrollo cuyo objetivo es instalar este paradigma como alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes.</p>
 						<p className="mt-4 lg:text-lg font-light text-neutral-300">Su Programa de Intervención y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar el cumplimiento de sus funciones y objetivos.</p>
-						<ButtonSection href="/actores" text="Leer sobre la comunidad" />
+						<ButtonSection route={ROUTES.ACTORES} text="Leer sobre la comunidad" />
 					</div>
 
 				</div>
