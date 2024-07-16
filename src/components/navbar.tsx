@@ -14,10 +14,11 @@ export default function Navbar({ style }: Props) {
 				<Logo />
 			</a>
 
-			<ul className={`${style === 'dark' ? 'text-tertiary-50' : 'text-neutral-600'} hidden lg:flex gap-2 font-medium`}>
+			<ul className={`${style === 'dark' ? 'text-tertiary-50' : 'text-neutral-600'} hidden lg:flex gap-1 font-medium`}>
 				<li><NavLink route={ROUTES.TEORIA} text='La teoría' style={style} /></li>
 				<li><NavLink route={ROUTES.ACTORES} text='Los actores' style={style} /></li>
 				<li><NavLink route={ROUTES.CAMINO} text='El camino' style={style} /></li>
+				<li><NavLink route={ROUTES.BLOG} text='Blog' style={style} /></li>
 			</ul>
 
 			<button className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-600'} hidden lg:block py-2 px-4 text-tertiary-50  rounded-full`}>ES / EN</button>

@@ -9,7 +9,7 @@ interface Props {
 
 export default function NavLink({ style, text, route }: Props) {
 	return (
-		<Link className={`nav-link ${style === 'dark' ? '' : 'hover:text-neutral-800'} px-6 uppercase py-3 duration-300 flex items-center gap-2.5`} href={route}>
+		<Link className={`nav-link ${style === 'dark' ? '' : 'hover:text-neutral-800'} px-6 uppercase py-3 duration-300 flex items-center gap-2`} href={route}>
 			<div aria-hidden="true" className="scene pointer-events-none">
 				<div className="cube">
 					<div className="cube__face cube__face--front"></div>
