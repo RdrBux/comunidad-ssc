@@ -13,7 +13,7 @@ export default function SharePage({ url, text }: Props) {
 				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
 			</a>
 
-			<a title="Compartir en X" aria-label="Compartir en X" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-black hover:text-white duration-100" href={`https://twitter.com/intent/tweet?text=${encodedUrl}&amp;url=${encodedText}`} target="_blank" rel="noopener noreferrer">
+			<a title="Compartir en X" aria-label="Compartir en X" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-black hover:text-white duration-100" href={`https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer">
 				<svg aria-hidden="true" className="w-5 h-fit" xmlns="http://www.w3.org/2000/svg" width="300" height="271" viewBox="0 0 300 271" fill="currentColor"><path d="m236 0h46l-101 115 118 156h-92.6l-72.5-94.8-83 94.8h-46l107-123-113-148h94.9l65.5 86.6zm-16.1 244h25.5l-165-218h-27.4z" /></svg>
 			</a>
 
@@ -26,7 +26,7 @@ export default function SharePage({ url, text }: Props) {
 				</svg>
 			</a>
 
-			<a title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-[#0077B5] hover:text-white duration-100" href={`https://www.linkedin.com/shareArticle?mini=true&amp;url=${encodedUrl}&amp;title=${encodedText}&amp;summary=${encodedText}&amp;source=${encodedUrl}`} target="_blank" rel="noopener noreferrer">
+			<a title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn" className="w-10 aspect-square grid place-content-center rounded-full text-neutral-900 hover:bg-[#0077B5] hover:text-white duration-100" href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`} target="_blank" rel="noopener noreferrer">
 				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
 			</a>
 
