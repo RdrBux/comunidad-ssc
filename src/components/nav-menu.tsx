@@ -51,6 +51,7 @@ export default function NavMenu({ style }: Props) {
 						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.TEORIA}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> LA TEORÍA</Link></li>
 						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.ACTORES}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> LOS ACTORES</Link></li>
 						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.CAMINO}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> EL CAMINO</Link></li>
+						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.BLOG}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> BLOG</Link></li>
 					</ul>
 				</div>
 			</div>

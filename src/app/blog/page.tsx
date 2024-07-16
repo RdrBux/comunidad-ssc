@@ -1,6 +1,8 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
+
+// https://swyft.codesupply.co/lifestyle/
 export default function Blog() {
 	return (
 		<div>
