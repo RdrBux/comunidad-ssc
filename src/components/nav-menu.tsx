@@ -33,7 +33,7 @@ export default function NavMenu({ style }: Props) {
 				Menú
 			</button>
 
-			<div className={`mobile-menu ${isMenuOpen ? 'open' : 'closed'} | fixed inset-0 w-screen h-screen bg-primary-900/90 backdrop-blur text-tertiary-50`}>
+			<div className={`mobile-menu ${isMenuOpen ? 'open' : 'closed'} | fixed inset-0 w-screen h-screen bg-primary-900 text-tertiary-50`}>
 				<div className="container mx-auto py-3 flex flex-col h-full">
 
 					<div className="flex items-center justify-between border-b px-4 pb-3 border-neutral-950/30">
@@ -48,10 +48,10 @@ export default function NavMenu({ style }: Props) {
 					</div>
 
 					<ul className="flex flex-col gap-0 text-[10vw] px-8 py-40 font-semibold tracking-tight">
-						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.TEORIA}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> LA TEORÍA</Link></li>
-						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.ACTORES}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> LOS ACTORES</Link></li>
-						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.CAMINO}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> EL CAMINO</Link></li>
-						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.BLOG}><div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div> BLOG</Link></li>
+						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.TEORIA}>{/* <div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div>  */}LA TEORÍA</Link></li>
+						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.ACTORES}>{/* <div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div>  */}LOS ACTORES</Link></li>
+						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.CAMINO}>{/* <div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div>  */}EL CAMINO</Link></li>
+						<li><Link onClick={hideMenuDelayed} className="nav-link | flex items-center gap-4" href={ROUTES.BLOG}>{/* <div aria-hidden="true" className="w-3 aspect-square rotate-45 bg-secondary-500"></div>  */}BLOG</Link></li>
 					</ul>
 				</div>
 			</div>
