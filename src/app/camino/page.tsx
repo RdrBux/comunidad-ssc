@@ -15,14 +15,14 @@ export default function Camino() {
 
 					<div className="lg:py-20 lg:-order-1 w-fit">
 						<h1 className="font-medium lg:text-lg">EL CAMINO</h1>
-						<h2 className="text-4xl lg:text-6xl tracking-tight font-semibold mt-2">¿Qué acciones permiten que nuestros proyectos, nuestra comunidad y sus miembros crezcan?</h2>
+						<h2 className="text-4xl text-neutral-950 lg:text-6xl tracking-tight font-semibold mt-2">¿Qué acciones permiten que nuestros proyectos, nuestra comunidad y sus miembros crezcan?</h2>
 					</div>
 
 				</div>
 
 				<div className="mt-24 lg:mt-12 flex flex-col gap-4">
 
-					<h3 className="text-2xl font-semibold tracking-tight">
+					<h3 className="text-2xl text-neutral-950 font-semibold tracking-tight">
 						CRONOGRAMA DE EVENTOS PARA EL PRESENTE AÑO
 					</h3>
 

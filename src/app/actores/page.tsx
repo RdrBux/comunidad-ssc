@@ -15,7 +15,7 @@ export default function Actores() {
 
 					<div className="py-12 lg:py-20 lg:-order-1 w-fit">
 						<h1 className="font-medium lg:text-lg">LOS ACTORES</h1>
-						<h2 className="text-4xl lg:text-6xl tracking-tight font-semibold mt-2">¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?</h2>
+						<h2 className="text-4xl text-neutral-950 lg:text-6xl tracking-tight font-semibold mt-2">¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?</h2>
 					</div>
 
 				</div>
@@ -28,12 +28,12 @@ export default function Actores() {
 						Su Programa de Asistencia y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar en el cumplimiento de sus funciones y objetivos. Las posibilidades de implementación del Programa son múltiples, a modo de ejemplo: sistemas de protección de recursos naturales; descubrimiento de nuevos elementos químicos y sus combinatorias; desarrollo astronómico y climatológico; diseño de fuentes de energía alternativas; atención a problemáticas sociales como el desarrollo de sistemas de salud, educativos, de justicia; estrategias de lucha contra la desnutrición, las enfermedades, la corrupción o el narcotráfico; potenciamiento de sistemas de producción y ventas en instituciones industriales y comerciales. Estás invitado a sumarte a nuestra Comunidad. La membresía, por tiempo limitado, es gratuita.
 					</p>
 
-					<h3 className="mt-12 text-3xl font-semibold">
+					<h3 className="mt-12 text-neutral-950 text-3xl font-semibold">
 						Quiénes somos
 					</h3>
 					<p>???</p>
 
-					<h3 className="mt-12 text-3xl font-semibold">Qué Ofrecemos a Nuestros Miembros</h3>
+					<h3 className="mt-12 text-neutral-950 text-3xl font-semibold">Qué Ofrecemos a Nuestros Miembros</h3>
 
 					<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
 						<li><b>Participación Activa:</b> formar parte del equipo de investigación y difusión del SSC.</li>
@@ -45,7 +45,7 @@ export default function Actores() {
 						<li><b>Team Building:</b> Participación en campamentos de integración y desarrollo de equipo.</li>
 					</ul>
 
-					<h3 className="mt-12 text-3xl font-semibold">Qué Ofrecemos a Instituciones</h3>
+					<h3 className="mt-12 text-neutral-950 text-3xl font-semibold">Qué Ofrecemos a Instituciones</h3>
 
 					<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
 						<li><b>Programas de Intervención:</b> implementación del “Supercomplex Program” con el software “Supercomplex Systems Developer”.</li>
