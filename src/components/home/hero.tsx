@@ -12,13 +12,12 @@ export default function Hero() {
 				<div className="absolute inset-0 w-full h-full">
 
 
-
-					<div className="w-0 border-l-2 border-dashed border-neutral-900/30 h-full absolute right-4"></div>
+					{/* <div className="w-0 border-l-2 border-dashed border-neutral-900/30 h-full absolute right-4"></div>
 					<div className="w-0 border-l-2 border-dashed border-neutral-900/30 h-full absolute right-12"></div>
 					<div className="w-0 border-l-2 border-dashed border-neutral-900/30 h-full absolute right-20"></div>
 					<div className="h-0 border-t-2 border-dashed border-neutral-900/30 w-full absolute bottom-8"></div>
 					<div className="h-0 border-t-2 border-dashed border-neutral-900/30 w-full absolute bottom-16"></div>
-					<div className="h-0 border-t-2 border-dashed border-neutral-900/30 w-full absolute bottom-24"></div>
+					<div className="h-0 border-t-2 border-dashed border-neutral-900/30 w-full absolute bottom-24"></div> */}
 				</div>
 			</div>
 		</section>

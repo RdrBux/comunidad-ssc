@@ -8,7 +8,7 @@ export default function BlogPost() {
 			<div className="absolute left-0 right-0 h-20 top-0 bg-gradient-to-b from-black/20 to-transparent w-full"></div>
 			<Navbar style="dark" />
 			<main className="">
-				<div className="relative flex flex-col overflow-hidden h-[80vh] lg:h-screen">
+				<div className="relative flex flex-col overflow-hidden h-[70vh] lg:h-screen">
 					<img className="duration-300 absolute -z-10 inset-0 h-full w-full brightness-[0.3] object-cover" src="https://plus.unsplash.com/premium_photo-1675198764473-30434364c8b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="jeje" />
 					<div className="container mx-auto px-4 lg:px-16 h-full">
 						<div className="text-tertiary-50 max-w-2xl py-16 flex flex-col justify-end h-full grow">
@@ -19,26 +19,26 @@ export default function BlogPost() {
 					</div>
 				</div>
 
-				<div className="container mx-auto px-4 lg:px-16 pt-16 pb-24 text-neutral-950">
+				<div className="container mx-auto px-4 lg:px-16 pt-16 pb-12">
 					<div className="grid lg:grid-cols-3 gap-16">
 						<div className="lg:col-span-2 lg:mr-8">
-							<div className="lg:text-xl tracking-tight">
+							<div className="lg:text-xl tracking-tight text-neutral-800">
 								<p>2023 unfurls as a captivating tapestry of change and rejuvenation, weaving together threads of the past’s lessons with the possibilities of the future. As we traverse this unique juncture, it’s evident that our world is not merely changing—it’s evolving.</p>
 								<p className="mt-8">Our lifestyle choices, influenced by the rapid technological advances, global challenges, and internal reflections of recent years, are increasingly harmonizing with deeper values, desires, and aspirations. Travel, once a luxury, has transformed into a multidimensional experience—shaped by not just destinations, but the stories and memories we curate. This year, a sense of discovery permeates the air, whether it’s in the realm of daily living or the vast, exhilarating world of travel. As we step deeper into 2023, let’s embark on an exploration of the nuances, narratives, and novelties that will define our times.</p>
 
-								<h2 className="mt-12 font-bold text-3xl tracking-tight">Crafting Meaningful Journeys</h2>
+								<h2 className="mt-12 font-bold text-3xl text-neutral-950 tracking-tight">Crafting Meaningful Journeys</h2>
 								<p className="mt-4">Whether it’s the aesthetics of daily living or the wanderlust-inspired journeys we embark on, there’s a vibrant fusion of tradition with innovation, and sustainability with style. The global canvas is filled with new hues, and lifestyle enthusiasts and globe-trotters alike find themselves amidst a renaissance of experiences. As we delve deeper, let’s uncover the mosaic of trends and transformations setting the tone for the year.</p>
 
-								<h3 className="mt-12 font-bold text-2xl tracking-tight">Sustainability: Beyond Buzzwords to Daily Practice</h3>
+								<h3 className="mt-12 font-bold text-2xl text-neutral-950 tracking-tight">Sustainability: Beyond Buzzwords to Daily Practice</h3>
 								<p className="mt-4">The fashion realm of 2023 has embraced an eco-conscious outlook, where sustainable choices are not just admired but expected. Upcycled clothing, biodegradable materials, and a surge in thrifted fashion all signal a collective shift towards a future where fashion is both stylish and sustainable.</p>
 
 								<figure>
-									<img className="rounded-xl mt-8" src="https://swyft.codesupply.co/lifestyle/wp-content/uploads/sites/2/2023/10/demo-image-0081-1024x683.webp" alt="$" />
-									<figcaption className="text-sm lg:text-base font-neutral-600 mt-4">A model showcasing an upcycled ensemble, combining elegance</figcaption>
+									<img className="rounded-md mt-8" src="https://swyft.codesupply.co/lifestyle/wp-content/uploads/sites/2/2023/10/demo-image-0081-1024x683.webp" alt="$" />
+									<figcaption className="text-sm lg:text-base text-neutral-600 mt-4">A model showcasing an upcycled ensemble, combining elegance</figcaption>
 								</figure>
 								<p className="mt-8">However, embrace extends far beyond our wardrobes. Homes in 2023 reflect a renewed commitment to the environment, with interiors adorned with sustainable decor, energy-efficient appliances ruling the roost, and a rise in organic home gardens. Furthermore, the modern traveler’s journey is painted with shades of green. Eco-resorts, carbon-neutral travel options, and destinations rooted in environmental conservation are becoming the go-to choices, echoing a global desire to tread lightly on the planet.</p>
 
-								<h3 className="mt-12 font-bold text-2xl tracking-tight">Connecting with Nature: A Return to the Outdoors</h3>
+								<h3 className="mt-12 font-bold text-2xl text-neutral-950 tracking-tight">Connecting with Nature: A Return to the Outdoors</h3>
 								<p className="mt-4">In the midst of our evolving world, a notable trend in 2023 is the rekindling of our relationship with the great outdoors. People are rediscovering the beauty and serenity of natural landscapes, seeking solace in the embrace of forests, mountains, and beaches. This year, the call of the wild is stronger than ever.</p>
 								<p className="mt-8">Amidst bustling cityscapes and the daily hustle, there’s a growing desire to escape to places where smartphones lose signal and concrete jungles are replaced by actual ones. Nature retreats, camping adventures, and wilderness hikes have surged in popularity, allowing individuals to disconnect from the digital realm and reconnect with the earth.</p>
 
@@ -59,7 +59,7 @@ export default function BlogPost() {
 
 							<hr className="mb-12" />
 
-							<div className="mt-12 bg-neutral-100 rounded-xl p-6 lg:p-10">
+							<div className="mt-12 bg-neutral-100 rounded-md p-6 lg:p-10">
 
 								<div className="">
 									<div className="flex items-center gap-4">
@@ -120,13 +120,13 @@ export default function BlogPost() {
 									<h5 className="font-bold text-3xl tracking-tight">Deja un comentario</h5>
 
 									<form className="mt-6">
-										<div className="w-full mb-4 border border-neutral-200 rounded-lg bg-neutral-50">
-											<div className="px-4 py-2 bg-white rounded-t-lg">
+										<div className="w-full mb-4 border border-neutral-200 rounded-md bg-neutral-50">
+											<div className="px-4 py-2 bg-white rounded-t-md">
 												<label htmlFor="comment" className="sr-only">Tu comentario</label>
 												<textarea id="comment" rows={4} className="w-full px-0 text-neutral-900 bg-white border-0 outline-none focus:ring-0" placeholder="Tu comentario..." required ></textarea>
 											</div>
 											<div className="flex items-center justify-between p-2 border-t">
-												<button type="submit" className="inline-flex items-center py-2 px-6 font-medium text-center text-white bg-neutral-950 rounded focus:ring-4 focus:ring-neutral-200 hover:bg-neutral-700">
+												<button type="submit" className="inline-flex items-center py-2 px-6 font-medium text-center text-white bg-neutral-950 rounded focus:ring-4 duration-300 focus:ring-neutral-200 hover:bg-neutral-700">
 													Comentar
 												</button>
 												<div className="flex ps-0 space-x-1 rtl:space-x-reverse sm:ps-2">
@@ -142,7 +142,7 @@ export default function BlogPost() {
 
 
 						<div className="flex flex-col gap-10">
-							<div className="rounded-xl p-8 bg-neutral-100">
+							<div className="rounded-md p-8 bg-neutral-100">
 								<div className="w-[260px] lg:w-[220px]"><FullLogo /></div>
 								<p className="mt-6">Bienvenido al blog de la comunidad. Este es un espacio dedicado a blabla. Omnis similique consectetur ipsam qui velit ratione facilis deleniti aperiam dolores recusandae.</p>
 								<div className="flex gap-2 mt-6 text-neutral-800">
@@ -164,7 +164,7 @@ export default function BlogPost() {
 								<h4 className="text-2xl tracking-tight font-bold leading-none">Publicaciones recientes</h4>
 
 								<div className="flex gap-4 mt-6">
-									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-lg w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
+									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
 
 									<div className="flex flex-col">
 										<div className="font-medium text-neutral-600 text-sm">Por <a className="font-semibold text-neutral-950 hover:text-secondary-700 duration-300" href="#">Saber Supercomplejo</a></div>
@@ -176,7 +176,7 @@ export default function BlogPost() {
 								<hr className="my-6" />
 
 								<div className="flex gap-4 mt-6">
-									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-lg w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
+									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
 
 									<div className="flex flex-col">
 										<div className="font-medium text-neutral-600 text-sm">Por <a className="font-semibold text-neutral-950 hover:text-secondary-700 duration-300" href="#">Saber Supercomplejo</a></div>
@@ -188,7 +188,7 @@ export default function BlogPost() {
 								<hr className="my-6" />
 
 								<div className="flex gap-4 mt-6">
-									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-lg w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
+									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
 
 									<div className="flex flex-col">
 										<div className="font-medium text-neutral-600 text-sm">Por <a className="font-semibold text-neutral-950 hover:text-secondary-700 duration-300" href="#">Saber Supercomplejo</a></div>
@@ -200,7 +200,7 @@ export default function BlogPost() {
 								<hr className="my-6" />
 
 								<div className="flex gap-4 mt-6">
-									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-lg w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
+									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
 
 									<div className="flex flex-col">
 										<div className="font-medium text-neutral-600 text-sm">Por <a className="font-semibold text-neutral-950 hover:text-secondary-700 duration-300" href="#">Saber Supercomplejo</a></div>
@@ -212,7 +212,7 @@ export default function BlogPost() {
 								<hr className="my-6" />
 
 								<div className="flex gap-4 mt-6">
-									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-lg w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
+									<a className="shrink-0" href="#"><img className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></a>
 
 									<div className="flex flex-col">
 										<div className="font-medium text-neutral-600 text-sm">Por <a className="font-semibold text-neutral-950 hover:text-secondary-700 duration-300" href="#">Saber Supercomplejo</a></div>

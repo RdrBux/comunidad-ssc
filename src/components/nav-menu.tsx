@@ -28,7 +28,7 @@ export default function NavMenu({ style }: Props) {
 
 	return (
 		<div className="lg:hidden">
-			<button onClick={showMenu} className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-600'} flex items-center gap-2 py-2 px-4 text-tertiary-50  rounded-full`}>
+			<button onClick={showMenu} className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-600'} flex items-center gap-2 px-3 py-2 text-tertiary-50  rounded-md`}>
 				<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12" /><line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /></svg>
 				Menú
 			</button>
@@ -41,7 +41,7 @@ export default function NavMenu({ style }: Props) {
 							<Logo />
 						</a>
 
-						<button onClick={hideMenu} className="ml-auto bg-neutral-950/30 flex items-center gap-2 py-2 px-4 text-tertiary-50  rounded-full">
+						<button onClick={hideMenu} className="ml-auto bg-neutral-950/30 flex items-center gap-2 py-2 px-3 text-tertiary-50 rounded-md">
 							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
 							Cerrar
 						</button>
