@@ -1,7 +1,8 @@
 import { ROUTES } from "@/utils/constants";
 import NavLink from "./nav-link";
 import { Logo } from "./svgs";
-import NavMenu from "./nav-menu";
+import LangSelector from "./lang-selector";
+import NavMobile from "./nav-mobile";
 
 interface Props {
 	style: 'light' | 'dark';
@@ -22,9 +23,11 @@ export default function Navbar({ style }: Props) {
 					<li><NavLink route={ROUTES.BLOG} text='Blog' style={style} /></li>
 				</ul>
 
-				<button className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-600'} hidden lg:block py-2 px-4 text-tertiary-50  rounded-md`}>ES / EN</button>
+				<div className="flex gap-2">
+					<LangSelector style={style} />
+					<NavMobile style={style} />
+				</div>
 
-				<NavMenu style={style} />
 			</nav>
 		</div>
 	)
