@@ -3,6 +3,7 @@ import NavLink from "./nav-link";
 import { Logo } from "./svgs";
 import LangSelector from "./lang-selector";
 import NavMobile from "./nav-mobile";
+import NavUserMenu from "./blog/nav-user-menu";
 
 interface Props {
 	style: 'light' | 'dark';
@@ -10,7 +11,7 @@ interface Props {
 
 export default function Navbar({ style }: Props) {
 	return (
-		<div className={`${style === 'dark' ? 'border-b border-white/10 text-neutral-950' : 'border-b border-neutral-200'}  absolute z-20 top-0 left-0 right-0 `}>
+		<div className={`${style === 'dark' ? 'border-b border-white/15 text-neutral-950' : 'border-b border-neutral-200'}  absolute z-20 top-0 left-0 right-0 `}>
 			<nav className="container mx-auto px-4 lg:px-16 flex items-center justify-between py-3">
 				<a className="w-10" aria-label="Inicio" href="/">
 					<Logo />
@@ -25,6 +26,7 @@ export default function Navbar({ style }: Props) {
 
 				<div className="flex gap-2">
 					<LangSelector style={style} />
+					<NavUserMenu style={style} />
 					<NavMobile style={style} />
 				</div>
 

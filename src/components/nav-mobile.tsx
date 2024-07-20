@@ -12,12 +12,15 @@ import spainFlag from '../assets/spain-flag.png'
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const pathname = usePathname()
 
+	const isBlog = pathname.includes('blog')
+
 	return (
 		<div className="lg:hidden">
 			<Drawer>
 				<DrawerTrigger asChild>
-					<button className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-500'} flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
-						<Menu className="w-5" /> <div className="pl-2 py-1">Menú</div>
+					<button className={`${style === 'dark' ? 'bg-neutral-900/50' : 'bg-neutral-500'} h-10 flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
+						<Menu className="w-5" />
+						{!isBlog && <div className="pl-2 py-1">Menú</div>}
 					</button>
 				</DrawerTrigger>
 

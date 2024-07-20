@@ -9,7 +9,7 @@ export default function LangSelector({ style }: { style: 'dark' | 'light' }) {
 		<div className="hidden lg:block">
 			<DropdownMenu>
 				<DropdownMenuTrigger asChild>
-					<button className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-500'} flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
+					<button className={`${style === 'dark' ? 'bg-neutral-900/50' : 'bg-neutral-500'} flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
 						<Languages className="w-5" /> <div className="pl-2 py-1">Español</div>
 					</button>
 				</DropdownMenuTrigger>

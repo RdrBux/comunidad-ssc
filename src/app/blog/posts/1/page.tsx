@@ -1,18 +1,27 @@
 import Navbar from "@/components/navbar";
 import { FullLogo } from "@/components/svgs";
-import { MEDIA } from "@/utils/constants";
+import { MEDIA, ROUTES } from "@/utils/constants";
+import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export default function BlogPost() {
 	return (
 		<div>
-			<div className="absolute left-0 right-0 h-40 top-0 bg-gradient-to-b from-neutral-950/30 to-transparent w-full"></div>
+			{/* <div className="absolute left-0 right-0 h-40 top-0 bg-gradient-to-b from-neutradl-950/30 to-transparent w-full"></div> */}
 			<Navbar style="dark" />
 			<main className="">
 				<div className="relative flex flex-col overflow-hidden h-[70vh] lg:h-screen">
 					<img className="duration-300 absolute -z-10 inset-0 h-full w-full brightness-[0.3] object-cover" src="https://plus.unsplash.com/premium_photo-1675198764473-30434364c8b6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="jeje" />
 					<div className="container mx-auto px-4 lg:px-16 h-full">
 						<div className="text-tertiary-50 max-w-2xl py-16 flex flex-col justify-end h-full grow">
-							<div className="text-tertiary-50/80 font-medium flex flex-col lg:flex-row lg:items-center gap-x-2"><div className="flex items-center gap-2">Por <a className="flex items-center gap-2" href="#"><div className="w-8 aspect-square bg-secondary-200 rounded-full"></div> <span className="text-tertiary-50">Saber Supercomplejo</span></a> <span className="hidden lg:inline">•</span></div><div>16 de julio de 2022</div></div>
+							<div className="mb-auto mt-8 text-sm font-medium flex items-center gap-2">
+								<Link className="hover:text-tertiary-50/75 duration-300" href={ROUTES.BLOG}>Blog</Link>
+								<ChevronRight size={14} />
+								<div className="text-tertiary-50/75">Título del Post: Continuación del Título</div>
+
+							</div>
+
+							<div className="text-tertiary-50/75 font-medium flex flex-col lg:flex-row lg:items-center gap-x-2"><div className="flex items-center gap-2">Por <a className="flex items-center gap-2" href="#"><div className="w-8 aspect-square bg-secondary-200 rounded-full"></div> <span className="text-tertiary-50">Saber Supercomplejo</span></a> <span className="hidden lg:inline">•</span></div><div>16 de julio de 2022</div></div>
 							<h1 className="font-semibold text-4xl lg:text-6xl tracking-tight mt-6">Título del Post: Continuación del Título</h1>
 							<p className="mt-6 lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quis voluptatem, quam neque magni ducimus.</p>
 						</div>
