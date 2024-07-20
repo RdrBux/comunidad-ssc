@@ -5,7 +5,7 @@ import { MEDIA } from "@/utils/constants";
 export default function BlogPost() {
 	return (
 		<div>
-			<div className="absolute left-0 right-0 h-20 top-0 bg-gradient-to-b from-black/20 to-transparent w-full"></div>
+			<div className="absolute left-0 right-0 h-40 top-0 bg-gradient-to-b from-neutral-950/30 to-transparent w-full"></div>
 			<Navbar style="dark" />
 			<main className="">
 				<div className="relative flex flex-col overflow-hidden h-[70vh] lg:h-screen">
@@ -142,7 +142,7 @@ export default function BlogPost() {
 
 
 						<div className="flex flex-col gap-10">
-							<div className="rounded-md p-8 bg-neutral-100">
+							<div className="rounded-md p-8 bg-secondary-500/15">
 								<div className="w-[260px] lg:w-[220px]"><FullLogo /></div>
 								<p className="mt-6">Bienvenido al blog de la comunidad. Este es un espacio dedicado a blabla. Omnis similique consectetur ipsam qui velit ratione facilis deleniti aperiam dolores recusandae.</p>
 								<div className="flex gap-2 mt-6 text-neutral-800">

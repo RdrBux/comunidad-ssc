@@ -1,7 +1,12 @@
+import { BgHero } from "../svgs";
+
 export default function Hero() {
 	return (
-		<section className="bg-primary-950">
-			<div className="container flex flex-col justify-center gap-8 mx-auto px-4 lg:px-16 py-20 lg:py-40 min-h-[85vh] relative">
+		<section className="bg-primary-950 relative">
+			<div className="absolute inset-0 overflow-hidden">
+				<BgHero className="h-screen lg:h-auto -translate-x-[45%] translate-y-[50%] lg:translate-x-[18%] lg:translate-y-0 opacity-50" />
+			</div>
+			<div className="container flex flex-col justify-center gap-8 mx-auto px-4 lg:px-16 py-20 lg:py-40 min-h-[80vh] relative">
 				<div className="relative z-10">
 					<h1 className="text-[10.5vw] lg:text-[5.5rem] tracking-tighter font-semibold leading-[0.9] uppercase">
 						Comunidad <br /> del Saber <br /> Supercomplejo

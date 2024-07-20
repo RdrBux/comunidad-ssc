@@ -16,7 +16,7 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 		<div className="lg:hidden">
 			<Drawer>
 				<DrawerTrigger asChild>
-					<button className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-600'} flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
+					<button className={`${style === 'dark' ? 'bg-neutral-950/30' : 'bg-neutral-500'} flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
 						<Menu className="w-5" /> <div className="pl-2 py-1">Menú</div>
 					</button>
 				</DrawerTrigger>
@@ -64,7 +64,7 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 								</Link>
 							</li>
 							<li>
-								<Link className="py-1 px-4 rounded-md font-bold flex items-center gap-3" href='/'>
+								<Link className="py-1 px-4 rounded-md font-semibold flex items-center gap-3" href='/'>
 									<Image className="w-5" src={spainFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 									Español
 								</Link>
