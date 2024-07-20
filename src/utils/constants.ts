@@ -11,5 +11,6 @@ export type AppRoute = typeof ROUTES[keyof typeof ROUTES];
 export const MEDIA = {
 	INSTAGRAM: 'https://www.instagram.com/sabersupercomplejo/',
 	FACEBOOK: 'https://www.facebook.com/sabersupercomplejo/',
-	LINKEDIN: 'https://www.linkedin.com/company/sabersupercomplejo/'
+	YOUTUBE: 'https://www.youtube.com/channel/sabersupercomplejo/',
+	LINKEDIN: 'https://www.linkedin.com/company/sabersupercomplejo/',
 }
