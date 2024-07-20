@@ -28,28 +28,23 @@ export default function Actores() {
 						Su Programa de Asistencia y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar en el cumplimiento de sus funciones y objetivos. Las posibilidades de implementación del Programa son múltiples, a modo de ejemplo: sistemas de protección de recursos naturales; descubrimiento de nuevos elementos químicos y sus combinatorias; desarrollo astronómico y climatológico; diseño de fuentes de energía alternativas; atención a problemáticas sociales como el desarrollo de sistemas de salud, educativos, de justicia; estrategias de lucha contra la desnutrición, las enfermedades, la corrupción o el narcotráfico; potenciamiento de sistemas de producción y ventas en instituciones industriales y comerciales. Estás invitado a sumarte a nuestra Comunidad. La membresía, por tiempo limitado, es gratuita.
 					</p>
 
-					<h3 className="mt-12 text-neutral-950 text-3xl font-semibold">
-						Quiénes somos
-					</h3>
-					<p>???</p>
-
 					<h3 className="mt-12 text-neutral-950 text-3xl font-semibold">Qué Ofrecemos a Nuestros Miembros</h3>
 
 					<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
-						<li><b>Participación Activa:</b> formar parte del equipo de investigación y difusión del SSC.</li>
-						<li><b>Desarrollo Profesional:</b> oportunidades para ser desarrolladores en el “Supercomplex Program”.</li>
-						<li><b>Formación Continua:</b> capacitación constante con énfasis en el campo profesional o laboral del miembro.</li>
-						<li><b>Reconocimiento Académico:</b> certificaciones y reconocimiento por la pertenencia a la comunidad.</li>
-						<li><b>Publicaciones:</b> oportunidad de publicar libros bajo nuestro sello editorial y artículos en nuestra página web.</li>
-						<li><b>Eventos:</b> organización de congresos y encuentros de trabajo con instituciones afines.</li>
-						<li><b>Team Building:</b> Participación en campamentos de integración y desarrollo de equipo.</li>
+						<li><span className="font-semibold">Participación Activa:</span> formar parte del equipo de investigación y difusión del SSC.</li>
+						<li><span className="font-semibold">Desarrollo Profesional:</span> oportunidades para ser desarrolladores en el “Supercomplex Program”.</li>
+						<li><span className="font-semibold">Formación Continua:</span> capacitación constante con énfasis en el campo profesional o laboral del miembro.</li>
+						<li><span className="font-semibold">Reconocimiento Académico:</span> certificaciones y reconocimiento por la pertenencia a la comunidad.</li>
+						<li><span className="font-semibold">Publicaciones:</span> oportunidad de publicar libros bajo nuestro sello editorial y artículos en nuestra página web.</li>
+						<li><span className="font-semibold">Eventos:</span> organización de congresos y encuentros de trabajo con instituciones afines.</li>
+						<li><span className="font-semibold">Team Building:</span> Participación en campamentos de integración y desarrollo de equipo.</li>
 					</ul>
 
 					<h3 className="mt-12 text-neutral-950 text-3xl font-semibold">Qué Ofrecemos a Instituciones</h3>
 
 					<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
-						<li><b>Programas de Intervención:</b> implementación del “Supercomplex Program” con el software “Supercomplex Systems Developer”.</li>
-						<li><b>Capacitación:</b> cursos específicos para profesionales y emprendedores sobre el SSC, adaptados a diversas áreas y problemáticas.</li>
+						<li><span className="font-semibold">Programas de Intervención:</span> implementación del “Supercomplex Program” con el software “Supercomplex Systems Developer”.</li>
+						<li><span className="font-semibold">Capacitación:</span> cursos específicos para profesionales y emprendedores sobre el SSC, adaptados a diversas áreas y problemáticas.</li>
 					</ul>
 				</div>
 
