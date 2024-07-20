@@ -5,6 +5,9 @@ import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "./ui/drawer";
 import { ROUTES } from "@/utils/constants";
 import { BookText, Menu, NotebookPen, Route, Users } from "lucide-react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
+import ukFlag from '../assets/uk-flag.png'
+import spainFlag from '../assets/spain-flag.png'
 
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const pathname = usePathname()
@@ -45,6 +48,25 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 								<Link className={`${pathname === ROUTES.BLOG ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.BLOG}>
 									<NotebookPen />
 									Blog
+								</Link>
+							</li>
+						</ul>
+
+						<hr className="my-8" />
+
+						<h4 className="text-xl font-bold tracking-tight text-neutral-950 px-4">Idioma</h4>
+
+						<ul className="mt-2 text-neutral-800 font-medium text-lg flex flex-col gap-1">
+							<li>
+								<Link className="py-1 px-4 rounded-md flex items-center gap-3" href='/'>
+									<Image className="w-5" src={ukFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
+									English
+								</Link>
+							</li>
+							<li>
+								<Link className="py-1 px-4 rounded-md font-bold flex items-center gap-3" href='/'>
+									<Image className="w-5" src={spainFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
+									Español
 								</Link>
 							</li>
 						</ul>

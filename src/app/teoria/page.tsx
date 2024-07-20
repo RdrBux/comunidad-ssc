@@ -15,7 +15,7 @@ export default function Teoria() {
 
 					<div className="py-12 lg:py-20 lg:-order-1 w-fit">
 						<h1 className="font-medium lg:text-lg">LA TEORÍA</h1>
-						<h2 className="text-5xl lg:text-6xl tracking-tight font-semibold mt-2">¿Qué es el Saber Supercomplejo?</h2>
+						<h2 className="text-5xl lg:text-6xl text-neutral-950 tracking-tight font-semibold mt-2">¿Qué es el Saber Supercomplejo?</h2>
 					</div>
 
 				</div>
@@ -42,7 +42,7 @@ export default function Teoria() {
 					</p>
 
 					<div className="mt-12">
-						<h3 className="font-semibold text-3xl">Los ejes de la propuesta del Saber Supercomplejo son:</h3>
+						<h3 className="font-semibold text-neutral-950 text-3xl">Los ejes de la propuesta del Saber Supercomplejo son:</h3>
 
 						<ul className="list-disc flex flex-col gap-4 mt-6 pl-6">
 							<li>Una redefinición de los sistemas complejos como objeto de estudio. No se puede desconocer que tanto la Inteligencia Artificial, la Ciencia de Datos y el Deep Learning han revolucionado y profundizado el modelado y la comprensión de los sistemas complejos. Asimismo, el desarrollo de instrumentos avanzados como sensores y software especializados están facilitando cada vez más dicha tarea.</li>
