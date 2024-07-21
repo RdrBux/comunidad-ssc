@@ -2,14 +2,12 @@ import Link from "next/link";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
 import { LogOut, User } from "lucide-react";
 import LoginButton from "./login-button";
-import { logoutUser } from "@/lib/actions";
+import { logoutUser } from "@/utils/actions";
 import { createClient } from "@/utils/supabase/server";
 
 export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }) {
 	const supabase = createClient()
 	const { data: { user }, error } = await supabase.auth.getUser()
-
-	console.log(user)
 
 	if (!user) return <LoginButton style={style} />
 
