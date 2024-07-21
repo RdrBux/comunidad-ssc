@@ -1,11 +1,17 @@
+'use client'
+
 import Link from "next/link";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
 import { LogOut, User } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 export default function NavUserMenu({ style }: { style: 'light' | 'dark' }) {
+	const pathname = usePathname();
+	if (!pathname.includes('/blog')) return null
+
 	return (
 		<div>
-			<button className={`${style === 'light' ? 'text-neutral-900 bg-neutral-200 hover:bg-neutral-300' : 'text-tertiary-50 bg-neutral-950/50 hover:bg-neutral-950'} px-3 py-2.5 flex items-center gap-2.5 font-medium text-sm rounded-md duration-300`}>
+			<button className={`${style === 'light' ? 'text-tertiary-50 bg-neutral-500 hover:bg-neutral-700' : 'text-tertiary-50 bg-neutral-950/50 hover:bg-neutral-950'} px-3 py-2.5 flex items-center gap-2.5 font-medium text-sm rounded-md duration-300`}>
 				Iniciar sesión
 			</button>
 

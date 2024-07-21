@@ -18,7 +18,7 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 		<div className="lg:hidden">
 			<Drawer>
 				<DrawerTrigger asChild>
-					<button className={`${style === 'dark' ? 'bg-neutral-900/50' : 'bg-neutral-500'} h-10 flex divide-x divide-white/10 items-center gap-2 py-1.5 px-3 text-sm font-medium text-tertiary-50 rounded-md`}>
+					<button className={`${style === 'dark' ? 'bg-neutral-900/50 text-tertiary-50 divide-white/10' : 'bg-neutral-200 text-neutral-600 divide-neutral-950/20'} h-10 flex divide-x items-center gap-2 py-1.5 px-3 text-sm font-medium rounded-md`}>
 						<Menu className="w-5" />
 						{!isBlog && <div className="pl-2 py-1">Menú</div>}
 					</button>

@@ -3,8 +3,11 @@ import { BgHero } from "../svgs";
 export default function Hero() {
 	return (
 		<section className="bg-primary-950 relative">
-			<div className="absolute inset-0 overflow-hidden">
-				<BgHero className="h-screen lg:h-auto -translate-x-[45%] translate-y-[50%] lg:translate-x-[18%] lg:translate-y-0 opacity-50" />
+			<div aria-hidden className="absolute inset-0 overflow-hidden">
+				<BgHero className="h-screen lg:h-auto -translate-x-[45%] translate-y-[50%] lg:translate-x-[18%] lg:translate-y-[2%] opacity-50" />
+			</div>
+			<div aria-hidden className="absolute inset-0 overflow-hidden">
+				<BgHero className="opacity-25 h-screen lg:h-auto -rotate-[165deg] -translate-x-[60%] -translate-y-[40%]" />
 			</div>
 			<div className="container flex flex-col justify-center gap-8 mx-auto px-4 lg:px-16 py-20 lg:py-40 min-h-[80vh] relative">
 				<div className="relative z-10">

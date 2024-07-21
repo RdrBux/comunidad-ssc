@@ -13,7 +13,7 @@ export default function Actores() {
 				<div className="grid relative">
 					<div className="px-24 lg:absolute lg:pl-16 lg:pr-0 lg:w-80 lg:-right-56 lg:top-[55%] lg:-translate-y-1/2"><ImgSSC /></div>
 
-					<div className="py-12 lg:py-20 lg:-order-1 w-fit">
+					<div className="py-8 lg:py-20 lg:-order-1 w-fit">
 						<h1 className="font-medium lg:text-lg">LOS ACTORES</h1>
 						<h2 className="text-4xl text-neutral-950 lg:text-6xl tracking-tight font-semibold mt-2">¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?</h2>
 					</div>
