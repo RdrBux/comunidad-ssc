@@ -1,17 +1,15 @@
-'use client'
-
 import Link from "next/link";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
 import { LogOut, User } from "lucide-react";
 import LoginButton from "./login-button";
-import useUser from "@/hooks/useUser";
-import { createClient } from "@/utils/supabase/client";
 import { logoutUser } from "@/lib/actions";
+import { createClient } from "@/utils/supabase/server";
 
-export default function NavUserMenu({ style }: { style: 'light' | 'dark' }) {
-	const { user, isLoading } = useUser();
+export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }) {
+	const supabase = createClient()
+	const { data: { user }, error } = await supabase.auth.getUser()
 
-	if (isLoading) return null
+	console.log(user)
 
 	if (!user) return <LoginButton style={style} />
 
@@ -39,7 +37,7 @@ export default function NavUserMenu({ style }: { style: 'light' | 'dark' }) {
 						</DropdownMenuItem>
 					</Link>
 					<form action={logoutUser}>
-						<button type="submit">
+						<button className="w-full" type="submit">
 							<DropdownMenuItem className="flex items-center gap-3">
 								<LogOut size={16} />
 								Cerrar sesión
