@@ -4,6 +4,7 @@ import { Logo } from "./svgs";
 import LangSelector from "./lang-selector";
 import NavMobile from "./nav-mobile";
 import NavUserMenu from "./blog/nav-user-menu";
+import NavBlog from "./blog/nav-blog";
 
 interface Props {
 	style: 'light' | 'dark';
@@ -26,7 +27,7 @@ export default function Navbar({ style }: Props) {
 
 				<div className="flex gap-2">
 					<LangSelector style={style} />
-					<NavUserMenu style={style} />
+					<NavBlog style={style} />
 					<NavMobile style={style} />
 				</div>
 
