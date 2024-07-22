@@ -21,3 +21,9 @@ export async function getUserData() {
 
 	return { user, error }
 }
+
+export async function getCategories() {
+	const { data: categories, error } = await supabase.from('categories').select('*');
+
+	return { categories, error }
+}

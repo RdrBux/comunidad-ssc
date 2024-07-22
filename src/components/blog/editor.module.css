@@ -1,5 +1,5 @@
 .editor {
-  @apply mt-4 max-w-2xl h-96;
+  @apply max-w-2xl h-96;
 	font-size: 16px !important;
 }
 

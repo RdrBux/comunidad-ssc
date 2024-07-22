@@ -104,7 +104,6 @@ export default function Editor() {
 					}
 				}}
 				className={styles.editor}
-				id="editor"
 				theme="snow"
 				value={value}
 				formats={formats}
