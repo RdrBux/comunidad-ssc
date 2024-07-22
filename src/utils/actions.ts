@@ -26,3 +26,13 @@ export async function addCategory(prevState: any, formData: FormData) {
 	return { message: 'Categoría agregada', error: null }
 
 }
+
+export async function addPost(formData: FormData) {
+	const title = String(formData.get('title'))
+	const description = String(formData.get('description'))
+	const content = String(formData.get('content'))
+	const categories = String(formData.get('categories'))
+	console.log({title, description, content, categories})
+
+
+}

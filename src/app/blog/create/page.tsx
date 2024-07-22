@@ -1,7 +1,9 @@
+import AddPostForm from "@/components/blog/add-post-form";
 import CategoriesToggler from "@/components/blog/categories-toggler";
 import Navbar from "@/components/navbar";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { addPost } from "@/utils/actions";
 import { getUserData } from "@/utils/db";
 import dynamic from "next/dynamic";
 
@@ -21,27 +23,32 @@ export default async function CreatePost() {
 			<main className="container max-w-3xl mx-auto px-4 lg:px-16 py-24 text-neutral-800">
 				<h1 className="text-3xl font-bold tracking-tight text-neutral-950">Crear un nuevo Post</h1>
 
-				<div className="grid w-full items-center gap-1.5 mt-6">
-					<Label htmlFor="tile">Título</Label>
-					<Input type="text" id="tile" required />
-				</div>
+				<AddPostForm />
+				{/* <form action={addPost}>
+					<div className="grid w-full items-center gap-1.5 mt-6">
+						<Label htmlFor="tile">Título</Label>
+						<Input type="text" id="tile" required />
+					</div>
 
-				<div className="grid w-full items-center gap-1.5 mt-6">
-					<Label htmlFor="description">Descripción</Label>
-					<Input type="text" id="description" />
-				</div>
+					<div className="grid w-full items-center gap-1.5 mt-6">
+						<Label htmlFor="description">Descripción</Label>
+						<Input type="text" id="description" />
+					</div>
 
-				<div className="grid w-full items-center gap-1.5 mt-6">
-					<Label htmlFor="img">Imagen</Label>
-					<Input id="img" type="file" />
-				</div>
+					<div className="grid w-full items-center gap-1.5 mt-6">
+						<Label htmlFor="img">Imagen</Label>
+						<Input id="img" type="file" />
+					</div>
 
-				<div className="grid gap-1.5 mt-6">
-					<Label>Contenido</Label>
-					<EditorNoSSR />
-				</div>
+					<div className="grid gap-1.5 mt-6">
+						<Label>Contenido</Label>
+						<EditorNoSSR />
+					</div>
 
-				<CategoriesToggler />
+					<CategoriesToggler />
+
+					<button type='submit' className="rounded-md text-tertiary-50 bg-neutral-950 px-4 py-2 text-sm w-fit hover:bg-neutral-800 font-medium duration-300">Publicar</button>
+				</form> */}
 			</main>
 		</>
 	)

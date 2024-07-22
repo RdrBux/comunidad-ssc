@@ -3,25 +3,20 @@
 // Importing helper modules
 import { useCallback, useMemo, useRef, useState } from "react";
 
-// Importing core components
-import QuillEditor from "react-quill";
-
 // Importing styles
 import "react-quill/dist/quill.snow.css";
 import styles from "./editor.module.css";
 import ReactQuill from "react-quill";
 
-export default function Editor() {
-	// Editor state
-	const [value, setValue] = useState("");
+interface Props {
+	value: string;
+	onChange: React.Dispatch<React.SetStateAction<string>>;
+}
 
+export default function Editor({ value, onChange }: Props) {
 	// Editor ref
 	const quill = useRef(null) as any;
 
-	// Handler to handle button clicked
-	function handler() {
-		console.log(value);
-	}
 
 	const imageHandler = useCallback(() => {
 		// Create an input element of type 'file'
@@ -108,12 +103,8 @@ export default function Editor() {
 				value={value}
 				formats={formats}
 				modules={modules}
-				onChange={(value) => setValue(value)}
+				onChange={(value) => onChange(value)}
 			/>
-
-			<button onClick={handler} className="mt-12 px-6 py-2 bg-neutral-950 text-tertiary-50 rounded-md">
-				Submit
-			</button>
 		</div>
 	);
 };
