@@ -1,6 +1,8 @@
-import PostRTE from "@/components/blog/post-rte";
 import Navbar from "@/components/navbar";
 import { getUserData } from "@/utils/db";
+import dynamic from "next/dynamic";
+
+const EditorNoSSR = dynamic(() => import('@/components/blog/editor'), { ssr: false })
 
 export default async function CreatePost() {
 	const { user, error } = await getUserData()
@@ -16,7 +18,7 @@ export default async function CreatePost() {
 			<main className="container mx-auto px-4 lg:px-16 py-24 text-neutral-800">
 				<h1 className="text-3xl font-bold tracking-tight text-neutral-950">Crear un nuevo Post</h1>
 
-				<PostRTE />
+				<EditorNoSSR />
 			</main>
 		</>
 	)
