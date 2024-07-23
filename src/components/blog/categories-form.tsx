@@ -7,13 +7,11 @@ import { Label } from "../ui/label";
 import { useEffect, useState } from "react";
 import { useFormState } from "react-dom";
 
-type InitialState = {
-	message: string;
+type State = {
 	error: string | null;
 }
 
-const initialState: InitialState = {
-	message: '',
+const initialState: State = {
 	error: '',
 }
 

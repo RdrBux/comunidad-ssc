@@ -2,6 +2,9 @@
 
 import { createClient } from "@/utils/supabase/server"
 import { revalidatePath } from "next/cache"
+import { getUserData } from "./db"
+import { BUCKETS_PUBLIC_URL } from "./constants"
+import { redirect } from "next/navigation"
 
 export async function logoutUser() {
 	const supabase = createClient()
@@ -9,30 +12,90 @@ export async function logoutUser() {
 }
 
 export async function addCategory(prevState: any, formData: FormData) {
+	const { user } = await getUserData()
+
+	if (!user || user.user_role !== 'admin') {
+		return { error: 'Unauthorized' }
+	}
+
 	const name = String(formData.get('name')).toLowerCase()
 
 	if (name.length < 1) {
-		return { message: '', error: 'El nombre es obligatorio' }
+		return { error: 'El nombre es obligatorio' }
 	}
 
 	const supabase = createClient()
 	const { data, error } = await supabase.from('categories').insert({ name })
 
 	if (error) {
-		return { message: '', error: 'Ha habido un error. Intentalo de nuevo' }
+		return { error: 'Ha habido un error. Intentalo de nuevo' }
 	}
 
 	revalidatePath('/blog/create')
-	return { message: 'Categoría agregada', error: null }
+	return { error: null }
 
 }
 
-export async function addPost(formData: FormData) {
+export async function addPost(prevState: any, formData: FormData) {
+	const supabase = createClient()
+
+	//Validate inputs
+
+	const { user } = await getUserData()
+	if (!user || user.user_role !== 'admin') {
+		return { error: 'Unauthorized' }
+	}
+
 	const title = String(formData.get('title'))
+
+	if (title.length < 1) {
+		return { error: 'El titúlo es obligatorio' }
+	}
+
 	const description = String(formData.get('description'))
+
 	const content = String(formData.get('content'))
+
+	if (content.length < 1) {
+		return { error: 'El contenido es obligatorio' }
+	}
+	const img = formData.get('img') as File;
+
+	if (!img) {
+		return { error: 'La imagen es obligatoria' }
+	}
+
 	const categories = String(formData.get('categories'))
-	console.log({title, description, content, categories})
 
+	if (categories.length < 1) {
+		return { error: 'El menos una categoría es obligatoria' }
+	}
 
+	// Upload image first to get the URL
+
+	const { data: imgData, error: imgError } = await supabase.storage.from('blog-images').upload(`${img.name}${Math.random()}`, img)
+
+	if (imgError || !imgData) {
+		return { error: "Ha habido un error subiendo la imagen. Intentalo de nuevo." }
+	}
+
+	const imgUrl = `${BUCKETS_PUBLIC_URL}${imgData.fullPath}`
+
+	// Insert post
+
+	const { data, error } = await supabase.from('posts').insert({ user_id: user.id, title, description, content, img_url: imgUrl }).select()
+
+	if (error) {
+		return { error: 'Ha habido un error. Intentalo de nuevo' }
+	}
+
+	// Add categories to post_categories joined table
+	const categoriesArray = await JSON.parse(categories)
+
+	const { data: categoriesData, error: categoriesError } = await supabase.from('post_categories').insert(categoriesArray.map((category: string) => ({ post_id: Number(data[0].id), category_id: Number(category) })))
+
+	console.log({categoriesData, categoriesError})
+
+	redirect(`/blog/${data[0].id}`)
+	return { error: null }
 }

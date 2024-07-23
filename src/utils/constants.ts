@@ -14,3 +14,5 @@ export const MEDIA = {
 	YOUTUBE: 'https://www.youtube.com/channel/sabersupercomplejo/',
 	LINKEDIN: 'https://www.linkedin.com/company/sabersupercomplejo/',
 }
+
+export const BUCKETS_PUBLIC_URL = 'https://rjtizbdqgsxuwwmrcmwc.supabase.co/storage/v1/object/public/'
