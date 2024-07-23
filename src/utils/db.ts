@@ -29,6 +29,8 @@ export async function getCategories() {
 
 	const { data: categories, error } = await supabase.from('categories').select('*');
 
+	if (error) console.error(error)
+
 	return { categories, error }
 }
 
@@ -48,5 +50,54 @@ export async function getRecentPosts(id: Tables<'posts'>['id']) {
 		.neq('id', id)
     .limit(5);
 
+	if (error) console.error(error)
+
 	return { data, error }
+}
+
+export async function getHighlightedPost() {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+	.from('posts')
+	.select(`
+		id,
+		title,
+		description,
+		img_url,
+		created_at,
+		profiles (full_name),
+		post_categories (
+			categories (name)
+		)
+	`)
+	.eq('highlighted', true)
+	.single();
+
+	if (error) console.error(error)
+
+	return { data, error }
+}
+
+export async function getPostsBlogHome() {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+    .from('posts')
+    .select(`
+      id,
+			user_id,
+      title,
+      img_url,
+      created_at,
+      profiles (full_name),
+      post_categories (
+        categories (name)
+      )
+    `)
+    .neq('highlighted', true);
+
+		if (error) console.error(error)
+
+		return { data, error }
 }
