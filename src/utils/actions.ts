@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache"
 import { getUserData } from "./db"
 import { BUCKETS_PUBLIC_URL } from "./constants"
 import { redirect } from "next/navigation"
+import { Tables } from "./supabase/types-supabase"
 
 export async function logoutUser() {
 	const supabase = createClient()
@@ -97,5 +98,47 @@ export async function addPost(prevState: any, formData: FormData) {
 	console.log({categoriesData, categoriesError})
 
 	redirect(`/blog/post/${data[0].id}`)
+	return { error: null }
+}
+
+export async function addComment(postId: Tables<'posts'>['id'], parentId: Tables<'comments'>['id'] | null, answerToId: Tables<'comments'>['id'] | null, prevState: any, formData: FormData) {
+	const supabase = createClient()
+
+	const { user } = await getUserData()
+	if (!user) {
+		return { error: 'Necesitas iniciar sesión' }
+	}
+
+	const comment = formData.get('comment')
+
+	if (!comment) {
+		return { error: 'El comentario es obligatorio' }
+	}
+
+	const stringComment = String(comment)
+	if (stringComment.length < 1) {
+		return { error: 'El comentario es obligatorio' }
+	}
+
+	console.log({postId, user, comment})
+
+	const { data, error } = await supabase
+    .from('comments')
+    .insert([
+      {
+        post_id: postId,
+        user_id: user.id,
+        content: stringComment,
+				answer_to_id: answerToId,
+        parent_id: parentId,
+      },
+    ]);
+
+	if (error) {
+		console.error(error)
+		return { error: 'Ha habido un error. Intentalo de nuevo' }
+	}
+
+	revalidatePath(`/blog/post/${postId}`)
 	return { error: null }
 }

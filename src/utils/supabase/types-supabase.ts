@@ -165,7 +165,7 @@ export type Database = {
       }
       profiles: {
         Row: {
-          avatar_url: string | null
+          avatar_url: string
           created_at: string
           email: string
           full_name: string
@@ -173,7 +173,7 @@ export type Database = {
           user_role: Database["public"]["Enums"]["user_role"]
         }
         Insert: {
-          avatar_url?: string | null
+          avatar_url?: string
           created_at?: string
           email: string
           full_name: string
@@ -181,7 +181,7 @@ export type Database = {
           user_role?: Database["public"]["Enums"]["user_role"]
         }
         Update: {
-          avatar_url?: string | null
+          avatar_url?: string
           created_at?: string
           email?: string
           full_name?: string
@@ -203,7 +203,13 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      get_category_counts: {
+        Args: Record<PropertyKey, never>
+        Returns: {
+          category_name: string
+          post_count: number
+        }[]
+      }
     }
     Enums: {
       user_role: "admin" | "user"

@@ -101,3 +101,56 @@ export async function getPostsBlogHome() {
 
 		return { data, error }
 }
+
+export async function getPostById(id: Tables<'posts'>['id']) {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+		.from('posts')
+		.select(`
+			*,
+			profiles (full_name, avatar_url),
+			post_categories (
+				categories (name)
+			)
+		`)
+		.eq('id', id)
+		.single();
+
+	if (error) console.error(error)
+
+	return { data, error }
+}
+
+export async function getCategoriesCount() {
+	const supabase = createClient()
+
+	const { data, error } = await supabase.rpc('get_category_counts');
+
+  if (error) console.error(error)
+
+  return {data, error};
+}
+
+export async function getCommentsByPostId(postId: Tables<'posts'>['id']) {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+    .from('comments')
+    .select(`
+      id,
+      content,
+      created_at,
+			answer_to_id,
+      parent_id,
+      user_id,
+      profiles (full_name, avatar_url)
+    `)
+    .eq('post_id', postId)
+    .order('created_at', { ascending: true });
+
+	if (error) console.error(error)
+
+	return { data, error }
+
+}
