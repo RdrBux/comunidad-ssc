@@ -3,8 +3,6 @@ import CategoriesList from "@/components/blog/categories-list";
 import HighlightedPost from "@/components/blog/highlighted-post";
 import PostsBlogHome from "@/components/blog/posts-blog-home";
 import Navbar from "@/components/navbar";
-import { FullLogo } from "@/components/svgs";
-import { MEDIA } from "@/utils/constants";
 
 export default function Blog() {
 	return (

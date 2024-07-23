@@ -173,7 +173,7 @@ export type Database = {
           user_role: Database["public"]["Enums"]["user_role"]
         }
         Insert: {
-          avatar_url?: string
+          avatar_url: string
           created_at?: string
           email: string
           full_name: string
@@ -203,6 +203,19 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      fetch_posts_by_category_name: {
+        Args: {
+          category_name: string
+        }
+        Returns: {
+          id: number
+          img_url: string
+          user_id: string
+          full_name: string
+          title: string
+          created_at: string
+        }[]
+      }
       get_category_counts: {
         Args: Record<PropertyKey, never>
         Returns: {
