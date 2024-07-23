@@ -1,3 +1,4 @@
+import PostsByCategory from "@/components/blog/posts-by-category";
 import Navbar from "@/components/navbar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { ROUTES } from "@/utils/constants";
@@ -27,6 +28,8 @@ export default function CategoryPage({ params: { name } }: { params: { name: str
 
 
 				<h1 className="text-3xl font-bold text-neutral-950 tracking-tight mt-10 capitalize">{name}</h1>
+
+				<PostsByCategory category={name} />
 			</main>
 		</div>
 	)

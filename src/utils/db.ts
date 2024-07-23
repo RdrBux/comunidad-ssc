@@ -161,4 +161,6 @@ export async function getPostsByCategoryName(categoryName: Tables<'categories'>[
     category_name: categoryName,
   });
 
+	return { data, error }
+
 }

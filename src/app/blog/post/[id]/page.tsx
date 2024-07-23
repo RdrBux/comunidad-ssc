@@ -27,9 +27,6 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 					<div className="container mx-auto px-4 lg:px-16 h-full">
 						<div className="text-tertiary-50 max-w-2xl py-16 flex flex-col justify-end h-full grow">
 							<div className="mb-auto mt-8">
-								{/* <Link className="hover:text-tertiary-50/75 duration-300" href={ROUTES.BLOG}>Blog</Link>
-								<ChevronRight size={14} />
-								<div className="text-tertiary-50/75">{data.title}</div> */}
 								<Breadcrumb>
 									<BreadcrumbList>
 										<BreadcrumbItem>
