@@ -37,7 +37,7 @@ export default function CategoriesToggler({ setSelectedCategories }: { setSelect
 
 	return (
 		<div className="grid gap-3 mt-20">
-			<Label>Categorías</Label>
+			<Label>Categorías <span className="text-neutral-500">(Selección múltiple. Por lo menos una)</span></Label>
 
 			{!categories && <p className="font-bold">No hay categorías</p>}
 
