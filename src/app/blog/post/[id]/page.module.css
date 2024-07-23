@@ -1,0 +1,35 @@
+.editor {
+	font-size: 16px !important;
+}
+
+.editor p {
+	@apply font-inter lg:text-xl tracking-tight text-neutral-800 mt-8
+}
+
+.editor h2 {
+	@apply font-inter mt-12 font-bold !text-3xl text-neutral-950 tracking-tight;
+}
+
+.editor h3 {
+	@apply font-inter mt-12 font-bold !text-2xl text-neutral-950 tracking-tight
+}
+
+.editor h4 {
+	@apply font-inter mt-12 font-bold !text-xl text-neutral-950 tracking-tight
+}
+
+.editor h2 + p {
+	@apply mt-4
+}
+
+.editor h3 + p {
+	@apply mt-4
+}
+
+.editor h4 + p {
+	@apply mt-4
+}
+
+.editor img {
+	@apply mt-8 rounded-md
+}

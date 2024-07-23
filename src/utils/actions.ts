@@ -96,6 +96,6 @@ export async function addPost(prevState: any, formData: FormData) {
 
 	console.log({categoriesData, categoriesError})
 
-	redirect(`/blog/${data[0].id}`)
+	redirect(`/blog/post/${data[0].id}`)
 	return { error: null }
 }
