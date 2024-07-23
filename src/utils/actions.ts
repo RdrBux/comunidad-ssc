@@ -95,8 +95,6 @@ export async function addPost(prevState: any, formData: FormData) {
 
 	const { data: categoriesData, error: categoriesError } = await supabase.from('post_categories').insert(categoriesArray.map((category: string) => ({ post_id: Number(data[0].id), category_id: Number(category) })))
 
-	console.log({categoriesData, categoriesError})
-
 	redirect(`/blog/post/${data[0].id}`)
 	return { error: null }
 }
@@ -119,8 +117,6 @@ export async function addComment(postId: Tables<'posts'>['id'], parentId: Tables
 	if (stringComment.length < 1) {
 		return { error: 'El comentario es obligatorio' }
 	}
-
-	console.log({postId, user, comment})
 
 	const { data, error } = await supabase
     .from('comments')

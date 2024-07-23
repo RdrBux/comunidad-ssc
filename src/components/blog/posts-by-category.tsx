@@ -9,8 +9,6 @@ export default async function PostsByCategory({ category }: { category: Tables<'
 	if (error) return <div>Error</div>;
 	if (!data) return <div>No data</div>;
 
-	console.log({ data, error })
-
 	return (
 		<div className="mt-4">
 			<p className="font-medium text-neutral-600">{data.length} post<span className={`${data.length > 1 ? '' : 'hidden'}`}>s</span></p>
