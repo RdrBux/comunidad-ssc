@@ -22,7 +22,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 			{
 				data.map(comment => (
 					<div key={comment.id}>
-						<div className={`${comment.parent_id ? 'ml-16 mt-8' : ''}`}>
+						<div className={`${comment.parent_id ? 'ml-10 lg:ml-16 mt-8' : ''}`}>
 							<div className="flex items-center gap-4">
 								<Link href={`/blog/user/${comment.user_id}`} className={`${comment.parent_id ? 'w-10 h-10' : 'w-12 h-12'} aspect-square bg-secondary-200 rounded-full`}>
 									<img className={`${comment.parent_id ? 'w-10 h-10' : 'w-12 h-12'} rounded-full`} src={comment.profiles!.avatar_url} alt={comment.profiles!.full_name} />

@@ -54,7 +54,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 								<div className="flex gap-2 text-neutral-600">
 
 									{data.post_categories?.map((category) => (
-										<Link href={`/blog/category/${category.categories?.name}`} key={category.categories?.name} className="bg-neutral-200 hover:bg-neutral-300 duration-300 p-2 rounded text-sm font-medium">{category.categories?.name}</Link>
+										<Link href={`/blog/category/${category.categories?.name}`} key={category.categories?.name} className="bg-neutral-200 hover:bg-neutral-300 duration-300 p-2 rounded text-sm font-medium capitalize">{category.categories?.name}</Link>
 									))}
 								</div>
 							</div>

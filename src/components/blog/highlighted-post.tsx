@@ -17,7 +17,7 @@ export default async function HighlightedPost() {
 					<h3 className="font-semibold text-4xl lg:text-5xl tracking-tight mt-auto lg:mt-6">{data.title}</h3>
 					<p className="mt-6 hidden lg:block lg:text-lg font-medium">{data.description}</p>
 					<div className="flex gap-2 mt-8">
-						{data.post_categories!.map((category) => <div key={category.categories!.name} className="bg-neutral-300/25 p-2 rounded text-sm font-medium">{category.categories!.name}</div>)}
+						{data.post_categories!.map((category) => <div key={category.categories!.name} className="bg-neutral-300/25 p-2 rounded text-sm font-medium capitalize">{category.categories!.name}</div>)}
 					</div>
 				</div>
 			</Link>

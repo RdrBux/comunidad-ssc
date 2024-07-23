@@ -22,7 +22,7 @@ export default async function PostsBlogHome() {
 
 							{
 								post.post_categories!.map((category) => (
-									<Link key={category.categories!.name} href={`/blog/category/${category.categories!.name}`} className="bg-neutral-200 p-2 rounded text-sm font-medium">{category.categories!.name}</Link>
+									<Link key={category.categories!.name} href={`/blog/category/${category.categories!.name}`} className="bg-neutral-200 p-2 rounded text-sm font-medium capitalize">{category.categories!.name}</Link>
 								))
 							}
 
