@@ -241,3 +241,20 @@ export async function getLastComments() {
 
 	return { data, error }
 }
+
+export async function getCommentById(commentId: Tables<'comments'>['id']) {
+	const supabase = createClient();
+	const { data, error } = await supabase
+		.from('comments')
+		.select(`
+			id,
+			user_id,
+			post_id
+		`)
+		.eq('id', commentId)
+		.single()
+
+	if (error) console.error(error)
+
+	return { data, error }
+}

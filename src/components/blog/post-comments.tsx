@@ -5,6 +5,7 @@ import Link from "next/link";
 import { formatDateWithTime, sortComments } from "@/lib/utils";
 import LoginButton from "./login-button";
 import AnswerCommentButton from "./answer-comment-button";
+import DeleteCommentButton from "./delete-comment-button";
 
 export default async function PostComments({ postId }: { postId: Tables<'posts'>['id'] }) {
 	const { data: commentsData, error } = await getCommentsByPostId(postId);
@@ -15,7 +16,6 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 
 	const data = sortComments(commentsData);
 
-
 	return (
 		<div className="mt-12 bg-neutral-100 rounded-md p-6 lg:p-10">
 
@@ -23,7 +23,10 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 				data.map(comment => (
 					<div key={comment.id}>
 						<div className={`${comment.parent_id ? 'ml-10 lg:ml-16 mt-8' : ''}`}>
-							<div className="flex items-center gap-4">
+							<div className="flex items-center gap-4 relative">
+								{user && user.id === comment.user_id && <DeleteCommentButton id={comment.id} />}
+								{user && user.user_role === 'admin' && <DeleteCommentButton id={comment.id} />}
+
 								<Link href={`/blog/user/${comment.user_id}`} className={`${comment.parent_id ? 'w-10 h-10' : 'w-12 h-12'} aspect-square bg-secondary-200 rounded-full`}>
 									<img className={`${comment.parent_id ? 'w-10 h-10' : 'w-12 h-12'} rounded-full`} src={comment.profiles!.avatar_url} alt={comment.profiles!.full_name} />
 								</Link>

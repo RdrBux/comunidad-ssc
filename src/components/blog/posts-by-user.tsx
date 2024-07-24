@@ -7,7 +7,7 @@ export default async function PostsByUser({ id }: { id: Tables<'profiles'>['id']
 	const { data, error } = await getPostsByUserId(id);
 
 	if (error) return;
-	if (!data) return;
+	if (!data || data.length < 1) return;
 
 	return (
 		<div className="mt-12">

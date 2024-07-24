@@ -2,7 +2,7 @@
 
 import { createClient } from "@/utils/supabase/server"
 import { revalidatePath } from "next/cache"
-import { getUserData } from "./db"
+import { getCommentById, getUserData } from "./db"
 import { BUCKETS_PUBLIC_URL } from "./constants"
 import { redirect } from "next/navigation"
 import { Tables } from "./supabase/types-supabase"
@@ -137,4 +137,35 @@ export async function addComment(postId: Tables<'posts'>['id'], parentId: Tables
 
 	revalidatePath(`/blog/post/${postId}`)
 	return { error: null }
+}
+
+export async function deleteComment(id: Tables<'comments'>['id'], prevState: any) {
+	const supabase = createClient()
+	const { user, error } = await getUserData()
+	const { data, error: commentError } = await getCommentById(id)
+
+	if (error || commentError) {
+		return { error: 'Ha habido un error' }
+	}
+
+	if (!data) {
+		return { error: 'El comentario no existe' }
+	}
+
+	if (!user) {
+		return { error: 'Unauthorized' }
+	}
+
+	if (user.user_role === 'admin' || user.id === data.user_id) {
+		const { error } = await supabase.from('comments').delete().eq('id', id)
+
+		if (error) {
+			return { error: 'Ha habido un error. Intentalo de nuevo' }
+		}
+
+		revalidatePath(`/blog/post/${data.post_id}`)
+		return { error: null }
+	}
+
+	return { error: 'Ha habido un error. Intentalo de nuevo' }
 }
