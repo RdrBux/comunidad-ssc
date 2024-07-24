@@ -11,8 +11,8 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 	const { data: commentsData, error } = await getCommentsByPostId(postId);
 	const { user } = await getUserData();
 
-	if (error) return <div>Error</div>;
-	if (!commentsData) return <div>No data</div>;
+	if (error) return
+	if (!commentsData) return
 
 	const data = sortComments(commentsData);
 

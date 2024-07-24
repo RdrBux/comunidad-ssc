@@ -4,8 +4,8 @@ import Link from "next/link"
 export default async function CategoriesList() {
 	const { data, error } = await getCategoriesCount()
 
-	if (error) return <div>Error</div>
-	if (!data) return <div>No data</div>
+	if (error) return
+	if (!data) return
 
 	const filteredData = data.filter((category) => category.post_count > 0)
 

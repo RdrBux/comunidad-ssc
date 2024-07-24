@@ -5,8 +5,8 @@ import Link from "next/link"
 export default async function PostsBlogHome() {
 	const { data, error } = await getPostsBlogHome()
 
-	if (error) return <div>Error</div>
-	if (!data) return <div>No data</div>
+	if (error) return
+	if (!data) return
 
 	return (
 		<div className="lg:col-span-2 grid gap-x-8 gap-y-12 lg:gap-y-16 lg:grid-cols-2">

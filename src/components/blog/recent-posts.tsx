@@ -6,8 +6,8 @@ import Link from "next/link"
 export default async function RecentPosts({ id }: { id: Tables<'posts'>['id'] }) {
 	const { data, error } = await getRecentPosts(id)
 
-	if (error) return <div>Error</div>
-	if (!data) return <div>No data</div>
+	if (error) return
+	if (!data) return
 
 	return (
 		<div>

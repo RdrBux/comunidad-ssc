@@ -5,8 +5,8 @@ import Link from "next/link"
 export default async function HighlightedPost() {
 	const { data, error } = await getHighlightedPost()
 
-	if (error) return <div>Error</div>
-	if (!data) return <div>No data</div>
+	if (error) return
+	if (!data) return
 
 	return (
 		<article>

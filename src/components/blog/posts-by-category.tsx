@@ -6,8 +6,8 @@ import Link from "next/link";
 export default async function PostsByCategory({ category }: { category: Tables<'categories'>['name'] }) {
 	const { data, error } = await getPostsByCategoryName(category);
 
-	if (error) return <div>Error</div>;
-	if (!data) return <div>No data</div>;
+	if (error) return
+	if (!data) return
 
 	return (
 		<div className="mt-4">
