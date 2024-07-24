@@ -20,7 +20,7 @@ const initialState: State = {
 export default function DeleteCommentButton({ id }: { id: Tables<'comments'>['id'] }) {
 	const [formState, formAction] = useFormState(deleteComment.bind(null, id), initialState)
 	const [open, setOpen] = useState(false)
-	console.log(formState.error)
+
 	return (
 		<AlertDialog open={open} onOpenChange={setOpen}>
 			<AlertDialogTrigger asChild>

@@ -11,48 +11,46 @@ export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }
 	if (!user) return <LoginButton style={style} />
 
 	return (
-		<div>
-			<DropdownMenu>
-				<DropdownMenuTrigger asChild>
-					<button aria-label="Abrir menú de usuario" className="w-10 h-10 rounded-full bg-neutral-300">
-						<img className="w-10 h-10 rounded-full" src={user.avatar_url!} alt={user.full_name} />
-					</button>
-				</DropdownMenuTrigger>
+		<DropdownMenu>
+			<DropdownMenuTrigger asChild>
+				<button aria-label="Abrir menú de usuario" className="w-10 h-10 rounded-full bg-neutral-300">
+					<img className="w-10 h-10 rounded-full" src={user.avatar_url!} alt={user.full_name} />
+				</button>
+			</DropdownMenuTrigger>
 
-				<DropdownMenuContent align="end">
-					<DropdownMenuLabel>
-						<div className="leading-none">{user.full_name}</div>
-						<div className="text-xs text-neutral-500 leading-none mt-1">{user.email}</div>
-					</DropdownMenuLabel>
+			<DropdownMenuContent align="end">
+				<DropdownMenuLabel>
+					<div className="leading-none">{user.full_name}</div>
+					<div className="text-xs text-neutral-500 leading-none mt-1">{user.email}</div>
+				</DropdownMenuLabel>
 
-					<DropdownMenuSeparator />
+				<DropdownMenuSeparator />
 
-					<Link href={`/blog/user/${user.id}`}>
+				<Link href={`/blog/user/${user.id}`}>
+					<DropdownMenuItem className="flex items-center gap-3">
+						<User size={16} />
+						Perfil
+					</DropdownMenuItem>
+				</Link>
+
+				{user.user_role === 'admin' && (
+					<Link href={`/blog/create`}>
 						<DropdownMenuItem className="flex items-center gap-3">
-							<User size={16} />
-							Perfil
+							<FilePlus size={16} />
+							Crear post
 						</DropdownMenuItem>
 					</Link>
+				)}
 
-					{user.user_role === 'admin' && (
-						<Link href={`/blog/create`}>
-							<DropdownMenuItem className="flex items-center gap-3">
-								<FilePlus size={16} />
-								Crear post
-							</DropdownMenuItem>
-						</Link>
-					)}
-
-					<form action={logoutUser}>
-						<button className="w-full" type="submit">
-							<DropdownMenuItem className="flex items-center gap-3">
-								<LogOut size={16} />
-								Cerrar sesión
-							</DropdownMenuItem>
-						</button>
-					</form>
-				</DropdownMenuContent>
-			</DropdownMenu>
-		</div>
+				<form action={logoutUser}>
+					<button className="w-full" type="submit">
+						<DropdownMenuItem className="flex items-center gap-3">
+							<LogOut size={16} />
+							Cerrar sesión
+						</DropdownMenuItem>
+					</button>
+				</form>
+			</DropdownMenuContent>
+		</DropdownMenu>
 	)
 }
