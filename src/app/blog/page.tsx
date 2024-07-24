@@ -2,6 +2,7 @@ import BlogCard from "@/components/blog/blog-card";
 import CategoriesList from "@/components/blog/categories-list";
 import HighlightedPost from "@/components/blog/highlighted-post";
 import PostsBlogHome from "@/components/blog/posts-blog-home";
+import RecentComments from "@/components/blog/recent-comments";
 import Navbar from "@/components/navbar";
 
 export default function Blog() {
@@ -23,15 +24,7 @@ export default function Blog() {
 
 						<hr />
 
-						<div>
-							<h4 className="text-2xl tracking-tight font-bold leading-none">Comentarios recientes</h4>
-							<div className="flex flex-col gap-3 mt-6 text-neutral-600 text-sm">
-								<div>Saber Supercomplejo en <a className="font-semibold hover:text-secondary-700 duration-300" href="#">Título del Post: Continuación del Título</a></div>
-								<div>Saber Supercomplejo en <a className="font-semibold hover:text-secondary-700 duration-300" href="#">Título del Post: Continuación del Título</a></div>
-								<div>Saber Supercomplejo en <a className="font-semibold hover:text-secondary-700 duration-300" href="#">Título del Post: Continuación del Título</a></div>
-								<div>Saber Supercomplejo en <a className="font-semibold hover:text-secondary-700 duration-300" href="#">Título del Post: Continuación del Título</a></div>
-							</div>
-						</div>
+						<RecentComments />
 					</div>
 
 				</div>

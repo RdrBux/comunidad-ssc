@@ -220,3 +220,24 @@ export async function getCommentsByUserId(userId: Tables<'profiles'>['id']) {
 	return { data, error }
 
 }
+
+export async function getLastComments() {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+    .from('comments')
+    .select(`
+			id,
+      created_at,
+      user_id,
+      profiles (full_name, avatar_url),
+      post_id,
+      posts (title)
+    `)
+    .order('created_at', { ascending: false })
+    .limit(5)
+
+	if (error) console.error(error)
+
+	return { data, error }
+}

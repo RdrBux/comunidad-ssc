@@ -49,7 +49,7 @@ export default function CommentBox({ postId, parentId, answerToId, setShowForm, 
 						Comentar
 					</button>
 					<div className="flex ps-0 space-x-1 rtl:space-x-reverse sm:ps-2">
-						<div className="w-10 h-10 rounded-full bg-secondary-200">
+						<div className="w-10 h-10 shrink-0 rounded-full bg-secondary-200">
 							<img className="w-10 h-10 rounded-full" src={userImg} alt="Avatar del usuario" />
 						</div>
 					</div>

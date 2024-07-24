@@ -10,7 +10,7 @@ export default async function CategoriesList() {
 	const filteredData = data.filter((category) => category.post_count > 0)
 
 	return (
-		<div>
+		<section>
 			<h4 className="text-2xl tracking-tight font-bold leading-none">Explorar categorías</h4>
 			<div className="flex gap-2 flex-wrap mt-6">
 
@@ -24,6 +24,6 @@ export default async function CategoriesList() {
 				}
 
 			</div>
-		</div>
+		</section>
 	)
 }
