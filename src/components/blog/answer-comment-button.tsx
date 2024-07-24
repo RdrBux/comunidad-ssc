@@ -9,9 +9,10 @@ interface Props {
 	postId: Tables<'posts'>['id']
 	parentId: Tables<'comments'>['id']
 	answerToId: Tables<'comments'>['id']
+	userImg: Tables<'profiles'>['avatar_url']
 }
 
-export default function AnswerCommentButton({ postId, parentId, answerToId }: Props) {
+export default function AnswerCommentButton({ postId, parentId, answerToId, userImg }: Props) {
 	const [showForm, setShowForm] = useState(false)
 
 	return (
@@ -26,7 +27,7 @@ export default function AnswerCommentButton({ postId, parentId, answerToId }: Pr
 			{showForm && (
 				<div className="relative">
 					<button onClick={() => setShowForm(false)} className="absolute bg-white rounded-full opacity-90 top-2 right-4 text-neutral-700 hover:text-neutral-950 duration-300"><X /></button>
-					<CommentBox postId={postId} parentId={parentId} answerToId={answerToId} setShowForm={setShowForm} />
+					<CommentBox postId={postId} parentId={parentId} answerToId={answerToId} setShowForm={setShowForm} userImg={userImg} />
 				</div>
 			)}
 		</>

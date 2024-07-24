@@ -34,7 +34,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 							</div>
 							<div className="lg:ml-16">
 								<p className="lg:text-lg mt-4 text-neutral-600">{comment.content}</p>
-								{user && <AnswerCommentButton postId={postId} parentId={comment.parent_id ?? comment.id} answerToId={comment.id} />}
+								{user && <AnswerCommentButton postId={postId} parentId={comment.parent_id ?? comment.id} answerToId={comment.id} userImg={user.avatar_url} />}
 							</div>
 						</div>
 
@@ -47,7 +47,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 				<h5 className="font-bold text-3xl tracking-tight">Deja un comentario</h5>
 
 				{
-					user && <CommentBox postId={postId} parentId={null} answerToId={null} />
+					user && <CommentBox postId={postId} parentId={null} answerToId={null} userImg={user.avatar_url} />
 				}
 
 				{

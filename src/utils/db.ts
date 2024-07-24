@@ -164,3 +164,59 @@ export async function getPostsByCategoryName(categoryName: Tables<'categories'>[
 	return { data, error }
 
 }
+
+export async function getUserById(userId: Tables<'profiles'>['id']) {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+    .from('profiles')
+    .select('avatar_url, full_name')
+    .eq('id', userId)
+    .single()
+
+	if (error) console.error(error)
+
+	return { data, error }
+
+}
+
+export async function getPostsByUserId(userId: Tables<'profiles'>['id']) {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+	.from('posts')
+	.select(`
+		id,
+		img_url,
+		user_id,
+		profiles (full_name),
+		title,
+		created_at
+	`)
+	.eq('user_id', userId)
+	.order('created_at', { ascending: false })
+
+	if (error) console.error(error)
+
+	return { data, error }
+}
+
+export async function getCommentsByUserId(userId: Tables<'profiles'>['id']) {
+	const supabase = createClient();
+	const { data, error } = await supabase
+    .from('comments')
+    .select(`
+			id,
+      content,
+      created_at,
+      posts (id, title),
+      profiles (full_name)
+    `)
+    .eq('user_id', userId)
+    .order('created_at', { ascending: false })
+
+	if (error) console.error(error)
+
+	return { data, error }
+
+}

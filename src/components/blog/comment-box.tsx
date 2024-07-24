@@ -10,6 +10,7 @@ interface Props {
 	parentId: Tables<'comments'>['id'] | null
 	answerToId: Tables<'comments'>['id'] | null
 	setShowForm?: React.Dispatch<React.SetStateAction<boolean>>
+	userImg: Tables<'profiles'>['avatar_url']
 }
 
 type State = {
@@ -20,7 +21,7 @@ const initialState: State = {
 	error: '',
 }
 
-export default function CommentBox({ postId, parentId, answerToId, setShowForm }: Props) {
+export default function CommentBox({ postId, parentId, answerToId, setShowForm, userImg }: Props) {
 	const [formState, formAction] = useFormState(addComment.bind(null, postId, parentId, answerToId), initialState)
 	const form = useRef<HTMLFormElement>(null)
 
@@ -48,7 +49,9 @@ export default function CommentBox({ postId, parentId, answerToId, setShowForm }
 						Comentar
 					</button>
 					<div className="flex ps-0 space-x-1 rtl:space-x-reverse sm:ps-2">
-						<div className="w-10 h-10 rounded-full bg-secondary-200"></div>
+						<div className="w-10 h-10 rounded-full bg-secondary-200">
+							<img className="w-10 h-10 rounded-full" src={userImg} alt="Avatar del usuario" />
+						</div>
 					</div>
 				</div>
 			</div>
