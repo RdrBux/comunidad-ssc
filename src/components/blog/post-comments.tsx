@@ -57,7 +57,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 					!user && (
 						<div className="my-4 mx-2">
 							<p className="mb-4">Inicia sesión para comentar</p>
-							<LoginButton style="light" />
+							<LoginButton style="dark" />
 						</div>
 					)
 				}
