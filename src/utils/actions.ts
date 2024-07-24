@@ -169,3 +169,37 @@ export async function deleteComment(id: Tables<'comments'>['id'], prevState: any
 
 	return { error: 'Ha habido un error. Intentalo de nuevo' }
 }
+
+export async function subscribeToNewsletter(prevState: any, formData: FormData) {
+	const email = formData.get('email')
+	const name = formData.get('name')
+
+	if (!name) {
+		return { error: 'El nombre es obligatorio' }
+	}
+	const nameString = String(name)
+
+	if (nameString.length < 1) {
+		return { error: 'El nombre es obligatorio' }
+	}
+
+	if (!email) {
+		return { error: 'El correo electrónico es obligatorio' }
+	}
+	const emailString = String(email)
+	if (emailString.length < 1) {
+		return { error: 'El correo electrónico es obligatorio' }
+	}
+
+	const supabase = createClient()
+	const { data, error } = await supabase
+		.from('newsletter')
+		.insert({ email: emailString, name: nameString })
+
+	if (error) {
+		return { error: 'Ha habido un error. Intentalo de nuevo' }
+	}
+
+	return { error: null }
+
+}

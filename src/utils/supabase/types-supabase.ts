@@ -86,6 +86,27 @@ export type Database = {
           },
         ]
       }
+      newsletter: {
+        Row: {
+          created_at: string
+          email: string
+          id: number
+          name: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          id?: number
+          name: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: number
+          name?: string
+        }
+        Relationships: []
+      }
       post_categories: {
         Row: {
           category_id: number

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "./svgs";
 import { MEDIA, ROUTES } from "@/utils/constants";
+import Newsletter from "./newsletter";
 
 export default function Footer() {
 	return (
@@ -59,7 +60,8 @@ export default function Footer() {
 					</div>
 
 					<div className="p-8">
-						<h3 className="text-xl font-medium">ENVÍA UN MENSAJE</h3>
+						<Newsletter />
+						{/* <h3 className="text-xl font-medium">ENVÍA UN MENSAJE</h3>
 						<form className="grid gap-4 mt-4">
 							<div className="relative">
 								<input type="text" id="name" className="block rounded-t-md px-2.5 pb-2.5 pt-5 w-full text-sm bg-neutral-500/5 border-0 border-b-2 appearance-none text-tertiary-50 border-neutral-700 focus:border-secondary-500 focus:outline-none focus:ring-0 peer" placeholder=" " required />
@@ -77,7 +79,7 @@ export default function Footer() {
 							</div>
 
 							<button className="whitespace-nowrap rounded bg-secondary-400 text-neutral-950 px-6 font-medium py-2 w-full hover:bg-secondary-300 duration-300">Enviar</button>
-						</form>
+						</form> */}
 
 						<a className="block lg:hidden underline mt-16 mb-4 hover:text-secondary-500 duration-300" href="mailto:sabersupercomplejo@gmail.com">sabersupercomplejo@gmail.com</a>
 
