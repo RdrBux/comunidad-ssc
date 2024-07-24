@@ -1,6 +1,6 @@
 export const ROUTES = {
 	INICIO: '/',
-	ACTORES: '/actores',
+	COMUNIDAD: '/comunidad',
 	CAMINO: '/camino',
 	TEORIA: '/teoria',
 	BLOG: '/blog',

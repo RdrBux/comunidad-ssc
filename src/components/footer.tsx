@@ -25,7 +25,7 @@ export default function Footer() {
 						<ul className="grid grid-cols-2 gap-2">
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.INICIO}>Inicio</Link></li>
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.TEORIA}>La teoría</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.ACTORES}>Los actores</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.COMUNIDAD}>La comunidad</Link></li>
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.CAMINO}>El camino</Link></li>
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.BLOG}>Blog</Link></li>
 						</ul>

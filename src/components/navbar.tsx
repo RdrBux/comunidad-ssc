@@ -20,7 +20,7 @@ export default function Navbar({ style }: Props) {
 
 				<ul className={`${style === 'dark' ? 'text-tertiary-50' : 'text-neutral-600'} hidden lg:flex gap-1 font-medium`}>
 					<li><NavLink route={ROUTES.TEORIA} text='La teoría' style={style} /></li>
-					<li><NavLink route={ROUTES.ACTORES} text='Los actores' style={style} /></li>
+					<li><NavLink route={ROUTES.COMUNIDAD} text='La comunidad' style={style} /></li>
 					<li><NavLink route={ROUTES.CAMINO} text='El camino' style={style} /></li>
 					<li><NavLink route={ROUTES.BLOG} text='Blog' style={style} /></li>
 				</ul>

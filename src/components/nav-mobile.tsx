@@ -36,9 +36,9 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 								</Link>
 							</li>
 							<li>
-								<Link className={`${pathname === ROUTES.ACTORES ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.ACTORES}>
+								<Link className={`${pathname === ROUTES.COMUNIDAD ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.COMUNIDAD}>
 									<Users />
-									Los actores
+									La comunidad
 								</Link>
 							</li>
 							<li>

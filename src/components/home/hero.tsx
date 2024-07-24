@@ -2,7 +2,7 @@ import { BgHero } from "../svgs";
 
 export default function Hero() {
 	return (
-		<section className="bg-gradient-to-b from-primary-950 to-primary-900 relative">
+		<section className="bg-gradient-to-b from-[#0a4a3a] to-[#0b5a46] relative">
 			<div aria-hidden className="absolute inset-0 overflow-hidden">
 				<BgHero className="h-screen lg:h-auto -translate-x-[45%] translate-y-[50%] lg:translate-x-[18%] lg:translate-y-[2%] opacity-50" />
 			</div>

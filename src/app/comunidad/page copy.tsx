@@ -6,7 +6,7 @@ import { ImgSSC } from "@/components/svgs";
 import { ROUTES } from "@/utils/constants";
 import Link from "next/link";
 
-export default function Actores() {
+export default function Comunidad() {
 	return (
 		<>
 			<ContentLayout>
@@ -14,8 +14,8 @@ export default function Actores() {
 					<div className="px-24 lg:absolute lg:pl-16 lg:pr-0 lg:w-80 lg:-right-56 lg:top-[55%] lg:-translate-y-1/2"><ImgSSC /></div>
 
 					<div className="py-8 lg:py-20 lg:-order-1 w-fit">
-						<h1 className="font-medium lg:text-lg">LOS ACTORES</h1>
-						<h2 className="text-4xl text-neutral-950 lg:text-6xl tracking-tight font-semibold mt-2">¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?</h2>
+						<h1 className="font-medium lg:text-lg">LA COMUNIDAD</h1>
+						<h2 className="text-4xl text-neutral-950 lg:text-6xl tracking-tight font-semibold mt-2">¿Qué es la Comunidad del SSC y cuál es su principal objetivo?</h2>
 					</div>
 
 				</div>
@@ -48,7 +48,7 @@ export default function Actores() {
 					</ul>
 				</div>
 
-				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/actores' text='Saber Supercomplejo - Los Actores' /></div>
+				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/comunidad' text='Saber Supercomplejo - La comunidad' /></div>
 
 			</ContentLayout>
 
