@@ -1,4 +1,5 @@
 import Footer from "@/components/footer";
+import Articles from "@/components/home/articles";
 import Community from "@/components/home/community";
 import Hero from "@/components/home/hero";
 import Pathway from "@/components/home/pathway";
@@ -18,6 +19,8 @@ export default function Home() {
         <Community />
 
         <Pathway />
+
+        <Articles />
 
       </main>
 
