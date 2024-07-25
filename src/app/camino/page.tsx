@@ -4,7 +4,12 @@ import NextRead from "@/components/next-read";
 import SharePage from "@/components/share-page";
 import { ImgCubes } from "@/components/svgs";
 import { ROUTES } from "@/utils/constants";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: "El camino - Comunidad del Saber Supercomplejo",
+};
 
 export default function Camino() {
 	return (
@@ -55,7 +60,7 @@ export default function Camino() {
 					</ul>
 				</div>
 
-				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/camino' text='Saber Supercomplejo - El Camino' /></div>
+				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/camino' text='El camino - Comunidad del Saber Supercomplejo' /></div>
 
 			</ContentLayout>
 

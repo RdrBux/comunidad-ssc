@@ -1,9 +1,12 @@
 import BlogCard from "@/components/blog/blog-card";
 import CategoriesList from "@/components/blog/categories-list";
-import HighlightedPost from "@/components/blog/highlighted-post";
 import PostsBlogHome from "@/components/blog/posts-blog-home";
-import RecentComments from "@/components/blog/recent-comments";
 import Navbar from "@/components/navbar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Blog - Comunidad del Saber Supercomplejo",
+};
 
 export default function Blog() {
 	return (

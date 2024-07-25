@@ -9,6 +9,7 @@ import PostComments from "@/components/blog/post-comments";
 import { getPostById } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
+import SharePage from "@/components/share-page";
 
 export default async function BlogPage({ params }: { params: { id: Tables<'posts'>['id'] } }) {
 	const { data, error } = await getPostById(params.id)
@@ -20,7 +21,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 			<Navbar style="dark" />
 
 			<main>
-				<div className="relative flex flex-col overflow-hidden h-[70vh] lg:h-screen">
+				<div className="relative flex flex-col overflow-hidden h-[80vh] lg:h-screen">
 					<img className="duration-300 absolute -z-10 inset-0 h-full w-full brightness-[0.25] object-cover" src={data.img_url} alt={data.title} />
 					<div className="container mx-auto px-4 lg:px-16 h-full">
 						<div className="text-tertiary-50 max-w-2xl py-16 flex flex-col justify-end h-full grow">
@@ -54,6 +55,8 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 					<div className="grid lg:grid-cols-3 gap-16">
 						<div className="lg:col-span-2 lg:mr-8">
 							<div className={styles.editor} dangerouslySetInnerHTML={{ __html: data.content }} />
+
+							<div className="mt-12"><SharePage url={`https://sabersupercomplejo.com/blog/post/${data.id}`} text={data.title} /></div>
 
 							<hr className="mt-12" />
 

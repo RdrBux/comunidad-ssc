@@ -5,7 +5,12 @@ import SharePage from "@/components/share-page";
 import { ImgSSC } from "@/components/svgs";
 import Team from "@/components/team";
 import { ROUTES } from "@/utils/constants";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: "La comunidad - Comunidad del Saber Supercomplejo",
+};
 
 export default function Comunidad() {
 	return (
@@ -61,7 +66,7 @@ export default function Comunidad() {
 					</ul>
 				</div>
 
-				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/comunidad' text='Saber Supercomplejo - La comunidad' /></div>
+				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/comunidad' text='La comunidad - Comunidad del Saber Supercomplejo' /></div>
 
 			</ContentLayout>
 
