@@ -2,7 +2,27 @@ import PostsByCategory from "@/components/blog/posts-by-category";
 import Navbar from "@/components/navbar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { ROUTES } from "@/utils/constants";
+import { getCategories } from "@/utils/db";
+import { Tables } from "@/utils/supabase/types-supabase";
+import { Metadata, ResolvingMetadata } from "next";
 import Link from "next/link";
+
+type Props = {
+	params: { name: Tables<'categories'>['name'] }
+	searchParams: { [key: string]: string | string[] | undefined }
+}
+
+export async function generateMetadata(
+	{ params }: Props,
+	parent: ResolvingMetadata
+): Promise<Metadata> {
+
+	const name = params.name
+
+	return {
+		title: `Categoría: ${name} | Comunidad del Saber Supercomplejo`
+	}
+}
 
 export default function CategoryPage({ params: { name } }: { params: { name: string } }) {
 	return (

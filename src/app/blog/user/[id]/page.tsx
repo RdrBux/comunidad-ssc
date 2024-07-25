@@ -4,7 +4,31 @@ import Navbar from "@/components/navbar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { ROUTES } from "@/utils/constants";
 import { getUserById } from "@/utils/db";
+import { Tables } from "@/utils/supabase/types-supabase";
+import { Metadata, ResolvingMetadata } from "next";
 import Link from "next/link";
+
+type Props = {
+	params: { id: Tables<'profiles'>['id'] }
+	searchParams: { [key: string]: string | string[] | undefined }
+}
+
+export async function generateMetadata(
+	{ params }: Props,
+	parent: ResolvingMetadata
+): Promise<Metadata> {
+
+	const id = params.id
+
+	const { data, error } = await getUserById(id)
+	if (error || !data) return ({
+		title: 'Blog | Comunidad del Saber Supercomplejo'
+	})
+
+	return {
+		title: `Perfil de ${data.full_name} | Comunidad del Saber Supercomplejo`
+	}
+}
 
 export default async function ProfilePage({ params: { id } }: { params: { id: string } }) {
 	const { data, error } = await getUserById(id)

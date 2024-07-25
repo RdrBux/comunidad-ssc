@@ -26,7 +26,8 @@ export default function Navbar({ style }: Props) {
 				</ul>
 
 				<div className="flex gap-2">
-					<LangSelector style={style} />
+					{/* <LangSelector style={style} /> */}
+					<div className=""></div>
 					<NavBlog>
 						<NavUserMenu style={style} />
 					</NavBlog>

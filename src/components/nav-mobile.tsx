@@ -55,7 +55,7 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 							</li>
 						</ul>
 
-						<hr className="my-8" />
+						{/* <hr className="my-8" />
 
 						<h4 className="text-xl font-bold tracking-tight text-neutral-950 px-4">Idioma</h4>
 
@@ -72,7 +72,7 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 									Español
 								</Link>
 							</li>
-						</ul>
+						</ul> */}
 					</div>
 				</DrawerContent>
 			</Drawer>

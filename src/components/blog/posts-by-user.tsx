@@ -11,7 +11,7 @@ export default async function PostsByUser({ id }: { id: Tables<'profiles'>['id']
 
 	return (
 		<div className="mt-12">
-			<p className="font-medium text-neutral-600">{data.length} post<span className={`${data.length > 1 ? '' : 'hidden'}`}>s</span></p>
+			<p className="font-medium text-neutral-600">{data.length} {data.length === 1 ? 'publicación' : 'publicaciones'}</p>
 
 			<div className="mt-8 grid gap-6 lg:grid-cols-3">
 				{

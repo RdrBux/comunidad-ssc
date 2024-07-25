@@ -10,6 +10,29 @@ import { getPostById } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import SharePage from "@/components/share-page";
+import { Metadata, ResolvingMetadata } from "next";
+
+type Props = {
+	params: { id: Tables<'posts'>['id'] }
+	searchParams: { [key: string]: string | string[] | undefined }
+}
+
+export async function generateMetadata(
+	{ params }: Props,
+	parent: ResolvingMetadata
+): Promise<Metadata> {
+
+	const id = params.id
+
+	const { data, error } = await getPostById(id)
+	if (error || !data) return ({
+		title: 'Blog | Comunidad del Saber Supercomplejo'
+	})
+
+	return {
+		title: `${data.title} | Comunidad del Saber Supercomplejo`
+	}
+}
 
 export default async function BlogPage({ params }: { params: { id: Tables<'posts'>['id'] } }) {
 	const { data, error } = await getPostById(params.id)
@@ -68,7 +91,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 								<div className="flex gap-2 text-neutral-600">
 
 									{data.post_categories?.map((category) => (
-										<Link href={`/blog/category/${category.categories?.name}`} key={category.categories?.name} className="bg-neutral-200 hover:bg-neutral-300 duration-300 p-2 rounded text-sm font-medium capitalize">{category.categories?.name}</Link>
+										<Link key={category.categories!.name} href={`/blog/category/${category.categories!.name}`} className="bg-neutral-200 hover:bg-neutral-300 duration-300 p-2 rounded text-sm font-medium capitalize">{category.categories!.name}</Link>
 									))}
 								</div>
 							</div>
