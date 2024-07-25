@@ -8,7 +8,7 @@ export default function Community() {
 		<section className="bg-neutral-800">
 			<div className="container mx-auto px-4 lg:px-16 py-24 lg:py-32">
 				<div className="grid lg:grid-cols-2 gap-12 items-center">
-					<div className="lg:ml-20 2xl:ml-32 mx-24">
+					<div className="lg:ml-20 2xl:ml-32 mx-[96px]">
 						<ImgSSC />
 					</div>
 
