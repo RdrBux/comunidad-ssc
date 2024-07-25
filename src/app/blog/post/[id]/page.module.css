@@ -33,3 +33,11 @@
 .editor img {
 	@apply mt-8 rounded-md
 }
+
+.editor ol {
+	@apply list-disc mt-8 lg:text-lg ml-4
+}
+
+.editor li {
+	@apply mt-4
+}
