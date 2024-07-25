@@ -11,7 +11,7 @@ export default async function CommentsByUser({ id }: { id: Tables<'profiles'>['i
 
 	return (
 		<div className="mt-12 bg-neutral-100 rounded-md p-6 lg:px-10 max-w-2xl">
-			<h2 className="text-xl font-bold leading-none tracking-tight text-neutral-950">{data.length} comentario{data.length > 1 ? 's' : ''} en la comunidad</h2>
+			<h2 className="text-xl font-bold leading-none tracking-tight text-neutral-950">{data.length} {data.length === 1 ? 'comentario' : 'comentarios'} en la comunidad</h2>
 
 			{
 				data.map(comment => (
