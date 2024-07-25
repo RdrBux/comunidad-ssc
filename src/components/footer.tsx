@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "./svgs";
 import { MEDIA, ROUTES } from "@/utils/constants";
 import Newsletter from "./newsletter";
+import { sourceSerif } from "@/utils/fonts";
 
 export default function Footer() {
 	return (
@@ -10,7 +11,7 @@ export default function Footer() {
 			<div className="container mx-auto px-4 lg:px-16 py-16">
 				<div className="grid lg:grid-cols-3 border-2 rounded-md border-neutral-900">
 					<div className="p-8 lg:border-r-2 border-neutral-900 flex flex-col justify-evenly">
-						<div className="font-semibold tracking-tight leading-none text-[8vw] sm:text-5xl lg:text-2xl xl:text-3xl">COMUNIDAD <br /> DEL SABER <br /> SUPERCOMPLEJO</div>
+						<div className={`font-source tracking-tight leading-none text-[9.5vw] sm:text-6xl lg:text-3xl xl:text-4xl`}>Comunidad <br /> del Saber <br /> Supercomplejo</div>
 
 						<div className="hidden lg:flex gap-4 items-center">
 							<div className="w-12"><Logo /></div>
@@ -45,11 +46,11 @@ export default function Footer() {
 								</a>
 							</li>
 
-							<li>
+							{/* <li>
 								<a title="YouTube" className="border-2 rounded-md border-neutral-900 p-2 grid place-content-center w-fit group" aria-label="YouTube" href={MEDIA.YOUTUBE} target="_blank" rel="noopener noreferrer">
 									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:text-secondary-500 duration-300"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" /><path d="m10 15 5-3-5-3z" /></svg>
 								</a>
-							</li>
+							</li> */}
 
 							<li>
 								<a title="LinkedIn" className="border-2 rounded-md border-neutral-900 p-2 grid place-content-center w-fit group" aria-label="LinkedIn" href={MEDIA.LINKEDIN} target="_blank" rel="noopener noreferrer">
@@ -96,11 +97,11 @@ export default function Footer() {
 								</a>
 							</li>
 
-							<li>
+							{/* <li>
 								<a title="YouTube" className="border-2 rounded-md border-neutral-900 p-2 grid place-content-center w-fit group" aria-label="YouTube" href={MEDIA.YOUTUBE} target="_blank" rel="noopener noreferrer">
 									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:text-secondary-500 duration-300"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" /><path d="m10 15 5-3-5-3z" /></svg>
 								</a>
-							</li>
+							</li> */}
 
 							<li>
 								<a title="LinkedIn" className="border-2 rounded-md border-neutral-900 p-2 grid place-content-center w-fit group" aria-label="LinkedIn" href={MEDIA.LINKEDIN} target="_blank" rel="noopener noreferrer">

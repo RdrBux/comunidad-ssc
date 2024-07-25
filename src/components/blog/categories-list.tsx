@@ -1,4 +1,5 @@
 import { getCategoriesCount } from "@/utils/db"
+import { sourceSerif } from "@/utils/fonts"
 import Link from "next/link"
 
 export default async function CategoriesList() {
@@ -11,7 +12,7 @@ export default async function CategoriesList() {
 
 	return (
 		<section>
-			<h4 className="text-2xl tracking-tight font-bold leading-none">Explorar categorías</h4>
+			<h4 className={`font-source text-3xl tracking-tight font-bold leading-none`}>Explorar categorías</h4>
 			<div className="flex gap-2 flex-wrap mt-6">
 
 				{

@@ -10,9 +10,9 @@ export default function Blog() {
 		<div>
 			<Navbar style="light" />
 			<main className="container mx-auto px-4 lg:px-16 py-24 text-neutral-950">
-				<HighlightedPost />
+				{/* <HighlightedPost /> */}
 
-				<div className="mt-16 grid lg:grid-cols-3 gap-16">
+				<div className="!!!mt-16 mt-4 grid lg:grid-cols-3 gap-16">
 					<PostsBlogHome />
 
 					<div className="flex flex-col gap-10">
@@ -22,9 +22,9 @@ export default function Blog() {
 
 						<CategoriesList />
 
-						<hr />
+						{/* <hr />
 
-						<RecentComments />
+						<RecentComments /> */}
 					</div>
 
 				</div>

@@ -1,5 +1,6 @@
 import { formatDate } from "@/lib/utils"
 import { getRecentPosts } from "@/utils/db"
+import { sourceSerif } from "@/utils/fonts"
 import { Tables } from "@/utils/supabase/types-supabase"
 import Link from "next/link"
 
@@ -11,7 +12,7 @@ export default async function RecentPosts({ id }: { id: Tables<'posts'>['id'] })
 
 	return (
 		<div>
-			<h4 className="text-2xl tracking-tight font-bold leading-none">Publicaciones recientes</h4>
+			<h4 className={`font-source text-2xl tracking-tight font-bold leading-none`}>Publicaciones recientes</h4>
 
 			{
 				data.map(post => (

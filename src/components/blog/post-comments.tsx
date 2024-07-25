@@ -6,6 +6,7 @@ import { formatDateWithTime, sortComments } from "@/lib/utils";
 import LoginButton from "./login-button";
 import AnswerCommentButton from "./answer-comment-button";
 import DeleteCommentButton from "./delete-comment-button";
+import { sourceSerif } from "@/utils/fonts";
 
 export default async function PostComments({ postId }: { postId: Tables<'posts'>['id'] }) {
 	const { data: commentsData, error } = await getCommentsByPostId(postId);
@@ -47,7 +48,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 			}
 
 			<div className="mt-4">
-				<h5 className="font-bold text-3xl tracking-tight">Deja un comentario</h5>
+				<h5 className={`font-source font-bold text-3xl tracking-tight`}>Deja un comentario</h5>
 
 				{
 					user && <CommentBox postId={postId} parentId={null} answerToId={null} userImg={user.avatar_url} />
@@ -56,7 +57,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 				{
 					!user && (
 						<div className="my-4 mx-2">
-							<p className="mb-4">Inicia sesión para comentar</p>
+							<p className="mt-8 mb-4">Inicia sesión para comentar</p>
 							<LoginButton style="dark" />
 						</div>
 					)

@@ -20,6 +20,7 @@ const config = {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        source: ['var(--font-source)', 'serif']
       },
       colors: {
 				'primary': { //#142e29

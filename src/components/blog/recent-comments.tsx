@@ -1,4 +1,5 @@
 import { getLastComments } from "@/utils/db"
+import { sourceSerif } from "@/utils/fonts";
 import Link from "next/link";
 
 export default async function RecentComments() {
@@ -9,7 +10,7 @@ export default async function RecentComments() {
 
 	return (
 		<section>
-			<h4 className="text-2xl tracking-tight font-bold leading-none">Comentarios recientes</h4>
+			<h4 className={`font-source text-3xl tracking-tight font-bold leading-none`}>Comentarios recientes</h4>
 			<div className="flex flex-col gap-3 mt-6 text-neutral-600 text-sm">
 
 				{
