@@ -6,8 +6,7 @@ import { sourceSerif } from "@/utils/fonts";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saber Supercomplejo",
-  description: "Saber Supercomplejo",
+  title: "Comunidad del Saber Supercomplejo",
 };
 
 export default function RootLayout({

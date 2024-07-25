@@ -1,5 +1,3 @@
-import { sourceSerif } from "@/utils/fonts";
-
 export default function Team() {
 	return (
 		<div className="mt-16">

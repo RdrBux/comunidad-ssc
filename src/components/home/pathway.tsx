@@ -1,7 +1,6 @@
 import { ROUTES } from "@/utils/constants";
 import ButtonSection from "../button-section";
 import { ImgCubes } from "../svgs";
-import { sourceSerif } from "@/utils/fonts";
 
 export default function Pathway() {
 	return (

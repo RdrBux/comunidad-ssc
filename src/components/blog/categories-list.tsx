@@ -1,5 +1,4 @@
 import { getCategoriesCount } from "@/utils/db"
-import { sourceSerif } from "@/utils/fonts"
 import Link from "next/link"
 
 export default async function CategoriesList() {

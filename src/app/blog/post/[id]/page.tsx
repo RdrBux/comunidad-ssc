@@ -1,7 +1,5 @@
 import Navbar from "@/components/navbar";
 import { ROUTES } from "@/utils/constants";
-import { createClient } from "@/utils/supabase/server"
-import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import styles from "./page.module.css";
 import { formatDate } from "@/lib/utils";
@@ -11,7 +9,6 @@ import PostComments from "@/components/blog/post-comments";
 import { getPostById } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
-import { sourceSerif } from "@/utils/fonts";
 
 export default async function BlogPage({ params }: { params: { id: Tables<'posts'>['id'] } }) {
 	const { data, error } = await getPostById(params.id)

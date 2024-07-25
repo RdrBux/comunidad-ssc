@@ -5,7 +5,6 @@ import SharePage from "@/components/share-page";
 import { ImgSSC } from "@/components/svgs";
 import Team from "@/components/team";
 import { ROUTES } from "@/utils/constants";
-import { sourceSerif } from "@/utils/fonts";
 import Link from "next/link";
 
 export default function Comunidad() {

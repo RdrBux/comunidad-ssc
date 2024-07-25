@@ -1,6 +1,5 @@
 import { formatDate } from "@/lib/utils"
 import { getRecentPosts } from "@/utils/db"
-import { sourceSerif } from "@/utils/fonts"
 import { Tables } from "@/utils/supabase/types-supabase"
 import Link from "next/link"
 

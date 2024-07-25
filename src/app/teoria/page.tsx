@@ -4,7 +4,6 @@ import NextRead from "@/components/next-read";
 import SharePage from "@/components/share-page";
 import { ImgNet } from "@/components/svgs";
 import { ROUTES } from "@/utils/constants";
-import { sourceSerif } from "@/utils/fonts";
 import Link from "next/link";
 
 export default function Teoria() {

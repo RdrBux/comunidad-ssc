@@ -1,7 +1,6 @@
 import { ROUTES } from "@/utils/constants";
 import ButtonSection from "../button-section";
 import { ImgNet } from "../svgs";
-import { sourceSerif } from "@/utils/fonts";
 
 export default function Theory() {
 
@@ -45,7 +44,7 @@ export default function Theory() {
 						<h3 className={`font-source text-[2.75rem] leading-none lg:text-6xl text-tertiary-50 tracking-tight font-medium mt-4`}>¿Qué es el Saber Supercomplejo?</h3>
 						<p className="mt-8 lg:text-lg font-light text-neutral-300">Se trata de una propuesta paradigmática integradora y superadora del Pensamiento Complejo y de las Ciencias de la Complejidad, redefiniendo su objeto de estudio, es decir, los sistemas complejos, en la interrelación de sus componentes fundamentales: los flujos de energía, las morfologías estructurales y la conectividad temporal. </p>
 						<p className="mt-4 lg:text-lg font-light text-neutral-300">El SSC propone una reconfiguración de suprasistemas (micropartículas, macroscópico y biológico) que se superponen y articulan desde la supercomplejidad del universo y de la vida. También postula una metodología de descripción, predicción e intervención que construye y vincula mapas y algoritmos como herramientas para descubrir, entender y manipular las dinámicas y estructuras de sistemas complejos.</p>
-						<ButtonSection route={ROUTES.TEORIA} text="Leer la teoria" />
+						<ButtonSection route={ROUTES.TEORIA} text="Leer la teoría" />
 					</div>
 
 				</div>

@@ -1,4 +1,3 @@
-import { sourceSerif } from "@/utils/fonts";
 import { BgHero } from "../svgs";
 
 export default function Hero() {

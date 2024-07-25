@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Logo } from "./svgs";
 import { MEDIA, ROUTES } from "@/utils/constants";
 import Newsletter from "./newsletter";
-import { sourceSerif } from "@/utils/fonts";
 
 export default function Footer() {
 	return (

@@ -6,7 +6,6 @@ import { formatDateWithTime, sortComments } from "@/lib/utils";
 import LoginButton from "./login-button";
 import AnswerCommentButton from "./answer-comment-button";
 import DeleteCommentButton from "./delete-comment-button";
-import { sourceSerif } from "@/utils/fonts";
 
 export default async function PostComments({ postId }: { postId: Tables<'posts'>['id'] }) {
 	const { data: commentsData, error } = await getCommentsByPostId(postId);
