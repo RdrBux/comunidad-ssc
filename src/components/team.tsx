@@ -1,9 +1,14 @@
+import Image from 'next/image';
+import Juan from '../assets/juan.jpg';
+import Facundo from '../assets/facundo.jpg';
+
 export default function Team() {
 	return (
 		<div className="mt-16">
 			<div className="p-6 pb-8 border rounded-md shadow">
 				<div className="flex items-center gap-4">
-					<div className="w-24 h-24 shrink-0 rounded-md bg-secondary-300">
+					<div className="w-20 h-20 shrink-0 overflow-hidden rounded-md bg-secondary-300">
+						<Image src={Juan} alt='Juan Pedro Rodríguez' width={400} height={400} />
 					</div>
 					<div>
 						<p className={`font-source text-xl font-bold tracking-tight text-neutral-950`}>Juan Pedro Rodríguez</p>
@@ -20,7 +25,8 @@ export default function Team() {
 
 			<div className="mt-8 p-6 pb-8 border rounded-md shadow">
 				<div className="flex items-center gap-4">
-					<div className="w-24 h-24 shrink-0 rounded-md bg-secondary-300">
+					<div className="w-20 h-20 overflow-hidden shrink-0 rounded-md bg-secondary-300">
+						<Image src={Facundo} alt='Facundo Osuna' width={400} height={400} />
 					</div>
 					<div>
 						<p className={`font-source text-xl font-bold tracking-tight text-neutral-950`}>Facundo Osuna</p>
