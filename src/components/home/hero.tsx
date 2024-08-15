@@ -15,7 +15,7 @@ export default function Hero() {
 			</div>
 			<div className="container flex flex-col justify-center gap-8 mx-auto px-4 lg:px-16 py-20 lg:py-40 min-h-[80vh] relative">
 				<div className="relative z-10">
-					<h1 className={`${isInstagram ? 'text-[8vw]' : 'text-[12.25vw]'} font-source text-[12.25vw] lg:text-[5.5rem] tracking-tighter font-medium leading-[0.9]`}>
+					<h1 className={`${isInstagram ? 'text-[9vw]' : 'text-[12.25vw]'} font-source text-[12.25vw] lg:text-[5.5rem] tracking-tighter font-medium leading-[0.9]`}>
 						Comunidad <br /> del Saber <br /> Supercomplejo
 					</h1>
 					<div className="border-l-8 border-neutral-900/40 pl-4 mt-12">

@@ -2,16 +2,19 @@ import Link from "next/link";
 import { Logo } from "./svgs";
 import { MEDIA, ROUTES } from "@/utils/constants";
 import Newsletter from "./newsletter";
+import { headers } from "next/headers";
 
 export default function Footer() {
+	const headersList = headers();
+	const isInstagram = headersList.get('x-is-instagram') === 'true';
+
 	return (
 
 		<section className="bg-neutral-950 text-tertiary-50">
 			<div className="container mx-auto px-4 lg:px-16 py-16">
 				<div className="grid lg:grid-cols-3 border-2 rounded-md border-neutral-900">
 					<div className="p-8 lg:border-r-2 border-neutral-900 flex flex-col justify-evenly">
-						<div className={`font-source tracking-tight leading-none text-[9.5vw] sm:text-6xl lg:text-3xl xl:text-4xl`}>Comunidad <br /> del Saber <br /> Supercomplejo</div>
-
+						<div className={`${isInstagram ? 'text-[8vw]' : 'text-[9.5vw]'} font-source tracking-tight leading-none sm:text-6xl lg:text-3xl xl:text-4xl`}>Comunidad <br /> del Saber <br /> Supercomplejo</div>
 						<div className="hidden lg:flex gap-4 items-center">
 							<div className="w-12"><Logo /></div>
 							<div className="text-neutral-300">

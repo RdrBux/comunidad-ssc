@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 
-html {
-	zoom: 1;
-	-webkit-text-size-adjust: 100%;
-}
-
 /* SVG ANIMATIONS */
 .front-box {
 	animation: front-move 5s ease-out forwards infinite;
