@@ -3,7 +3,18 @@ import { updateSession } from './utils/supabase/middleware'
 
 
 export async function middleware(request: NextRequest) {
-  return await updateSession(request)
+  const userAgent = request.headers.get('user-agent') || '';
+  const isInstagram = /Instagram/i.test(userAgent);
+
+
+  const response = await updateSession(request);
+
+  // Set custom header if Instagram is detected
+  if (isInstagram) {
+      response.headers.set('X-Is-Instagram', 'true');
+  }
+
+  return response;
 }
 
 export const config = {
