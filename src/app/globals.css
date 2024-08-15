@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+html {
+	font-size: 16px;
+}
+
 /* SVG ANIMATIONS */
 .front-box {
 	animation: front-move 5s ease-out forwards infinite;
