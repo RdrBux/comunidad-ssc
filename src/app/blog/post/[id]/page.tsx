@@ -47,7 +47,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 				<div className="relative flex flex-col overflow-hidden h-[80vh] lg:h-screen">
 					<img className="duration-300 absolute -z-10 inset-0 h-full w-full brightness-[0.25] object-cover" src={data.img_url} alt={data.title} />
 					<div className="container mx-auto px-4 lg:px-16 h-full">
-						<div className="text-tertiary-50 max-w-2xl py-16 flex flex-col justify-end h-full grow">
+						<div className="text-tertiary-50 max-w-3xl py-16 flex flex-col justify-end h-full grow">
 							<div className="mb-auto mt-8">
 								<Breadcrumb>
 									<BreadcrumbList>

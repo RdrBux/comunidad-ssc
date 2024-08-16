@@ -1,7 +1,6 @@
 import { formatDate } from "@/lib/utils"
 import { getPostsBlogHome } from "@/utils/db"
 import Link from "next/link"
-import ButtonSection from "../button-section"
 import { Logo } from "../svgs"
 
 export default async function Articles() {

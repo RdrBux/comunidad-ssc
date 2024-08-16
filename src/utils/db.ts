@@ -48,6 +48,7 @@ export async function getRecentPosts(id: Tables<'posts'>['id']) {
       profiles (full_name)
     `)
 		.neq('id', id)
+		.order('created_at', { ascending: false })
     .limit(5);
 
 	if (error) console.error(error)
@@ -95,7 +96,8 @@ export async function getPostsBlogHome() {
         categories (name)
       )
     `)
-    .neq('highlighted', true);
+    .neq('highlighted', true)
+		.order('created_at', { ascending: false })
 
 		if (error) console.error(error)
 
