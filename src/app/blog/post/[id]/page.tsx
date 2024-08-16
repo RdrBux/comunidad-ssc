@@ -67,7 +67,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 
 							</div>
 
-							<div className="text-tertiary-50/75 font-medium flex flex-col lg:flex-row lg:items-center gap-x-2"><div className="flex items-center gap-2">Por <Link className="flex items-center gap-2" href={`/blog/user/${data.user_id}`}><div className="w-8 aspect-square bg-secondary-200 rounded-full"></div> <span className="text-tertiary-50">{data.profiles?.full_name}</span></Link> <span className="hidden lg:inline">•</span></div><div>{formatDate(data.created_at)}</div></div>
+							<div className="text-tertiary-50/75 font-medium flex flex-col lg:flex-row lg:items-center gap-x-2"><div className="flex items-center gap-2">Por <Link className="flex items-center gap-2" href={`/blog/user/${data.user_id}`}><div className="w-8 aspect-square bg-secondary-200 rounded-full"><img className="w-8 h-8 rounded-full" src={data.profiles!.avatar_url} alt={data.profiles!.full_name} /></div> <span className="text-tertiary-50">{data.profiles?.full_name}</span></Link> <span className="hidden lg:inline">•</span></div><div>{formatDate(data.created_at)}</div></div>
 							<h1 className={`font-source font-semibold text-4xl lg:text-6xl tracking-tight mt-6`}>{data.title}</h1>
 							<p className="hidden md:block mt-6 lg:text-lg font-medium">{data.description}</p>
 						</div>
