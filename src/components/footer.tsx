@@ -3,8 +3,12 @@ import { Logo } from "./svgs";
 import { MEDIA, ROUTES } from "@/utils/constants";
 import Newsletter from "./newsletter";
 import { headers } from "next/headers";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+	const t = useTranslations('home.footer')
+	const tNav = useTranslations('navigation')
+
 	const headersList = headers();
 	const isInstagram = headersList.get('x-is-instagram') === 'true';
 
@@ -14,23 +18,23 @@ export default function Footer() {
 			<div className="container mx-auto px-4 lg:px-16 py-16">
 				<div className="grid lg:grid-cols-3 border-2 rounded-md border-neutral-900">
 					<div className="p-8 lg:border-r-2 border-neutral-900 flex flex-col justify-evenly">
-						<div className={`${isInstagram ? 'text-[8vw]' : 'text-[9.5vw]'} font-source tracking-tight leading-none sm:text-6xl lg:text-3xl xl:text-4xl`}>Comunidad <br /> del Saber <br /> Supercomplejo</div>
+						<div className={`${isInstagram ? 'text-[8vw]' : 'text-[9.5vw]'} font-source tracking-tight leading-none sm:text-6xl lg:text-3xl xl:text-4xl`}>{t('title.1')} <br /> {t('title.2')} <br /> {t('title.3')}</div>
 						<div className="hidden lg:flex gap-4 items-center">
 							<div className="w-12"><Logo /></div>
 							<div className="text-neutral-300">
 								<p>© 2024</p>
-								<p>Todos los derechos reservados</p>
+								<p>{t('copyright')}</p>
 							</div>
 						</div>
 					</div>
 
 					<div className="p-8 xl:px-12 flex flex-col gap-8 justify-evenly">
 						<ul className="grid grid-cols-2 gap-2">
-							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.INICIO}>Inicio</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.TEORIA}>La teoría</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.COMUNIDAD}>La comunidad</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.CAMINO}>El camino</Link></li>
-							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.BLOG}>Blog</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.INICIO}>{tNav('home')}</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.TEORIA}>{tNav('teoria')}</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.COMUNIDAD}>{tNav('comunidad')}</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.CAMINO}>{tNav('camino')}</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.BLOG}>{tNav('blog')}</Link></li>
 						</ul>
 
 						<a className="hidden lg:block underline hover:text-secondary-500 duration-300" href="mailto:sabersupercomplejo@gmail.com">sabersupercomplejo@gmail.com</a>
@@ -64,25 +68,6 @@ export default function Footer() {
 
 					<div className="p-8">
 						<Newsletter />
-						{/* <h3 className="text-xl font-medium">ENVÍA UN MENSAJE</h3>
-						<form className="grid gap-4 mt-4">
-							<div className="relative">
-								<input type="text" id="name" className="block rounded-t-md px-2.5 pb-2.5 pt-5 w-full text-sm bg-neutral-500/5 border-0 border-b-2 appearance-none text-tertiary-50 border-neutral-700 focus:border-secondary-500 focus:outline-none focus:ring-0 peer" placeholder=" " required />
-								<label htmlFor="name" className="absolute text-sm text-neutral-400 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-secondary-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto">Nombre completo</label>
-							</div>
-
-							<div className="relative">
-								<input type="email" id="email" className="block rounded-t-md px-2.5 pb-2.5 pt-5 w-full text-sm bg-neutral-500/5 border-0 border-b-2 appearance-none text-tertiary-50 border-neutral-700 focus:border-secondary-500 focus:outline-none focus:ring-0 peer" placeholder=" " required />
-								<label htmlFor="email" className="absolute text-sm text-neutral-400 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-secondary-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Correo electrónico</label>
-							</div>
-
-							<div className="relative">
-								<textarea id="message" rows={3} className="block rounded-t-md px-2.5 pb-2.5 pt-5 w-full text-sm bg-neutral-500/5 border-0 border-b-2 appearance-none text-tertiary-50 border-neutral-700 focus:border-secondary-500 focus:outline-none focus:ring-0 peer" placeholder="" required ></textarea>
-								<label htmlFor="message" className="absolute text-sm text-neutral-400 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-secondary-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Mensaje</label>
-							</div>
-
-							<button className="whitespace-nowrap rounded bg-secondary-400 text-neutral-950 px-6 font-medium py-2 w-full hover:bg-secondary-300 duration-300">Enviar</button>
-						</form> */}
 
 						<a className="block lg:hidden underline mt-16 mb-4 hover:text-secondary-500 duration-300" href="mailto:sabersupercomplejo@gmail.com">sabersupercomplejo@gmail.com</a>
 
@@ -116,7 +101,7 @@ export default function Footer() {
 							<div className="w-12"><Logo /></div>
 							<div className="text-neutral-300">
 								<p>© 2024</p>
-								<p>Todos los derechos reservados</p>
+								<p>{t('copyright')}</p>
 							</div>
 						</div>
 					</div>

@@ -2,10 +2,13 @@ import { ROUTES } from "@/utils/constants";
 import ButtonSection from "../button-section";
 import { ImgNet } from "../svgs";
 import { headers } from "next/headers";
+import { useTranslations } from "next-intl";
 
 export default function Theory() {
 	const headersList = headers();
 	const isInstagram = headersList.get('x-is-instagram') === 'true';
+
+	const t = useTranslations('home.theory')
 
 	return (
 		<section className="bg-neutral-900 relative">
@@ -43,11 +46,11 @@ export default function Theory() {
 					</div>
 
 					<div className="lg:-order-1 mt-10 lg:mt-0">
-						<h2 className="font-medium text-sm lg:text-base text-[#1AAD81]">LA TEORÍA</h2>
-						<h3 className={`${isInstagram ? 'text-4xl' : 'text-[2.75rem]'} font-source leading-none lg:text-6xl text-tertiary-50 tracking-tight font-medium mt-4`}>¿Qué es el Saber Supercomplejo?</h3>
-						<p className="mt-8 lg:text-lg font-light text-neutral-300">Se trata de una propuesta paradigmática integradora y superadora del Pensamiento Complejo y de las Ciencias de la Complejidad, redefiniendo su objeto de estudio, es decir, los sistemas complejos, en la interrelación de sus componentes fundamentales: los flujos de energía, las morfologías estructurales y la conectividad temporal. </p>
-						<p className="mt-4 lg:text-lg font-light text-neutral-300">El SSC propone una reconfiguración de suprasistemas (micropartículas, macroscópico y biológico) que se superponen y articulan desde la supercomplejidad del universo y de la vida. También postula una metodología de descripción, predicción e intervención que construye y vincula mapas y algoritmos como herramientas para descubrir, entender y manipular las dinámicas y estructuras de sistemas complejos.</p>
-						<ButtonSection route={ROUTES.TEORIA} text="Leer la teoría" />
+						<h2 className="font-medium text-sm lg:text-base text-[#1AAD81]">{t('category')}</h2>
+						<h3 className={`${isInstagram ? 'text-4xl' : 'text-[2.75rem]'} font-source leading-none lg:text-6xl text-tertiary-50 tracking-tight font-medium mt-4`}>{t('title')}</h3>
+						<p className="mt-8 lg:text-lg font-light text-neutral-300">{t('paragraph-first')}</p>
+						<p className="mt-4 lg:text-lg font-light text-neutral-300">{t('paragraph-second')}</p>
+						<ButtonSection route={ROUTES.TEORIA} text={t('button')} />
 					</div>
 
 				</div>

@@ -1,0 +1,342 @@
+{
+	"name": "Community of Supercomplex Knowledge",
+	"navigation": {
+		"home": "Home",
+		"teoria": "The theory",
+		"comunidad": "The community",
+		"camino": "The path",
+		"blog": "Blog",
+		"menu": "Menu",
+		"navigation": "Navigation",
+		"lang": "Language"
+	},
+	"sections": {
+		"read-next": "Read next"
+	},
+	"home": {
+		"hero": {
+			"title": {
+				"1": "Community of",
+				"2": "Supercomplex",
+				"3": "Knowledge"
+			},
+			"description": "“A new philosophical, scientific, and technological paradigm for the complexity of the universe and life”"
+		},
+		"theory": {
+			"category": "THE THEORY",
+			"title": "What is Supercomplex Knowledge?",
+			"paragraph-first": "It is an integrative and surpassing paradigmatic proposal of Complex Thought and Complexity Sciences, redefining its object of study —complex systems— through the interrelationship of their fundamental components: energy flows, structural morphologies, and temporal connectivity.",
+			"paragraph-second": "The SK proposes a reconfiguration of supersystems (microparticles, macroscopic, and biological) that overlap and interconnect from the supercomplexity of the universe and life. It also postulates a methodology for describing, predicting, and intervening by building and linking maps and algorithms as tools to discover, understand, and manipulate the dynamics and structures of complex systems.",
+			"button": "Read the theory"
+		},
+		"community": {
+			"category": "THE COMMUNITY",
+			"title": "What is the SK Community, what are its objectives, and what benefits do its members have?",
+			"paragraph-first": "We are a research and development team aiming to establish this paradigm as an alternative and integrative one, generating comprehensive and multidimensional understandings of reality and creating superior intervention strategies to address emerging social and planetary challenges.",
+			"paragraph-second": "The Intervention and Development Program is designed to meet the growth and enhancement demands of government administrations, businesses, and institutions interested in improving the fulfillment of their functions and objectives.",
+			"button": "Read about the community"
+		},
+		"pathway": {
+			"category": "THE PATH",
+			"title": "What actions enable our projects, our community, and its members to grow?",
+			"paragraph": "It is about building concrete scenarios for the growth of the theory and intervention proposals from this new paradigm. A better future is possible, and Supercomplex Knowledge aims to be present in developing understandings and alternative actions to enhance institutional, personal, and professional development. Through this, we provide concrete solutions to major social and planetary challenges.",
+			"button": "Read about the path"
+		},
+		"articles": {
+			"title": "Last articles from the Blog"
+		},
+		"footer": {
+			"title": {
+				"1": "Cummunity of",
+				"2": "Supercomplex",
+				"3": "Knowledge"
+			},
+			"copyright": "All rights reserved",
+			"newsletter": {
+				"title": "JOIN THE COMMUNITY",
+				"description": "Subscribe for free to our site and gain access to exclusive content, news, special events, and professional development opportunities.",
+				"name": "Full Name",
+				"email": "Email Address",
+				"button": "Submit",
+				"thanks": "Thanks for subscribing"
+			}
+		}
+	},
+	"theory": {
+		"section-first": {
+			"paragraph-first": "Many thinkers agree that the 21st century is the “century of complexity.” However, the concept of “complexity” is polysemous, multivocal, multidimensional, and multifaceted. There is some consensus on the etymology of “complex” as “that which is united and intertwined.” A network of systems embedded and connected to each other without gaps.",
+			"paragraph-second": "It was in the mid-20th century that Complexity Theories began to emerge as an alternative to monocausal, simplified, and deterministic explanations, anchored in the guiding principles of mechanism, reductionism, and empiricism that predominated in the science of that time.",
+			"paragraph-third": "Complex Thought and Complexity Sciences emerged and consolidated as the two most representative approaches. These approaches are sometimes perceived as opposed to each other, with significant tensions between them, arising from differences in their methodologies, assumptions, and areas of emphasis."
+		},
+		"section-second": {
+			"title": "Our Proposal: Supercomplex Knowledge (SK)",
+			"paragraph-first": "The goal of our research and work is to develop a unifying and surpassing proposal to address the vast mosaic that has made Complexity Theories an edifice with many disconnected theories, difficult to access and rarely applied to social and human issues. ",
+			"paragraph-first-strong": "Supercomplex Knowledge (SK) draws from the rich roots of Complex Thought and Complexity Sciences, as well as from the preexisting knowledge upon which the initial proposals were based, and from current knowledge that strengthens and energizes new and superior perspectives."
+		},
+		"object": {
+				"title": "Object of Study",
+				"content": "Supercomplex Knowledge focuses on complex systems, proposing a new foundational gnoseology (complex constructivism) and a reconfiguration of the components of complex systems (energy flows, structural morphologies, and temporal connectivity in interaction). This articulates a comprehensive taxonomy of macrosystems—microparticles, macroscopic, and biological—with their respective overlaps, generating truly incredible and often overlooked behaviors. It also suggests a reinterpretation of space and time from a supercomplexity perspective; a methodology of description that integrates mathematical, computational, and conceptual elements. The circularity between theory and action is emphasized, with a focus on the construction of maps and algorithms using proprietary software as a tool for intervention and improvement of institutions and planetary issues."
+			},
+			"principles": {
+				"title": "Core Principles of the Supercomplex Knowledge Proposal",
+				"bullets": {
+					"1": "A redefinition of complex systems as an object of study. It cannot be ignored that Artificial Intelligence, Data Science, and Deep Learning have revolutionized and deepened the modeling and understanding of complex systems. Likewise, the development of advanced instruments such as sensors and specialized software is increasingly facilitating this task.",
+					"2": "A novel proposal on the components of complex systems: energy flows, structural morphologies, and temporal connectivity in interaction.",
+					"3": "A selection of events, such as cosmic inflation, the appearance of cosmic objects, and the emergence of life, as generators of different levels of complexity and incredible complex behaviors.",
+					"4": "A proposed taxonomy of macrosystems (microparticles, macroscopic, and biological), complex systems and subsystems derived from them, and a model of dynamic triple overlapping among these macrosystems, demonstrating that there is no arrow of complexity.",
+					"5": "A methodology of description, prediction, and intervention that builds and links maps and algorithms as tools to discover, understand, and manipulate the dynamics and structures of complex systems, presenting an intervention and development program along with associated software to monitor and potentially improve concrete complex systems with applications to all major social and planetary issues."
+				}
+			}
+	},
+	"community": {
+		"about": {
+			"title": "Who We Are",
+			"paragraph-first": "We are a community dedicated to researching and developing the Supercomplex Knowledge paradigm as a powerful tool to understand and transform the multidimensional reality that surrounds us.",
+			"paragraph-second": "Our Assistance and Development Program is designed to address the growth and enhancement needs of government administrations, businesses, and institutions interested in improving the fulfillment of their functions and objectives. The implementation possibilities of the Program are numerous, such as: natural resource protection systems; discovery of new chemical elements and their combinations; astronomical and climatological development; design of alternative energy sources; addressing social issues such as the development of health, education, and justice systems; strategies to combat malnutrition, diseases, corruption, or drug trafficking; enhancement of production and sales systems in industrial and commercial institutions.",
+			"paragraph-third": "This proposal arises after years of work and study, driven by the desire to offer an integrative and surpassing theory of Complex Thought, Complexity Sciences, and other related approaches, allowing not only theoretical development but also practical and methodological application."
+		},
+		"members": {
+			"director": {
+				"name": "Juan Pedro Rodríguez",
+				"role": "Director of the Supercomplex Knowledge Community",
+				"description": {
+					"paragraph-first": "He holds a Ph.D. in Education and is a full professor at UCSF and UCA (Argentina).",
+					"paragraph-second": "He participated in the research team on “The relationship between order and disorder in deterministic chaos theory and in the theory of the implicate order: convergences and divergences.”",
+					"paragraph-third": "He is an author of books and articles and a presenter at international conferences, collaborating with European and American universities."
+				}
+			},
+			"co-director": {
+				"name": "Facundo Osuna",
+				"role": "Co-director of the Supercomplex Knowledge Community",
+				"description": {
+					"paragraph-first": "He is an independent lawyer with experience in the third sector.",
+					"paragraph-second": "Master in Constitutional Theory and Human Rights"
+				}
+			}
+		},
+		"mission": {
+			"title": "Mission",
+			"description": "To research, develop, and promote Supercomplex Knowledge as an integrative and surpassing alternative to Complex Thought and Complexity Sciences. We aim to generate comprehensive understandings and effective intervention strategies to address various issues in institutional, organizational, and social contexts."
+		},
+		"vision": {
+			"title": "Vision",
+			"description": "To expand the proposal of Supercomplex Knowledge and its ability to offer solutions in different areas of social praxis. We aspire to become a national and international reference, based on an original proposal open to integrating new perspectives. A better future is possible, and Supercomplex Knowledge aims to be present in developing action tools to respond to social and planetary challenges."
+		},
+		"values": {
+			"title": "Values",
+			"bullets": {
+				"1": {
+					"name": "Freedom of Thought",
+					"description": "We encourage the diversity of ideas to develop deep and complex understandings."
+				},
+				"2": {
+					"name": "Teamwork",
+					"description": "We believe in multidisciplinary collaboration as key to advancing Supercomplex Knowledge."
+				},
+				"3": {
+					"name": "Conflict Resolution",
+					"description": "We develop methodologies to address complex conflicts constructively."
+				},
+				"4": {
+					"name": "Transparency",
+					"description": "We maintain open and honest communication with all our members and collaborators."
+				}
+			}
+		},
+		"benefits-members": {
+			"title": "What We Offer to Our Members",
+			"bullets": {
+				"1": {
+					"name": "Active Participation",
+					"description": "Become part of the SK research and dissemination team."
+				},
+				"2": {
+					"name": "Professional Development",
+					"description": "Opportunities to be developers in the “Supercomplex Program”."
+				},
+				"3": {
+					"name": "Continuous Training",
+					"description": "Ongoing training with an emphasis on the member's professional or occupational field."
+				},
+				"4": {
+					"name": "Academic Recognition",
+					"description": "Certifications and recognition for belonging to the community."
+				},
+				"5": {
+					"name": "Publications",
+					"description": "Opportunity to publish books under our editorial label and articles on our website."
+				},
+				"6": {
+					"name": "Events",
+					"description": "Organization of congresses and work meetings with related institutions."
+				},
+				"7": {
+					"name": "Team Building",
+					"description": "Participation in integration and team development camps."
+				}
+			}
+		},
+		"benefits-institutions": {
+			"title": "What We Offer to Institutions",
+			"bullets": {
+				"1": {
+					"name": "Intervention Programs",
+					"description": "Implementation of the “Supercomplex Program” with the “Supercomplex Systems Developer” software."
+				},
+				"2": {
+					"name": "Training",
+					"description": "Specific courses for professionals and entrepreneurs on SK, adapted to various areas and challenges."
+				}
+			}
+		}
+	},
+	"pathway": {
+		"title": "Schedule of Events for This Year",
+		"2024": {
+			"july": {
+				"title": "July 2024",
+				"bullets": {
+					"1": {
+						"name": "Community Launch",
+						"description": "The Community of Supercomplex Knowledge is a research and development team whose goal is to establish this paradigm as an alternative and integrative approach, generating comprehensive and multidimensional understandings of reality and superior intervention strategies for emerging social and planetary challenges. The launch includes a presentation of the Intervention and Development Program (“SuperComplex Program”) and the software “SuperComplex Systems Developer”, designed to analyze and intervene in highly complex systems."
+					},
+					"2": {
+						"name": "Book Presentation",
+						"description": "This book represents our first public appearance. It aims to revolutionize the current landscape of science, philosophy, and technology. Supercomplex Knowledge represents the construction of a paradigm that seeks to integrate and surpass Complex Thought and Complexity Sciences, beginning with the redefinition of its object of study, proposing a new foundational gnoseology (complex constructivism) and a reconfiguration of the components of complex systems (energy flows, structural morphologies, and temporal connectivity in interaction). This includes a complete taxonomy of macrosystems—microparticles, macroscopic, and biological—with their respective overlaps, generating truly incredible and often overlooked behaviors. It also proposes a reinterpretation of space and time from a supercomplex perspective; a methodology of description that integrates mathematical, computational, and conceptual elements. Additionally, it suggests a revision of current anthropological categories, proposing the emergence of “Homo Supercomplexus” in this new era of the Anthropocene and Technocene."
+					}
+				}
+			},
+			"october": {
+				"title": "October 2024",
+				"bullets": {
+					"1": {
+						"name": "Course: “Decoding Complexity from Supercomplex Knowledge”",
+						"description": "This course will consist of four live online sessions, each lasting two hours, with limited slots, plus two additional optional sessions for questions, contributions, or consultations about the publication. The course includes materials, and members of the Community of Supercomplex Knowledge will receive a discount. Certificates of attendance will be provided for this course, and optional certification of completion (80 hours) will be available for those who submit an article, which will result from the participant's interaction with the organizers and will be published on our website."
+					},
+					"2": {
+						"name": "Our Second Book",
+						"description": "Work will begin on our second book."
+					}
+				}
+			},
+			"november": {
+				"title": "November 2024",
+				"bullets": {
+					"1": {
+						"description": "Publication of the Book on Supercomplex Knowledge: The book will be released on international platforms and translated into several languages."
+					},
+					"2": {
+						"description": "Participation in International Congresses."
+					},
+					"3": {
+						"description": "Preparation of Articles for International Scientific Journals."
+					}
+				}
+			},
+			"december": {
+				"title": "December 2024",
+				"bullets": {
+					"1": {
+						"description": "First Team Building Camp for the SKC."
+					}
+				}
+			}
+		}
+	},
+	"privacy": {
+		"title": "Privacy Policies",
+		"updated": "Last Updated: July 25, 2024",
+		"sections": {
+			"1": {
+				"title": "Introduction",
+				"description": "Welcome to Comunidad del Saber Supercomplejo. In this Privacy Policy, we explain how we collect, use, share, and protect the personal information that users provide through our website."
+			},
+			"2": {
+				"title": "Information Collected",
+				"description": "We collect the following personal information through Google login:",
+				"bullets": {
+					"1": "User's email address",
+					"2": "User's name",
+					"3": "User's profile information",
+					"4": "OpenID identifier"
+				}
+			},
+			"3": {
+				"title": "Use of Information",
+				"description": "The collected information is used exclusively for internal purposes to improve our service. The user's name is displayed on their profile page and in the comments they make on the blog."
+			},
+			"4": {
+				"title": "Disclosure of Information",
+				"description": "We do not share users' personal information with third parties. The collected information is kept private and is used exclusively within our platform."
+			},
+			"5": {
+				"title": "Information Security",
+				"description": "Personal information is stored in a private and secure database. We implement security measures to protect your information against unauthorized access and disclosure."
+			},
+			"6": {
+				"title": "Cookies and Similar Technologies",
+				"description": "We do not use cookies or other similar technologies to collect information on our website."
+			},
+			"7": {
+				"title": "User Rights",
+				"description": "Users have the right to delete their account and any comments they have made on the blog. To do so, they can contact us through the available means on the page or the provided email address."
+			},
+			"8": {
+				"title": "Changes to the Privacy Policy",
+				"description": "Any changes to our Privacy Policy will be notified through an announcement on the blog and directly via email."
+			},
+			"9": {
+				"title": "Contact Information",
+				"description": "If you have any questions or concerns about our Privacy Policy, you can contact us through the available means on the page or via email:"
+			}
+		}
+	},
+	"terms": {
+		"title": "Terms of Service",
+		"updated": "Last Updated: July 25, 2024",
+		"sections": {
+			"1": {
+				"title": "Introduction",
+				"description": "Welcome to Comunidad del Saber Supercomplejo. By using our website, you agree to comply with the following Terms of Service. We recommend that you read these terms carefully before using our services."
+			},
+			"2": {
+				"title": "Services Offered",
+				"description": "We offer access to content and the ability to participate in the blog on our website. The use of these services is subject to the following conditions."
+			},
+			"3": {
+				"title": "Permitted Use",
+				"description": "It is prohibited to post offensive, threatening, or disrespectful content toward other users. We reserve the right to remove any content that violates these rules and to take necessary actions to maintain a respectful environment."
+			},
+			"4": {
+				"title": "Responsibility",
+				"description": "We are not responsible for comments or content posted by third parties on our site. However, we are willing to mediate to resolve any conflicts and remove offensive content when necessary."
+			},
+			"5": {
+				"title": "Service Modifications",
+				"description": "We may modify the services offered at any time, at our discretion. We reserve the right to make changes to the content, features, and availability of our services as we see fit."
+			},
+			"6": {
+				"title": "Termination of Service",
+				"description": "We reserve the right to suspend or terminate a user's access to our services for non-compliance with these Terms of Service or for reasons we deem appropriate."
+			},
+			"7": {
+				"title": "Intellectual Property",
+				"description": "All content published on our website, including text, graphics, and design, is the property of Comunidad del Saber Supercomplejo, except for comments or contributions from third parties. Users may not use this content without our authorization."
+			},
+			"8": {
+				"title": "Applicable Law",
+				"description": "These Terms of Service are governed by the laws of the Republic of Argentina. Any disputes related to these terms will be resolved in the courts of that jurisdiction."
+			},
+			"9": {
+				"title": "Contact Information",
+				"description": "If you have any questions or concerns about our Terms of Service, you can contact us through the available means on the page or via email:"
+			}
+		}
+	},
+	"blog": {
+		"card": "Welcome to the community blog. This is a space dedicated to exploring and sharing information about Supercomplex Knowledge. Here, you will find articles, discussions, and resources that invite you to challenge your thinking, expand your horizons, and adopt an open and critical attitude toward the complexity of the world around us.",
+		"categories": {
+			"title": "Explore categories"
+		}
+	}
+}

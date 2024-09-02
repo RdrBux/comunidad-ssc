@@ -2,19 +2,23 @@ import { formatDate } from "@/lib/utils"
 import { getPostsBlogHome } from "@/utils/db"
 import Link from "next/link"
 import { Logo } from "../svgs"
+import { getTranslations } from "next-intl/server"
 
 export default async function Articles() {
+	const t = await getTranslations('home.articles')
+
 	const { data, error } = await getPostsBlogHome()
 
 	if (error) return
 	if (!data) return
+
 
 	return (
 		<section className="bg-[#0a4a3a] text-tertiary-50 relative overflow-hidden">
 			<div className="absolute top-4 right-0 h-[95%] lg:h-[200%] aspect-square opacity-10"><Logo /></div>
 			<div className="container mx-auto px-4 lg:px-16 py-12 lg:py-16 relative z-10">
 
-				<h2 className="font-source text-4xl leading-none lg:text-5xl tracking-tight font-medium mt-4">Últimas publicaciones del Blog</h2>
+				<h2 className="font-source text-4xl leading-none lg:text-5xl tracking-tight font-medium mt-4">{t('title')}</h2>
 
 				<div className="mt-8 lg:mt-16 grid gap-12 lg:grid-cols-3">
 

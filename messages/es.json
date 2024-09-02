@@ -1,0 +1,342 @@
+{
+	"name": "Comunidad del Saber Supercomplejo",
+	"navigation": {
+		"home": "Inicio",
+		"teoria": "La teoría",
+		"comunidad": "La comunidad",
+		"camino": "El camino",
+		"blog": "Blog",
+		"menu": "Menú",
+		"navigation": "Navegación",
+		"lang": "Idioma"
+	},
+	"sections": {
+		"read-next": "Continuar leyendo"
+	},
+	"home": {
+		"hero": {
+			"title": {
+				"1": "Comunidad",
+				"2": "del Saber",
+				"3": "Supercomplejo"
+			},
+			"description": "“Un nuevo paradigma filosófico, científico y tecnológico ante la complejidad del universo y de la vida”"
+		},
+		"theory": {
+			"category": "LA TEORÍA",
+			"title": "¿Qué es el Saber Supercomplejo?",
+			"paragraph-first": "Se trata de una propuesta paradigmática integradora y superadora del Pensamiento Complejo y de las Ciencias de la Complejidad, redefiniendo su objeto de estudio, es decir, los sistemas complejos, en la interrelación de sus componentes fundamentales: los flujos de energía, las morfologías estructurales y la conectividad temporal.",
+			"paragraph-second": "El SSC propone una reconfiguración de suprasistemas (micropartículas, macroscópico y biológico) que se superponen y articulan desde la supercomplejidad del universo y de la vida. También postula una metodología de descripción, predicción e intervención que construye y vincula mapas y algoritmos como herramientas para descubrir, entender y manipular las dinámicas y estructuras de sistemas complejos.",
+			"button": "Leer la teoría"
+		},
+		"community": {
+			"category": "LA COMUNIDAD",
+			"title": "¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?",
+			"paragraph-first": "Somos un equipo de investigación y desarrollo que tenemos el objetivo de instalar este paradigma como alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes.",
+			"paragraph-second": "El Programa de Intervención y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar el cumplimiento de sus funciones y objetivos.",
+			"button": "Leer sobre la comunidad"
+		},
+		"pathway": {
+			"category": "EL CAMINO",
+			"title": "¿Qué acciones permiten que nuestros proyectos, nuestra comunidad y sus miembros crezcan?",
+			"paragraph": "Se trata de construir escenarios concretos de crecimiento de la teoría y de las propuestas de intervención desde este nuevo paradigma. Un futuro mejor es posible y el Saber Supercomplejo quiere estar presente en el desarrollo de comprensiones y alternativas de acción para potencial el desarrollo institucional, personal y profesional y, con ello, brindar propuestas concretas para las grandes problemáticas sociales y planetarias.",
+			"button": "Leer sobre el camino"
+		},
+		"articles": {
+			"title": "Últimas publicaciones del Blog"
+		},
+		"footer": {
+			"title": {
+				"1": "Comunidad",
+				"2": "del Saber",
+				"3": "Supercomplejo"
+			},
+			"copyright": "Todos los derechos reservados",
+			"newsletter": {
+				"title": "ÚNETE A LA COMUNIDAD",
+				"description": "Suscríbete de forma gratuita a nuestro sitio y accede a contenido exclusivo, novedades, eventos especiales y oportunidades de desarrollo profesional.",
+				"name": "Nombre completo",
+				"email": "Correo electrónico",
+				"button": "Enviar",
+				"thanks": "Gracias por suscribirte"
+			}
+		}
+	},
+	"theory": {
+		"section-first": {
+			"paragraph-first": "Numerosos pensadores han coincidido en que el siglo XXI es el “siglo de la complejidad”. Ahora bien, el concepto de “complejidad” es polisémico, multívoco, multidimensional y polifacético. Hay cierto acuerdo en cuanto a la etimología de lo complejo como “aquello que está unido y entrelazado”. Una red de sistemas imbricados y conectados unos con otros sin vacíos.",
+			"paragraph-second": "Es a mediados del siglo XX que las Teorías de la Complejidad se comenzaron a construir como una alternativa a las explicaciones monocausales, simplificadas y deterministas, ancladas sobre los principios rectores del mecanicismo, el reduccionismo y el empirismo que predominaban en la ciencia de esa época.",
+			"paragraph-third": "El Pensamiento Complejo y las Ciencias de la Complejidad surgen y se consolidan como los dos enfoques más representativos. Es cierto que estos enfoques, en ocasiones, se perciben como enfoques opuestos y con un gran nivel de tensiones entre ellos, tensiones que surgen de las diferencias en sus metodologías, supuestos y áreas de énfasis."
+		},
+		"section-second": {
+			"title": "Nuestra propuesta: El Saber Supercomplejo (SSC)",
+			"paragraph-first": "El objetivo de nuestra investigación y de nuestro trabajo es elaborar una propuesta unificadora y superadora del enorme mosaiquismo, que hoy ha hecho de las Teorías de la Complejidad un edificio con muchas teorías inconexas, de difícil acceso y escasa utilización en problemáticas sociales y humanas.",
+			"paragraph-first-strong": "El Saber Supercomplejo (SSC) se nutre de las jugosas raíces del Pensamiento Complejo y de las Ciencias de la Complejidad, como así también de los saberes preexistentes sobre los que abrevaban las primeras propuestas y también de los actuales, que fortalecen y dinamizan nuevas y superadoras perspectivas."
+		},
+		"object": {
+				"title": "Objeto de estudio",
+				"content": "El Saber Supercomplejo tiene como objeto de estudio los sistemas complejos, postulando una nueva gnoseología de base (el constructivismo complejo) y una reconfiguración de los componentes de los sistemas complejos (flujos de energía, morfologías estructurales y conectividad temporal en interacción) articulando, de esta manera, una taxonomía completa de los macrosistemas, micropartículas, macroscópicos y biológicos con sus respectivos solapamientos, generadores de comportamientos realmente increíbles y muy poco tenidos en cuenta. Se propone, además, una relectura del espacio y el tiempo en clave de supercomplejidad; una metodología de descripción que articula lo matemático, lo informático y lo conceptual. La circularidad entre teoría y acción poniendo especial énfasis en la construcción de mapas y algoritmos con una herramienta de software propia para la intervención y mejoramiento de instituciones y problemáticas planetarias."
+			},
+		"principles": {
+			"title": "Ejes de la propuesta del Saber Supercomplejo",
+			"bullets": {
+				"1": "Una redefinición de los sistemas complejos como objeto de estudio. No se puede desconocer que tanto la Inteligencia Artificial, la Ciencia de Datos y el Deep Learning han revolucionado y profundizado el modelado y la comprensión de los sistemas complejos. Asimismo, el desarrollo de instrumentos avanzados como sensores y software especializados están facilitando cada vez más dicha tarea.",
+				"2": "Una propuesta novedosa sobre los componentes de los sistemas complejos: flujos de energía, morfologías estructurales y conectividad temporal en interacción.",
+				"3": "Una selección de eventos como la inflación cósmica, la aparición de objetos cósmicos y el surgimiento de la vida como generadores de distintos niveles de complejidad y de increíbles comportamientos complejos.",
+				"4": "Una propuesta de taxonomía de macrosistemas (micropartículas, macroscópicos y biológicos), sistemas y subsistemas complejos derivados y un modelo de triple solapamiento dinámico entre dichos macrosistemas que demuestran que no existe una flecha de la complejidad.",
+				"5": "Una metodología de descripción, predicción e intervención que construye y vincula mapas y algoritmos como herramientas para descubrir, entender y manipular las dinámicas y estructuras de sistemas complejos y presentar un programa de intervención y desarrollo y un software asociado para dar cuenta de la marcha y la eventual mejora de sistemas complejos concretos y con proyección a todas las grandes problemáticas sociales y planetarias."
+			}
+		}
+	},
+	"community": {
+		"about": {
+			"title": "Quiénes somos",
+			"paragraph-first": "Somos una comunidad dedicada a la investigación y desarrollo del paradigma del Saber Supercomplejo como una herramienta poderosa para entender y transformar la realidad multidimensional que nos rodea.",
+			"paragraph-second": "Nuestro Programa de Asistencia y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar en el cumplimiento de sus funciones y objetivos. Las posibilidades de implementación del Programa son múltiples, a modo de ejemplo: sistemas de protección de recursos naturales; descubrimiento de nuevos elementos químicos y sus combinatorias; desarrollo astronómico y climatológico; diseño de fuentes de energía alternativas; atención a problemáticas sociales como el desarrollo de sistemas de salud, educativos, de justicia; estrategias de lucha contra la desnutrición, las enfermedades, la corrupción o el narcotráfico; potenciamiento de sistemas de producción y ventas en instituciones industriales y comerciales.",
+			"paragraph-third": "Esta propuesta surge luego de años de trabajo y estudio movida por la inquietud de ofrecer una teoría integradora y superadora del Pensamiento Complejo, las Ciencias de la Complejidad y otros enfoques relacionados que permita, además de un desarrollo teórico, su aplicación práctica y metodológica."
+		},
+		"members": {
+			"director": {
+				"name": "Juan Pedro Rodríguez",
+				"role": "Director de la Comunidad del Saber Supercomplejo",
+				"description": {
+					"paragraph-first": "Es doctor en Educación. Docente titular en la UCSF y la UCA (Argentina).",
+					"paragraph-second": "Participó en el equipo de investigación sobre “La relación entre el orden y el desorden en la teoría del caos determinista y en la teoría del orden implicado: convergencias y divergencias”.",
+					"paragraph-third": "Autor de libros, artículos y expositor de ponencias en congresos internacionales. Colaborador en universidades europeas y americanas."
+				}
+			},
+			"co-director": {
+				"name": "Facundo Osuna",
+				"role": "Co-director de la Comunidad del Saber Supercomplejo",
+				"description": {
+					"paragraph-first": "Es abogado independiente con experiencia en el tercer sector.",
+					"paragraph-second": "Maestrando en Teoría Constitucional y Derechos Humanos."
+				}
+			}
+		},
+		"mission": {
+			"title": "Misión",
+			"description": "Investigar, desarrollar y promover el Saber Supercomplejo como una alternativa integradora y superadora del Pensamiento Complejo y las Ciencias de la Complejidad. Nos proponemos generar comprensiones integrales y estrategias de intervención efectivas para abordar distintas problemáticas en los ámbitos institucionales, organizacionales y sociales."
+		},
+		"vision": {
+			"title": "Visión",
+			"description": "Expandir la propuesta del Saber Supercomplejo y su capacidad para ofrecer soluciones en diferentes ámbitos de la praxis social. Aspiramos a constituirnos como una referencia nacional e internacional a partir de una propuesta original y con apertura para integrar nuevas miradas. Un futuro mejor es posible y el Saber Supercomplejo quiere estar presente en el desarrollo de herramientas de acción para dar respuesta a problemáticas sociales y planetarias."
+		},
+		"values": {
+			"title": "Valores",
+			"bullets": {
+				"1": {
+					"name": "Libertad de Pensamiento",
+					"description": "Fomentamos la diversidad de ideas para desarrollar comprensiones profundas y complejas."
+				},
+				"2": {
+					"name": "Trabajo en Equipo",
+					"description": "Creemos en la colaboración multidisciplinaria como clave para el avance del Saber Supercomplejo."
+				},
+				"3": {
+					"name": "Resolución de Conflictos",
+					"description": "Desarrollamos metodologías para abordar conflictos complejos de manera constructiva."
+				},
+				"4": {
+					"name": "Transparencia",
+					"description": "Mantenemos una comunicación abierta y honesta con todos nuestros miembros y colaboradores."
+				}
+			}
+		},
+		"benefits-members": {
+			"title": "Qué Ofrecemos a Nuestros Miembros",
+			"bullets": {
+				"1": {
+					"name": "Participación Activa",
+					"description": "formar parte del equipo de investigación y difusión del SSC."
+				},
+				"2": {
+					"name": "Desarrollo Profesional",
+					"description": "oportunidades para ser desarrolladores en el “Supercomplex Program”."
+				},
+				"3": {
+					"name": "Formación Continua",
+					"description": "capacitación constante con énfasis en el campo profesional o laboral del miembro."
+				},
+				"4": {
+					"name": "Reconocimiento Académico",
+					"description": "certificaciones y reconocimiento por la pertenencia a la comunidad."
+				},
+				"5": {
+					"name": "Publicaciones",
+					"description": "oportunidad de publicar libros bajo nuestro sello editorial y artículos en nuestra página web."
+				},
+				"6": {
+					"name": "Eventos",
+					"description": "organización de congresos y encuentros de trabajo con instituciones afines."
+				},
+				"7": {
+					"name": "Team Building",
+					"description": "Participación en campamentos de integración y desarrollo de equipo."
+				}
+			}
+		},
+		"benefits-institutions": {
+			"title": "Qué Ofrecemos a Instituciones",
+			"bullets": {
+				"1": {
+					"name": "Programas de Intervención",
+					"description": "implementación del “Supercomplex Program” con el software “Supercomplex Systems Developer”."
+				},
+				"2": {
+					"name": "Capacitación",
+					"description": "cursos específicos para profesionales y emprendedores sobre el SSC, adaptados a diversas áreas y problemáticas."
+				}
+			}
+		}
+	},
+	"pathway": {
+		"title": "Cronograma de eventos para el presente año",
+		"2024": {
+			"july": {
+				"title": "Julio del 2024",
+				"bullets": {
+					"1": {
+						"name": "Lanzamiento de la Comunidad",
+						"description": "la Comunidad del Saber Supercomplejo es un equipo de investigación y desarrollo cuyo objetivo es instalar este paradigma como alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes. Se hace la presentación del Programa de Intervención y Desarrollo SuperComplex Program y del software SuperComplex Systems Developer, diseñados para analizar e intervenir en sistemas de alta complejidad."
+					},
+					"2": {
+						"name": "Presentación del libro",
+						"description": "el libro es nuestra primera presentación en sociedad. Se trata de un libro que pretende revolucionar el escenario de la ciencia, la filosofía y la tecnología actuales. El Saber Supercomplejo representa la construcción de un paradigma que intenta integrar y superar al Pensamiento Complejo y a las Ciencias de la Complejidad, comenzando por la redefinición de su objeto de estudio, postulando una nueva gnoseología de base (el constructivismo complejo) y una reconfiguración de los componentes de los sistemas complejos (flujos de energía, morfologías estructurales y conectividad temporal en interacción). Articulando, de esta manera, una taxonomía completa de los macrosistemas micropartículas, macroscópicos y biológicos con sus respectivos solapamientos, generadores de comportamientos realmente increíbles y muy poco tenidos en cuenta. Se propone, además, una relectura del espacio y el tiempo en clave de supercomplejidad; una metodología de descripción que articula lo matemático, lo informático y lo conceptual. Se postula, también, una revisión de las categorías antropológicas actuales postulando el advenimiento del “Homo Supercomplexus” en esta nueva era del Antropoceno y el Tecnoceno."
+					}
+				}
+			},
+			"october": {
+				"title": "Octubre del 2024",
+				"bullets": {
+					"1": {
+						"name": "Curso “Decodificando la Complejidad desde el Saber Supercomplejo”",
+						"description": "el formato es de cuatro encuentros en vivo on-line de dos horas con cupos reducidos y dos encuentros extras para formular interrogantes, aportes o consultas sobre la publicación (optativo) Se incluye material y los miembros de la Comunidad del Saber Supercomplejo lo tienen bonificado. Se otorgarán certificados de asistencia para este curso y de aprobación (80 horas) (optativo) para quienes presenten un artículo, el que surgirá de la interacción del participante con los responsables y el que será publicado en nuestra página web."
+					},
+					"2": {
+						"name": "Nuestro segundo libro",
+						"description": "comenzaremos a trabajar en nuestro segundo libro."
+					}
+				}
+			},
+			"november": {
+				"title": "Noviembre del 2024",
+				"bullets": {
+					"1": {
+						"description": "Publicación del libro sobre Saber Supercomplejo en redes internacionales y traducido a varios idiomas."
+					},
+					"2": {
+						"description": "Participación en congresos internacionales."
+					},
+					"3": {
+						"description": "Preparación de artículos para revistas científicas internacionales."
+					}
+				}
+			},
+			"december": {
+				"title": "Diciembre del 2024",
+				"bullets": {
+					"1": {
+						"description": "Primer campamento (team building) de la CSS."
+					}
+				}
+			}
+		}
+	},
+	"privacy": {
+		"title": "Política de Privacidad",
+		"updated": "Última actualización: 25 de julio de 2024",
+		"sections": {
+			"1": {
+				"title": "Introducción",
+				"description": "Bienvenido a Comunidad del Saber Supercomplejo. En esta Política de Privacidad, te explicamos cómo recopilamos, usamos, compartimos y protegemos la información personal que obtienen los usuarios a través de nuestro sitio web."
+			},
+			"2": {
+				"title": "Información Recopilada",
+				"description": "Recopilamos la siguiente información personal a través del inicio de sesión de Google:",
+				"bullets": {
+					"1": "Correo electrónico del usuario",
+					"2": "Nombre del usuario",
+					"3": "Información del perfil del usuario",
+					"4": "Identificador de OpenID"
+				}
+			},
+			"3": {
+				"title": "Uso de la Información",
+				"description": "La información recopilada se utiliza exclusivamente para fines internos para mejorar nuestro servicio. El nombre de los usuarios se muestra en su página de perfil y en los comentarios que realicen en el blog."
+			},
+			"4": {
+				"title": "Divulgación de Información",
+				"description": "No compartimos la información personal de los usuarios con terceros. La información recopilada se mantiene privada y se usa exclusivamente dentro de nuestra plataforma."
+			},
+			"5": {
+				"title": "Seguridad de la Información",
+				"description": "La información personal se almacena en una base de datos privada y protegida. Implementamos medidas de seguridad para proteger tu información contra acceso no autorizado y divulgación."
+			},
+			"6": {
+				"title": "Cookies y Tecnologías Similares",
+				"description": "No utilizamos cookies ni otras tecnologías similares para recopilar información en nuestro sitio web."
+			},
+			"7": {
+				"title": "Derechos de los Usuarios",
+				"description": "Los usuarios tienen el derecho de eliminar su cuenta y los comentarios que hayan realizado en el blog. Para ello, pueden contactar con nosotros a través de los medios disponibles en la página o al correo electrónico proporcionado."
+			},
+			"8": {
+				"title": "Modificaciones a la Política de Privacidad",
+				"description": "Cualquier cambio en nuestra Política de Privacidad se notificará mediante un anuncio en el blog de la página y de manera directa a través de correo electrónico."
+			},
+			"9": {
+				"title": "Información de Contacto",
+				"description": "Si tienes preguntas o inquietudes acerca de nuestra Política de Privacidad, puedes ponerte en contacto con nosotros a través de los medios disponibles en la página o al correo electrónico:"
+			}
+		}
+	},
+	"terms": {
+		"title": "Condiciones del Servicio",
+		"updated": "Última actualización: 25 de julio de 2024",
+		"sections": {
+			"1": {
+				"title": "Introducción",
+				"description": "Bienvenido a Comunidad del Saber Supercomplejo. Al utilizar nuestro sitio web, aceptas cumplir con las siguientes Condiciones del Servicio. Te recomendamos leer atentamente estos términos antes de usar nuestros servicios."
+			},
+			"2": {
+				"title": "Servicios Ofrecidos",
+				"description": "Ofrecemos acceso a contenido y la posibilidad de participar en el blog de nuestro sitio web. El uso de estos servicios está sujeto a las siguientes condiciones."
+			},
+			"3": {
+				"title": "Uso Permitido",
+				"description": "Está prohibido publicar contenido ofensivo, amenazante o irrespetuoso hacia otros usuarios. Nos reservamos el derecho de eliminar cualquier contenido que viole estas normas y de tomar las acciones necesarias para mantener un ambiente respetuoso."
+			},
+			"4": {
+				"title": "Responsabilidad",
+				"description": "No nos hacemos responsables por los comentarios o contenido publicado por terceros en nuestro sitio. Sin embargo, estamos dispuestos a intermediar para resolver cualquier conflicto y eliminar contenido ofensivo cuando sea necesario."
+			},
+			"5": {
+				"title": "Modificaciones al Servicio",
+				"description": "Podemos modificar los servicios ofrecidos en cualquier momento, a nuestra discreción. Nos reservamos el derecho de hacer cambios en el contenido, características y disponibilidad de nuestros servicios según lo consideremos necesario."
+			},
+			"6": {
+				"title": "Terminación del Servicio",
+				"description": "Nos reservamos el derecho de suspender o terminar el acceso de un usuario a nuestros servicios por incumplimiento de estas Condiciones del Servicio o por motivos que consideremos pertinentes."
+			},
+			"7": {
+				"title": "Propiedad Intelectual",
+				"description": "Todo el contenido publicado en nuestro sitio web, incluyendo texto, gráficos y diseño, es propiedad de la Comunidad del Saber Supercomplejo, salvo los comentarios o aportes de terceros. Los usuarios no pueden usar este contenido sin nuestra autorización."
+			},
+			"8": {
+				"title": "Legislación Aplicable",
+				"description": "Estas Condiciones del Servicio se rigen por las leyes de la República Argentina. Cualquier disputa relacionada con estos términos se resolverá en los tribunales de dicha jurisdicción."
+			},
+			"9": {
+				"title": "Información de Contacto",
+				"description": "Si tienes preguntas o inquietudes acerca de nuestras Condiciones del Servicio, puedes ponerte en contacto con nosotros a través de los medios disponibles en la página o al correo electrónico:"
+			}
+		}
+	},
+	"blog": {
+		"card": "Bienvenido al blog de la comunidad. Este es un espacio dedicado a explorar y compartir conocimientos sobre el Saber Supercomplejo. Aquí encontrarás artículos, discusiones y recursos que te invitarán a desafiar tus pensamientos, expandir tus horizontes y adoptar una actitud abierta y crítica hacia la complejidad del mundo que nos rodea.",
+		"categories": {
+			"title": "Explorar categorías"
+		}
+	}
+}

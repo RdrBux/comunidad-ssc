@@ -1,8 +1,11 @@
 import { ROUTES } from "@/utils/constants";
 import ButtonSection from "../button-section";
 import { ImgSSC } from "../svgs";
+import { useTranslations } from "next-intl";
 
 export default function Community() {
+	const t = useTranslations('home.community')
+
 	return (
 		<section className="bg-neutral-800">
 			<div className="container mx-auto px-4 lg:px-16 py-24 lg:py-32">
@@ -12,11 +15,11 @@ export default function Community() {
 					</div>
 
 					<div className="lg:-order-1">
-						<h2 className="font-medium text-sm text-[#1AAD81] lg:text-base">LA COMUNIDAD</h2>
-						<h3 className={`font-source text-4xl leading-none lg:text-5xl text-tertiary-50 tracking-tight font-medium mt-4`}>¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?</h3>
-						<p className="mt-8 lg:text-lg font-light text-neutral-300">Somos un equipo de investigación y desarrollo que tenemos el objetivo de instalar este paradigma como alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes.</p>
-						<p className="mt-4 lg:text-lg font-light text-neutral-300">El <span className="font-semibold">Programa de Intervención y Desarrollo</span> está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar el cumplimiento de sus funciones y objetivos.</p>
-						<ButtonSection route={ROUTES.COMUNIDAD} text="Leer sobre la comunidad" />
+						<h2 className="font-medium text-sm text-[#1AAD81] lg:text-base">{t('category')}</h2>
+						<h3 className={`font-source text-4xl leading-none lg:text-5xl text-tertiary-50 tracking-tight font-medium mt-4`}>{t('title')}</h3>
+						<p className="mt-8 lg:text-lg font-light text-neutral-300">{t('paragraph-first')}</p>
+						<p className="mt-4 lg:text-lg font-light text-neutral-300">{t('paragraph-second')}</p>
+						<ButtonSection route={ROUTES.COMUNIDAD} text={t('button')} />
 					</div>
 
 				</div>
