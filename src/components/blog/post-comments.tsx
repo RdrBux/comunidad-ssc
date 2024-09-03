@@ -6,10 +6,13 @@ import { formatDateWithTime, sortComments } from "@/lib/utils";
 import LoginButton from "./login-button";
 import AnswerCommentButton from "./answer-comment-button";
 import DeleteCommentButton from "./delete-comment-button";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function PostComments({ postId }: { postId: Tables<'posts'>['id'] }) {
 	const { data: commentsData, error } = await getCommentsByPostId(postId);
 	const { user } = await getUserData();
+	const locale = await getLocale()
+	const t = await getTranslations('blog.comments')
 
 	if (error) return
 	if (!commentsData) return
@@ -32,7 +35,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 								</Link>
 								<div className="font-medium">
 									<Link className="block" href={`/blog/user/${comment.user_id}`}>{comment.profiles!.full_name}</Link>
-									<p className="text-sm">{formatDateWithTime(comment.created_at)}</p>
+									<p className="text-sm">{formatDateWithTime(comment.created_at, locale)}</p>
 								</div>
 							</div>
 							<div className="lg:ml-16">
@@ -47,7 +50,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 			}
 
 			<div className="mt-4">
-				<h5 className={`font-source font-bold text-3xl tracking-tight`}>Deja un comentario</h5>
+				<h5 className={`font-source font-bold text-3xl tracking-tight`}>{t('title')}</h5>
 
 				{
 					user && <CommentBox postId={postId} parentId={null} answerToId={null} userImg={user.avatar_url} />
@@ -56,7 +59,7 @@ export default async function PostComments({ postId }: { postId: Tables<'posts'>
 				{
 					!user && (
 						<div className="my-4 mx-2">
-							<p className="mt-8 mb-4">Inicia sesión para comentar</p>
+							<p className="mt-8 mb-4">{t('login')}</p>
 							<LoginButton style="dark" />
 						</div>
 					)

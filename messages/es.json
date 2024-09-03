@@ -338,6 +338,18 @@
 		"card": "Bienvenido al blog de la comunidad. Este es un espacio dedicado a explorar y compartir conocimientos sobre el Saber Supercomplejo. Aquí encontrarás artículos, discusiones y recursos que te invitarán a desafiar tus pensamientos, expandir tus horizontes y adoptar una actitud abierta y crítica hacia la complejidad del mundo que nos rodea.",
 		"categories": {
 			"title": "Explorar categorías"
+		},
+		"by": "Por",
+		"on": "en",
+		"recent-posts": "Publicaciones recientes",
+		"updated": "Actualizado al",
+		"google-button": "Acceder con Google",
+		"comments": {
+			"title": "Deja un comentario",
+			"login": "Inicia sesión para comentar",
+			"comment": "Comentar",
+			"your-comment": "Tu comentario",
+			"in-the-community": "en la comunidad"
 		}
 	}
 }

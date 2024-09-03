@@ -1,8 +1,10 @@
 import { getCategoriesCount } from "@/utils/db"
+import { getTranslations } from "next-intl/server"
 import Link from "next/link"
 
 export default async function CategoriesList() {
 	const { data, error } = await getCategoriesCount()
+	const t = await getTranslations('blog')
 
 	if (error) return
 	if (!data) return
@@ -11,7 +13,7 @@ export default async function CategoriesList() {
 
 	return (
 		<section>
-			<h4 className={`font-source text-3xl tracking-tight font-bold leading-none`}>Explorar categorías</h4>
+			<h4 className={`font-source text-3xl tracking-tight font-bold leading-none`}>{t('categories.title')}</h4>
 			<div className="flex gap-2 flex-wrap mt-6">
 
 				{

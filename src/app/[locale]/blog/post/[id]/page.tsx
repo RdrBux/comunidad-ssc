@@ -11,6 +11,7 @@ import { Tables } from "@/utils/supabase/types-supabase";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import SharePage from "@/components/share-page";
 import { Metadata, ResolvingMetadata } from "next";
+import { getLocale, getTranslations } from "next-intl/server";
 
 type Props = {
 	params: { id: Tables<'posts'>['id'] }
@@ -36,6 +37,8 @@ export async function generateMetadata(
 
 export default async function BlogPage({ params }: { params: { id: Tables<'posts'>['id'] } }) {
 	const { data, error } = await getPostById(params.id)
+	const t = await getTranslations('blog')
+	const locale = await getLocale();
 
 	if (error) return <div><div className="my-24 font-medium mx-auto text-center">Error: post not found</div></div>
 	if (!data) return
@@ -67,7 +70,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 
 							</div>
 
-							<div className="text-tertiary-50/75 font-medium flex flex-col lg:flex-row lg:items-center gap-x-2"><div className="flex items-center gap-2">Por <Link className="flex items-center gap-2" href={`/blog/user/${data.user_id}`}><div className="w-8 aspect-square bg-secondary-200 rounded-full"><img className="w-8 h-8 rounded-full" src={data.profiles!.avatar_url} alt={data.profiles!.full_name} /></div> <span className="text-tertiary-50">{data.profiles?.full_name}</span></Link> <span className="hidden lg:inline">•</span></div><div>{formatDate(data.created_at)}</div></div>
+							<div className="text-tertiary-50/75 font-medium flex flex-col lg:flex-row lg:items-center gap-x-2"><div className="flex items-center gap-2">{t('by')} <Link className="flex items-center gap-2" href={`/blog/user/${data.user_id}`}><div className="w-8 aspect-square bg-secondary-200 rounded-full"><img className="w-8 h-8 rounded-full" src={data.profiles!.avatar_url} alt={data.profiles!.full_name} /></div> <span className="text-tertiary-50">{data.profiles?.full_name}</span></Link> <span className="hidden lg:inline">•</span></div><div>{formatDate(data.created_at, locale)}</div></div>
 							<h1 className={`font-source font-semibold text-4xl lg:text-6xl tracking-tight mt-6`}>{data.title}</h1>
 							<p className="hidden md:block mt-6 lg:text-lg font-medium">{data.description}</p>
 						</div>
@@ -85,8 +88,8 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 
 							<div className="py-8 flex flex-col lg:flex-row gap-2 justify-between lg:items-center text-base text-neutral-600 font-medium">
 								<div className="flex flex-col gap-1">
-									<div className="flex items-center gap-2">Por <Link className="flex items-center gap-2 group" href={`/blog/user/${data.user_id}`}><div className="w-8 aspect-square bg-secondary-200 rounded-full"><img className="w-8 h-8 rounded-full" src={data.profiles!.avatar_url} alt={data.profiles!.full_name} /></div> <span className="text-neutral-950 group-hover:text-secondary-700 duration-300">{data.profiles?.full_name}</span></Link></div>
-									<div>Actualizado al {formatDate(data.updated_at)}</div>
+									<div className="flex items-center gap-2">{t('by')} <Link className="flex items-center gap-2 group" href={`/blog/user/${data.user_id}`}><div className="w-8 aspect-square bg-secondary-200 rounded-full"><img className="w-8 h-8 rounded-full" src={data.profiles!.avatar_url} alt={data.profiles!.full_name} /></div> <span className="text-neutral-950 group-hover:text-secondary-700 duration-300">{data.profiles?.full_name}</span></Link></div>
+									<div>{t('updated')} {formatDate(data.updated_at, locale)}</div>
 								</div>
 								<div className="flex gap-2 text-neutral-600">
 

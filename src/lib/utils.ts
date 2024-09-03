@@ -8,12 +8,14 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export function formatDate(date: string) {
-  return format(date, "PPP", { locale: es })
+export function formatDate(date: string, locale: string) {
+  if (locale === 'es') return format(date, "PPP", { locale: es })
+  return format(date, "PPP")
 }
 
-export function formatDateWithTime(date: string) {
-  return format(date, "PPPp", { locale: es })
+export function formatDateWithTime(date: string, locale: string) {
+  if (locale === 'es') return format(date, "PPPp", { locale: es })
+  return format(date, "PPPp")
 }
 
 interface Comment {

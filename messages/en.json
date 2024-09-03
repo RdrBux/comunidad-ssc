@@ -338,6 +338,18 @@
 		"card": "Welcome to the community blog. This is a space dedicated to exploring and sharing information about Supercomplex Knowledge. Here, you will find articles, discussions, and resources that invite you to challenge your thinking, expand your horizons, and adopt an open and critical attitude toward the complexity of the world around us.",
 		"categories": {
 			"title": "Explore categories"
+		},
+		"by": "By",
+		"on": "on",
+		"recent-posts": "Recent posts",
+		"updated": "Last updated:",
+		"google-button": "Sign in with Google",
+		"comments": {
+			"title": "Leave a comment",
+			"login": "Log in to leave a comment",
+			"comment": "Comment",
+			"your-comment": "Your comment",
+			"in-the-community": "in the community"
 		}
 	}
 }

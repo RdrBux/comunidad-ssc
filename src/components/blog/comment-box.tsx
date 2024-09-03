@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react";
 import { useFormState } from "react-dom";
 import { Button } from "../ui/button";
 import CommentBoxButton from "./comment-box-button";
+import { useTranslations } from "next-intl";
 
 interface Props {
 	postId: Tables<'posts'>['id']
@@ -26,6 +27,7 @@ const initialState: State = {
 export default function CommentBox({ postId, parentId, answerToId, setShowForm, userImg }: Props) {
 	const [formState, formAction] = useFormState(addComment.bind(null, postId, parentId, answerToId), initialState)
 	const form = useRef<HTMLFormElement>(null)
+	const t = useTranslations('blog.comments')
 
 	useEffect(() => {
 		if (formState.error === null) {
@@ -43,7 +45,7 @@ export default function CommentBox({ postId, parentId, answerToId, setShowForm, 
 			{formState.error && <p className="text-red-600 my-3">{formState.error}</p>}
 			<div className="w-full mb-4 border border-neutral-200 rounded-md bg-neutral-50">
 				<div className="px-4 py-2 bg-white rounded-t-md">
-					<label htmlFor="comment" className="sr-only">Tu comentario</label>
+					<label htmlFor="comment" className="sr-only">{t('your-comment')}</label>
 					<textarea id="comment" name="comment" rows={4} className="w-full px-0 text-neutral-900 bg-white border-0 outline-none focus:ring-0" placeholder="Tu comentario..." required ></textarea>
 				</div>
 				<div className="flex items-center justify-between p-2 border-t">

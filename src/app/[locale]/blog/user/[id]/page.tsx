@@ -6,6 +6,7 @@ import { ROUTES } from "@/utils/constants";
 import { getUserById } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Metadata, ResolvingMetadata } from "next";
+import { getLocale } from "next-intl/server";
 import Link from "next/link";
 
 type Props = {
@@ -32,6 +33,7 @@ export async function generateMetadata(
 
 export default async function ProfilePage({ params: { id } }: { params: { id: string } }) {
 	const { data, error } = await getUserById(id)
+	const locale = await getLocale();
 
 	if (error) return <div><div className="my-24 font-medium mx-auto text-center">Error: user not found</div></div>
 	if (!data) return
@@ -51,7 +53,7 @@ export default async function ProfilePage({ params: { id } }: { params: { id: st
 						<BreadcrumbSeparator />
 
 						<BreadcrumbItem>
-							<BreadcrumbPage>Perfil de {data.full_name}</BreadcrumbPage>
+							<BreadcrumbPage>{locale === 'es' && 'Perfil de '} {data.full_name}</BreadcrumbPage>
 						</BreadcrumbItem>
 					</BreadcrumbList>
 				</Breadcrumb>
