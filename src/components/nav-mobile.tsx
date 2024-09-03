@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link";
-import { Drawer, DrawerContent, DrawerTitle, DrawerTrigger } from "./ui/drawer";
+import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle, DrawerTrigger } from "./ui/drawer";
 import { ROUTES } from "@/utils/constants";
 import { BookText, Menu, NotebookPen, Route, Users } from "lucide-react";
 import { usePathname } from "next/navigation";
@@ -9,6 +9,7 @@ import Image from "next/image";
 import ukFlag from '../assets/uk-flag.png'
 import spainFlag from '../assets/spain-flag.png'
 import { useTranslations } from "next-intl";
+import { redirectedPathname } from "@/lib/utils";
 
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const pathname = usePathname()
@@ -28,7 +29,10 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 
 				<DrawerContent>
 					<div className="p-8">
-						<DrawerTitle className="text-3xl font-bold tracking-tight text-neutral-950 px-4">{t('navigation')}</DrawerTitle>
+						<DrawerHeader>
+							<DrawerTitle className="text-3xl font-bold tracking-tight text-neutral-950 px-4">{t('navigation')}</DrawerTitle>
+							<DrawerDescription className="sr-only">{t('description')}</DrawerDescription>
+						</DrawerHeader>
 
 						<ul className="mt-4 text-neutral-800 font-medium text-lg flex flex-col gap-1">
 							<li>
@@ -57,24 +61,24 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 							</li>
 						</ul>
 
-						{/* <hr className="my-8" />
+						<hr className="my-8" />
 
-						<h4 className="text-xl font-bold tracking-tight text-neutral-950 px-4">Idioma</h4>
+						<h4 className="text-xl font-bold tracking-tight text-neutral-950 px-4">{t('lang')}</h4>
 
 						<ul className="mt-2 text-neutral-800 font-medium text-lg flex flex-col gap-1">
 							<li>
-								<Link className="py-1 px-4 rounded-md flex items-center gap-3" href='/'>
+								<Link href={redirectedPathname(pathname, 'en')} className="py-1 px-4 rounded-md flex items-center gap-3">
 									<Image className="w-5" src={ukFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 									English
 								</Link>
 							</li>
 							<li>
-								<Link className="py-1 px-4 rounded-md font-semibold flex items-center gap-3" href='/'>
+								<Link href={redirectedPathname(pathname, 'es')} className="py-1 px-4 rounded-md font-semibold flex items-center gap-3">
 									<Image className="w-5" src={spainFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 									Español
 								</Link>
 							</li>
-						</ul> */}
+						</ul>
 					</div>
 				</DrawerContent>
 			</Drawer>

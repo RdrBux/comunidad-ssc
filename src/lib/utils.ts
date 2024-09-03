@@ -63,3 +63,10 @@ export function sortComments(comments: Comment[]): Comment[] {
 
   return sortedComments;
 }
+
+export function redirectedPathname(pathname: string, lang: 'es' | 'en') {
+  if (!pathname) return '/';
+  const segments = pathname.split('/');
+  segments[1] = lang;
+  return segments.join('/');
+}

@@ -8,7 +8,8 @@
 		"blog": "Blog",
 		"menu": "Menu",
 		"navigation": "Navigation",
-		"lang": "Language"
+		"lang": "Language",
+		"description": "Navigation and language selector"
 	},
 	"sections": {
 		"read-next": "Read next"
