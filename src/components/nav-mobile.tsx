@@ -8,9 +8,11 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import ukFlag from '../assets/uk-flag.png'
 import spainFlag from '../assets/spain-flag.png'
+import { useTranslations } from "next-intl";
 
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const pathname = usePathname()
+	const t = useTranslations('navigation')
 
 	const isBlog = pathname.includes('blog')
 
@@ -20,37 +22,37 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 				<DrawerTrigger asChild>
 					<button className={`${style === 'dark' ? 'bg-neutral-900/50 text-tertiary-50 divide-white/10' : 'bg-neutral-200 text-neutral-600 divide-neutral-950/20'} h-10 flex divide-x items-center gap-2 py-1.5 px-3 text-sm font-medium rounded-md`}>
 						<Menu className="w-5" />
-						{!isBlog && <div className="pl-2 py-1">Menú</div>}
+						{!isBlog && <div className="pl-2 py-1">{t('menu')}</div>}
 					</button>
 				</DrawerTrigger>
 
 				<DrawerContent>
 					<div className="p-8">
-						<DrawerTitle className="text-3xl font-bold tracking-tight text-neutral-950 px-4">Navegación</DrawerTitle>
+						<DrawerTitle className="text-3xl font-bold tracking-tight text-neutral-950 px-4">{t('navigation')}</DrawerTitle>
 
 						<ul className="mt-4 text-neutral-800 font-medium text-lg flex flex-col gap-1">
 							<li>
 								<Link className={`${pathname === ROUTES.TEORIA ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.TEORIA}>
 									<BookText />
-									La teoría
+									{t('teoria')}
 								</Link>
 							</li>
 							<li>
 								<Link className={`${pathname === ROUTES.COMUNIDAD ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.COMUNIDAD}>
 									<Users />
-									La comunidad
+									{t('comunidad')}
 								</Link>
 							</li>
 							<li>
 								<Link className={`${pathname === ROUTES.CAMINO ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.CAMINO}>
 									<Route />
-									El camino
+									{t('camino')}
 								</Link>
 							</li>
 							<li>
 								<Link className={`${pathname === ROUTES.BLOG ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.BLOG}>
 									<NotebookPen />
-									Blog
+									{t('blog')}
 								</Link>
 							</li>
 						</ul>

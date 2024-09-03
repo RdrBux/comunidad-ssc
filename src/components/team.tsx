@@ -1,8 +1,11 @@
 import Image from 'next/image';
 import Juan from '../assets/juan.jpg';
 import Facundo from '../assets/facundo.jpg';
+import { useTranslations } from 'next-intl';
 
 export default function Team() {
+	const t = useTranslations('community.members')
+
 	return (
 		<div className="mt-16">
 			<div className="p-6 pb-8 border rounded-md shadow">
@@ -12,14 +15,14 @@ export default function Team() {
 					</div>
 					<div>
 						<p className={`font-source text-xl font-bold tracking-tight text-neutral-950`}>Juan Pedro Rodríguez</p>
-						<p className="text-base">Director de la Comunidad del Saber Supercomplejo</p>
+						<p className="text-base">{t('director.role')}</p>
 					</div>
 				</div>
 
 				<div className="text-sm lg:text-base px-2 mt-6 text-neutral-600">
-					<p>Es doctor en Educación. Docente titular en la UCSF y la UCA (Argentina).</p>
-					<p className="mt-2">Participó en el equipo de investigación sobre &quot;La relación entre el orden y el desorden en la teoría del caos determinista y en la teoría del orden implicado: convergencias y divergencias&quot;.</p>
-					<p className="mt-2">Autor de libros, artículos y expositor de ponencias en congresos internacionales. Colaborador en universidades europeas y americanas.</p>
+					<p>{t('director.description.paragraph-first')}</p>
+					<p className="mt-2">{t('director.description.paragraph-second')}</p>
+					<p className="mt-2">{t('director.description.paragraph-third')}</p>
 				</div>
 			</div>
 
@@ -30,13 +33,13 @@ export default function Team() {
 					</div>
 					<div>
 						<p className={`font-source text-xl font-bold tracking-tight text-neutral-950`}>Facundo Osuna</p>
-						<p className="text-base">Co-director de la Comunidad del Saber Supercomplejo</p>
+						<p className="text-base">{t('co-director.role')}</p>
 					</div>
 				</div>
 
 				<div className="text-sm lg:text-base px-2 mt-6 text-neutral-600">
-					<p>Es abogado independiente con experiencia en el tercer sector.</p>
-					<p className="mt-2">Maestrando en Teoría Constitucional y Derechos Humanos.</p>
+					<p>{t('co-director.description.paragraph-first')}</p>
+					<p className="mt-2">{t('co-director.description.paragraph-second')}</p>
 				</div>
 			</div>
 		</div>
