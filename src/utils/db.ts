@@ -160,12 +160,11 @@ export async function getCommentsByPostId(postId: Tables<'posts'>['id']) {
 
 }
 
-export async function getPostsByCategoryName(categoryName: Tables<'categories'>['name'], locale: string) {
+export async function getPostsByCategoryName(categoryName: Tables<'categories'>['name']) {
 	const supabase = createClient();
 	const { data, error } = await supabase.rpc('fetch_posts_by_category_name', {
     category_name: categoryName,
   })
-	.eq('lang', locale);
 
 	return { data, error }
 

@@ -350,6 +350,11 @@
 			"comment": "Comment",
 			"your-comment": "Your comment",
 			"in-the-community": "in the community"
+		},
+		"user-menu": {
+			"profile": "My profile",
+			"create-post": "Create post",
+			"logout": "Sign out"
 		}
 	}
 }

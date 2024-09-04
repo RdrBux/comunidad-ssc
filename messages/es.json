@@ -350,6 +350,11 @@
 			"comment": "Comentar",
 			"your-comment": "Tu comentario",
 			"in-the-community": "en la comunidad"
+		},
+		"user-menu": {
+			"profile": "Mi perfil",
+			"create-post": "Crear publicación",
+			"logout": "Cerrar sesión"
 		}
 	}
 }

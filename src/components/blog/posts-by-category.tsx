@@ -8,7 +8,7 @@ export default async function PostsByCategory({ category }: { category: Tables<'
 	const t = await getTranslations('blog')
 	const locale = await getLocale();
 
-	const { data, error } = await getPostsByCategoryName(category, locale);
+	const { data, error } = await getPostsByCategoryName(category);
 
 	if (error) return
 	if (!data) return

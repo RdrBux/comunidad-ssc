@@ -4,9 +4,11 @@ import { FilePlus, LogOut, User } from "lucide-react";
 import LoginButton from "./login-button";
 import { logoutUser } from "@/utils/actions";
 import { getUserData } from "@/utils/db";
+import { getTranslations } from "next-intl/server";
 
 export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }) {
 	const { user, error } = await getUserData()
+	const t = await getTranslations('blog.user-menu')
 
 	if (!user) return <LoginButton style={style} />
 
@@ -29,7 +31,7 @@ export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }
 				<Link href={`/blog/user/${user.id}`}>
 					<DropdownMenuItem className="flex items-center gap-3">
 						<User size={16} />
-						Perfil
+						{t('profile')}
 					</DropdownMenuItem>
 				</Link>
 
@@ -37,7 +39,7 @@ export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }
 					<Link href={`/blog/create`}>
 						<DropdownMenuItem className="flex items-center gap-3">
 							<FilePlus size={16} />
-							Crear post
+							{t('create-post')}
 						</DropdownMenuItem>
 					</Link>
 				)}
@@ -46,7 +48,7 @@ export default async function NavUserMenu({ style }: { style: 'light' | 'dark' }
 					<button className="w-full" type="submit">
 						<DropdownMenuItem className="flex items-center gap-3">
 							<LogOut size={16} />
-							Cerrar sesión
+							{t('logout')}
 						</DropdownMenuItem>
 					</button>
 				</form>
