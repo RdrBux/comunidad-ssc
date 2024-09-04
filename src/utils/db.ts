@@ -130,10 +130,11 @@ export async function getCategoriesCount(locale: string) {
 	const supabase = createClient()
 
 	const { data, error } = await supabase.rpc('get_category_counts');
+	console.log({data, error})
 
   if (error) console.error(error)
 
-  return {data, error};
+  return {data: data?.filter((category) => category.lang === locale), error};
 }
 
 export async function getCommentsByPostId(postId: Tables<'posts'>['id']) {

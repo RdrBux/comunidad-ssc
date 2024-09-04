@@ -247,6 +247,7 @@ export type Database = {
         Args: Record<PropertyKey, never>
         Returns: {
           category_name: string
+          lang: Database["public"]["Enums"]["lang"]
           post_count: number
         }[]
       }
