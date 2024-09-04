@@ -1,5 +1,5 @@
 import { AppRoute } from "@/utils/constants";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 interface Props {
 	route: AppRoute;

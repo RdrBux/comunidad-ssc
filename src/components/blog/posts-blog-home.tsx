@@ -1,7 +1,7 @@
 import { formatDate } from "@/lib/utils"
 import { getPostsBlogHome } from "@/utils/db"
 import { getLocale, getTranslations } from "next-intl/server"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
 
 export default async function PostsBlogHome() {
 	const t = await getTranslations('blog')

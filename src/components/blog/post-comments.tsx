@@ -1,7 +1,7 @@
 import { Tables } from "@/utils/supabase/types-supabase";
 import CommentBox from "./comment-box";
 import { getCommentsByPostId, getUserData } from "@/utils/db";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { formatDateWithTime, sortComments } from "@/lib/utils";
 import LoginButton from "./login-button";
 import AnswerCommentButton from "./answer-comment-button";

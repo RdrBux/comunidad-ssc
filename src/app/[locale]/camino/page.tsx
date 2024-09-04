@@ -6,7 +6,7 @@ import { ImgCubes } from "@/components/svgs";
 import { ROUTES } from "@/utils/constants";
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 export const metadata: Metadata = {
 	title: "El camino - Comunidad del Saber Supercomplejo",

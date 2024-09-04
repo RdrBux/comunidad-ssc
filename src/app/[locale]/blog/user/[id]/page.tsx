@@ -7,7 +7,7 @@ import { getUserById } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Metadata, ResolvingMetadata } from "next";
 import { getLocale } from "next-intl/server";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 type Props = {
 	params: { id: Tables<'profiles'>['id'] }

@@ -1,20 +1,25 @@
 'use client'
 
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle, DrawerTrigger } from "./ui/drawer";
 import { ROUTES } from "@/utils/constants";
 import { BookText, Menu, NotebookPen, Route, Users } from "lucide-react";
-import { usePathname } from "next/navigation";
 import Image from "next/image";
 import ukFlag from '../assets/uk-flag.png'
 import spainFlag from '../assets/spain-flag.png'
 import { useLocale, useTranslations } from "next-intl";
+import { usePathname, useRouter } from "next/navigation";
 import { redirectedPathname } from "@/lib/utils";
 
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
+	const router = useRouter()
 	const pathname = usePathname()
 	const t = useTranslations('navigation')
 	const locale = useLocale()
+
+	function handleClick(lang: 'es' | 'en') {
+		router.replace(redirectedPathname(pathname, lang))
+	}
 
 	const isBlog = pathname.includes('blog')
 
@@ -68,16 +73,16 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 
 						<ul className="mt-2 text-neutral-800 font-medium text-lg flex flex-col gap-1">
 							<li>
-								<Link href={redirectedPathname(pathname, 'en')} className={`${locale === 'en' ? 'font-semibold' : ''} py-1 px-4 rounded-md flex items-center gap-3`}>
+								<button onClick={() => handleClick('en')} className={`${locale === 'en' ? 'font-semibold' : ''} py-1 px-4 w-full rounded-md flex items-center gap-3`}>
 									<Image className="w-5" src={ukFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 									English
-								</Link>
+								</button>
 							</li>
 							<li>
-								<Link href={redirectedPathname(pathname, 'es')} className={`${locale === 'es' ? 'font-semibold' : ''} py-1 px-4 rounded-md flex items-center gap-3`}>
+								<button onClick={() => handleClick('es')} className={`${locale === 'es' ? 'font-semibold' : ''} py-1 px-4 w-full rounded-md flex items-center gap-3`}>
 									<Image className="w-5" src={spainFlag} alt="Ícono bandera de España" width={32} height={32} />
 									Español
-								</Link>
+								</button>
 							</li>
 						</ul>
 					</div>

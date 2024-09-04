@@ -2,7 +2,7 @@ import { formatDateWithTime } from "@/lib/utils";
 import { getCommentsByUserId } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { getLocale, getTranslations } from "next-intl/server";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 export default async function CommentsByUser({ id }: { id: Tables<'profiles'>['id'] }) {
 	const { data, error } = await getCommentsByUserId(id)

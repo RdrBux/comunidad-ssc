@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { Logo } from "./svgs";
 import { MEDIA, ROUTES } from "@/utils/constants";
 import Newsletter from "./newsletter";

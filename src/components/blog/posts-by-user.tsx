@@ -2,7 +2,7 @@ import { formatDate } from "@/lib/utils";
 import { getPostsByUserId } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { getLocale, getTranslations } from "next-intl/server";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 export default async function PostsByUser({ id }: { id: Tables<'profiles'>['id'] }) {
 	const t = await getTranslations('blog');

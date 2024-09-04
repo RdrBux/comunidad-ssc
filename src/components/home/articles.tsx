@@ -1,6 +1,6 @@
 import { formatDate } from "@/lib/utils"
 import { getPostsBlogHome } from "@/utils/db"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
 import { Logo } from "../svgs"
 import { getLocale, getTranslations } from "next-intl/server"
 

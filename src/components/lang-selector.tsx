@@ -5,12 +5,13 @@ import spainFlag from '../assets/spain-flag.png'
 import ukFlag from '../assets/uk-flag.png'
 import Image from "next/image";
 import { Languages } from "lucide-react";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { Link } from "@/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import { redirectedPathname } from "@/lib/utils";
 
 export default function LangSelector({ style }: { style: 'dark' | 'light' }) {
+	const router = useRouter();
 	const pathname = usePathname();
 	const isBlog = pathname.includes('blog')
 	const locale = useLocale();
@@ -19,6 +20,10 @@ export default function LangSelector({ style }: { style: 'dark' | 'light' }) {
 	const langs = {
 		'es': 'Español',
 		'en': 'English',
+	}
+
+	function handleClick(lang: 'es' | 'en') {
+		router.replace(redirectedPathname(pathname, lang))
 	}
 
 	return (
@@ -37,16 +42,16 @@ export default function LangSelector({ style }: { style: 'dark' | 'light' }) {
 					<DropdownMenuSeparator />
 
 					<DropdownMenuItem asChild>
-						<Link href={redirectedPathname(pathname, 'en')} className="flex items-center gap-2">
+						<button onClick={() => handleClick('en')} className="flex items-center gap-2">
 							<Image className="w-5" src={ukFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 							English
-						</Link>
+						</button>
 					</DropdownMenuItem>
 					<DropdownMenuItem asChild>
-						<Link href={redirectedPathname(pathname, 'es')} className="flex items-center gap-2">
+						<button onClick={() => handleClick('es')} className="flex items-center gap-2">
 							<Image className="w-5" src={spainFlag} alt="Ícono bandera de España" width={32} height={32} />
 							Español
-						</Link>
+						</button>
 					</DropdownMenuItem>
 
 				</DropdownMenuContent>

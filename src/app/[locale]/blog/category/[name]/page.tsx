@@ -1,10 +1,10 @@
 import PostsByCategory from "@/components/blog/posts-by-category";
 import Navbar from "@/components/navbar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
+import { Link } from "@/i18n/routing";
 import { ROUTES } from "@/utils/constants";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Metadata, ResolvingMetadata } from "next";
-import Link from "next/link";
 
 type Props = {
 	params: { name: Tables<'categories'>['name'] }

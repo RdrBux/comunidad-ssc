@@ -1,5 +1,5 @@
+import { Link } from "@/i18n/routing";
 import { AppRoute } from "@/utils/constants";
-import Link from "next/link";
 
 interface Props {
 	style: 'dark' | 'light';

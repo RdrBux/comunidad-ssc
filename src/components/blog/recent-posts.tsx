@@ -2,7 +2,7 @@ import { formatDate } from "@/lib/utils"
 import { getRecentPosts } from "@/utils/db"
 import { Tables } from "@/utils/supabase/types-supabase"
 import { getLocale, getTranslations } from "next-intl/server"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
 
 export default async function RecentPosts({ id }: { id: Tables<'posts'>['id'] }) {
 	const locale = await getLocale();

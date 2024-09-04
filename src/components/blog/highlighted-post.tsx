@@ -1,7 +1,7 @@
 import { formatDate } from "@/lib/utils"
 import { getHighlightedPost } from "@/utils/db"
 import { getLocale } from "next-intl/server"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
 
 export default async function HighlightedPost() {
 	const { data, error } = await getHighlightedPost()

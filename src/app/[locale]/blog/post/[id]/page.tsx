@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
 import { ROUTES } from "@/utils/constants";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import styles from "./page.module.css";
 import { formatDate } from "@/lib/utils";
 import BlogCard from "@/components/blog/blog-card";

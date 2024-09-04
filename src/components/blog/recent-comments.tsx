@@ -1,5 +1,5 @@
 import { getLastComments } from "@/utils/db"
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 
 export default async function RecentComments() {
 	const { data, error } = await getLastComments();
