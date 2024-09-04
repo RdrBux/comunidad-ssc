@@ -13,16 +13,19 @@ export type Database = {
         Row: {
           created_at: string
           id: number
+          lang: Database["public"]["Enums"]["lang"]
           name: string
         }
         Insert: {
           created_at?: string
           id?: number
+          lang?: Database["public"]["Enums"]["lang"]
           name: string
         }
         Update: {
           created_at?: string
           id?: number
+          lang?: Database["public"]["Enums"]["lang"]
           name?: string
         }
         Relationships: []
@@ -148,6 +151,7 @@ export type Database = {
           highlighted: boolean
           id: number
           img_url: string
+          lang: Database["public"]["Enums"]["lang"]
           title: string
           updated_at: string
           user_id: string
@@ -159,6 +163,7 @@ export type Database = {
           highlighted?: boolean
           id?: number
           img_url: string
+          lang?: Database["public"]["Enums"]["lang"]
           title: string
           updated_at?: string
           user_id: string
@@ -170,6 +175,7 @@ export type Database = {
           highlighted?: boolean
           id?: number
           img_url?: string
+          lang?: Database["public"]["Enums"]["lang"]
           title?: string
           updated_at?: string
           user_id?: string
@@ -246,6 +252,7 @@ export type Database = {
       }
     }
     Enums: {
+      lang: "es" | "en"
       user_role: "admin" | "user"
     }
     CompositeTypes: {

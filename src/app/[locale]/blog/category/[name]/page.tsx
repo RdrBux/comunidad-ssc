@@ -2,7 +2,6 @@ import PostsByCategory from "@/components/blog/posts-by-category";
 import Navbar from "@/components/navbar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { ROUTES } from "@/utils/constants";
-import { getCategories } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Metadata, ResolvingMetadata } from "next";
 import Link from "next/link";

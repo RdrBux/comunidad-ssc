@@ -5,9 +5,10 @@ import { getLocale, getTranslations } from "next-intl/server";
 import Link from "next/link";
 
 export default async function PostsByCategory({ category }: { category: Tables<'categories'>['name'] }) {
-	const { data, error } = await getPostsByCategoryName(category);
-	const locale = await getLocale();
 	const t = await getTranslations('blog')
+	const locale = await getLocale();
+
+	const { data, error } = await getPostsByCategoryName(category, locale);
 
 	if (error) return
 	if (!data) return

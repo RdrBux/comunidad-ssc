@@ -4,9 +4,9 @@ import { getLocale, getTranslations } from "next-intl/server"
 import Link from "next/link"
 
 export default async function PostsBlogHome() {
-	const { data, error } = await getPostsBlogHome()
 	const t = await getTranslations('blog')
 	const locale = await getLocale();
+	const { data, error } = await getPostsBlogHome(locale)
 
 	if (error) return
 	if (!data) return

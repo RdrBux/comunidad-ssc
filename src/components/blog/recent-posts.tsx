@@ -5,9 +5,9 @@ import { getLocale, getTranslations } from "next-intl/server"
 import Link from "next/link"
 
 export default async function RecentPosts({ id }: { id: Tables<'posts'>['id'] }) {
-	const { data, error } = await getRecentPosts(id)
-	const t = await getTranslations('blog')
 	const locale = await getLocale();
+	const t = await getTranslations('blog')
+	const { data, error } = await getRecentPosts(id, locale)
 
 	if (error) return
 	if (!data) return

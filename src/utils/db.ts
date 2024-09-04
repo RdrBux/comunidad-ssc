@@ -34,7 +34,7 @@ export async function getCategories() {
 	return { categories, error }
 }
 
-export async function getRecentPosts(id: Tables<'posts'>['id']) {
+export async function getRecentPosts(id: Tables<'posts'>['id'], locale: string) {
 	const supabase = createClient();
 
 	const { data, error } = await supabase
@@ -47,6 +47,7 @@ export async function getRecentPosts(id: Tables<'posts'>['id']) {
       created_at,
       profiles (full_name)
     `)
+		.eq('lang', locale)
 		.neq('id', id)
 		.order('created_at', { ascending: false })
     .limit(5);
@@ -80,7 +81,7 @@ export async function getHighlightedPost() {
 	return { data, error }
 }
 
-export async function getPostsBlogHome() {
+export async function getPostsBlogHome(locale: string) {
 	const supabase = createClient();
 
 	const { data, error } = await supabase
@@ -96,6 +97,7 @@ export async function getPostsBlogHome() {
         categories (name)
       )
     `)
+		.eq('lang', locale)
     .neq('highlighted', true)
 		.order('created_at', { ascending: false })
 
@@ -124,7 +126,7 @@ export async function getPostById(id: Tables<'posts'>['id']) {
 	return { data, error }
 }
 
-export async function getCategoriesCount() {
+export async function getCategoriesCount(locale: string) {
 	const supabase = createClient()
 
 	const { data, error } = await supabase.rpc('get_category_counts');
@@ -157,11 +159,12 @@ export async function getCommentsByPostId(postId: Tables<'posts'>['id']) {
 
 }
 
-export async function getPostsByCategoryName(categoryName: Tables<'categories'>['name']) {
+export async function getPostsByCategoryName(categoryName: Tables<'categories'>['name'], locale: string) {
 	const supabase = createClient();
 	const { data, error } = await supabase.rpc('fetch_posts_by_category_name', {
     category_name: categoryName,
-  });
+  })
+	.eq('lang', locale);
 
 	return { data, error }
 
@@ -182,7 +185,7 @@ export async function getUserById(userId: Tables<'profiles'>['id']) {
 
 }
 
-export async function getPostsByUserId(userId: Tables<'profiles'>['id']) {
+export async function getPostsByUserId(userId: Tables<'profiles'>['id'], locale: string) {
 	const supabase = createClient();
 
 	const { data, error } = await supabase
@@ -196,6 +199,7 @@ export async function getPostsByUserId(userId: Tables<'profiles'>['id']) {
 		created_at
 	`)
 	.eq('user_id', userId)
+	.eq('lang', locale)
 	.order('created_at', { ascending: false })
 
 	if (error) console.error(error)

@@ -5,9 +5,10 @@ import { getLocale, getTranslations } from "next-intl/server";
 import Link from "next/link";
 
 export default async function PostsByUser({ id }: { id: Tables<'profiles'>['id'] }) {
-	const { data, error } = await getPostsByUserId(id);
 	const t = await getTranslations('blog');
 	const locale = await getLocale();
+
+	const { data, error } = await getPostsByUserId(id, locale);
 
 	if (error) return;
 	if (!data || data.length < 1) return;
