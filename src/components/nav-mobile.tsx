@@ -8,12 +8,13 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import ukFlag from '../assets/uk-flag.png'
 import spainFlag from '../assets/spain-flag.png'
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { redirectedPathname } from "@/lib/utils";
 
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const pathname = usePathname()
 	const t = useTranslations('navigation')
+	const locale = useLocale()
 
 	const isBlog = pathname.includes('blog')
 
@@ -67,14 +68,14 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 
 						<ul className="mt-2 text-neutral-800 font-medium text-lg flex flex-col gap-1">
 							<li>
-								<Link href={redirectedPathname(pathname, 'en')} className="py-1 px-4 rounded-md flex items-center gap-3">
+								<Link href={redirectedPathname(pathname, 'en')} className={`${locale === 'en' ? 'font-semibold' : ''} py-1 px-4 rounded-md flex items-center gap-3`}>
 									<Image className="w-5" src={ukFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 									English
 								</Link>
 							</li>
 							<li>
-								<Link href={redirectedPathname(pathname, 'es')} className="py-1 px-4 rounded-md font-semibold flex items-center gap-3">
-									<Image className="w-5" src={spainFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
+								<Link href={redirectedPathname(pathname, 'es')} className={`${locale === 'es' ? 'font-semibold' : ''} py-1 px-4 rounded-md flex items-center gap-3`}>
+									<Image className="w-5" src={spainFlag} alt="Ícono bandera de España" width={32} height={32} />
 									Español
 								</Link>
 							</li>
