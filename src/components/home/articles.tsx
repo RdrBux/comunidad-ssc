@@ -3,6 +3,7 @@ import { getPostsBlogHome } from "@/utils/db"
 import { Link } from "@/i18n/routing"
 import { Logo } from "../svgs"
 import { getLocale, getTranslations } from "next-intl/server"
+import Image from "next/image"
 
 export default async function Articles() {
 	const t = await getTranslations('home.articles')
@@ -28,7 +29,7 @@ export default async function Articles() {
 					{
 						topThreePosts.map((post) => (
 							<article key={post.id} className="flex flex-col gap-3 shrink-0">
-								<Link href={`/blog/post/${post.id}`}><img className="shadow-md shadow-primary-950/20 hover:brightness-75 duration-300 rounded h-full w-full object-cover object-center aspect-[3/2]" src={post.img_url} alt={post.title} /></Link>
+								<Link href={`/blog/post/${post.id}`}><Image width={2400} height={1600} className="shadow-md shadow-primary-950/20 hover:brightness-75 duration-300 rounded h-full w-full object-cover object-center aspect-[3/2]" src={post.img_url} alt={post.title} /></Link>
 								<div className="text-sm text-neutral-400 font-medium">{tBlog('by')} <Link href={`/blog/user/${post.user_id}`} className="text-tertiary-50 font-semibold hover:text-secondary-300 duration-300">{post.profiles!.full_name}</Link> <span className="hidden lg:inline">•</span><br className="lg:hidden" /> {formatDate(post.created_at, locale)}</div>
 								<Link className="hover:text-neutral-300 duration-300" href={`/blog/post/${post.id}`}><h3 className={`font-source font-semibold text-xl tracking-tight leading-tight`}>{post.title}</h3></Link>
 								<div className="flex gap-2 text-neutral-600">

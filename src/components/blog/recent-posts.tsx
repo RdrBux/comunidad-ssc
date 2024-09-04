@@ -3,6 +3,7 @@ import { getRecentPosts } from "@/utils/db"
 import { Tables } from "@/utils/supabase/types-supabase"
 import { getLocale, getTranslations } from "next-intl/server"
 import { Link } from "@/i18n/routing"
+import Image from "next/image"
 
 export default async function RecentPosts({ id }: { id: Tables<'posts'>['id'] }) {
 	const locale = await getLocale();
@@ -20,7 +21,7 @@ export default async function RecentPosts({ id }: { id: Tables<'posts'>['id'] })
 				data.map(post => (
 					<>
 						<div className="flex gap-4 mt-6">
-							<Link className="shrink-0" href={`/blog/post/${post.id}`}><img className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src={post.img_url} alt={post.title} /></Link>
+							<Link className="shrink-0" href={`/blog/post/${post.id}`}><Image width={2400} height={1600} className="hover:brightness-75 duration-300 rounded-md w-24 h-24 object-cover" src={post.img_url} alt={post.title} /></Link>
 
 							<div className="flex flex-col">
 								<div className="font-medium text-neutral-600 text-sm">{t('by')} <Link className="font-semibold text-neutral-950 hover:text-secondary-700 duration-300" href={`/blog/user/${post.user_id}`}>{post.profiles?.full_name}</Link></div>

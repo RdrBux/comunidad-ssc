@@ -46,7 +46,7 @@ export default function CommentBox({ postId, parentId, answerToId, setShowForm, 
 			<div className="w-full mb-4 border border-neutral-200 rounded-md bg-neutral-50">
 				<div className="px-4 py-2 bg-white rounded-t-md">
 					<label htmlFor="comment" className="sr-only">{t('your-comment')}</label>
-					<textarea id="comment" name="comment" rows={4} className="w-full px-0 text-neutral-900 bg-white border-0 outline-none focus:ring-0" placeholder="Tu comentario..." required ></textarea>
+					<textarea id="comment" name="comment" rows={4} className="w-full px-0 text-neutral-900 bg-white border-0 outline-none focus:ring-0" placeholder={`${t('your-comment')}...`} required ></textarea>
 				</div>
 				<div className="flex items-center justify-between p-2 border-t">
 					<CommentBoxButton />

@@ -12,6 +12,7 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbP
 import SharePage from "@/components/share-page";
 import { Metadata, ResolvingMetadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 
 type Props = {
 	params: { id: Tables<'posts'>['id'] }
@@ -50,7 +51,7 @@ export default async function BlogPage({ params }: { params: { id: Tables<'posts
 
 			<main>
 				<div className="relative flex flex-col overflow-hidden h-[80vh] lg:h-screen">
-					<img className="duration-300 absolute -z-10 inset-0 h-full w-full brightness-[0.25] object-cover" src={data.img_url} alt={data.title} />
+					<Image className="duration-300 absolute -z-10 inset-0 h-full w-full brightness-[0.25] object-cover" width={2400} height={1600} src={data.img_url} alt={data.title} />
 					<div className="container mx-auto px-4 lg:px-16 h-full">
 						<div className="text-tertiary-50 max-w-3xl py-16 flex flex-col justify-end h-full grow">
 							<div className="mb-auto mt-8">
