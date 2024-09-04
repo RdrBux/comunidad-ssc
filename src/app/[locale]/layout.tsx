@@ -3,14 +3,25 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { sourceSerif } from "@/utils/fonts";
 import { Analytics } from '@vercel/analytics/react';
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { NextIntlClientProvider } from 'next-intl';
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Comunidad del Saber Supercomplejo",
-};
+interface Props {
+  params: { locale: string };
+}
+
+export async function generateMetadata(
+  { params }: Props,
+): Promise<Metadata> {
+
+  const t = await getTranslations('namespace')
+
+  return {
+    title: t('home'),
+  }
+}
 
 export const viewport: Viewport = {
   width: "device-width",

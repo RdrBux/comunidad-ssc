@@ -23,15 +23,17 @@ export async function generateMetadata(
 	parent: ResolvingMetadata
 ): Promise<Metadata> {
 
+	const t = await getTranslations('namespace')
+
 	const id = params.id
 
 	const { data, error } = await getPostById(id)
 	if (error || !data) return ({
-		title: 'Blog | Comunidad del Saber Supercomplejo'
+		title: `Blog | ${t('home')}`
 	})
 
 	return {
-		title: `${data.title} | Comunidad del Saber Supercomplejo`
+		title: `${data.title} | ${t('home')}`
 	}
 }
 

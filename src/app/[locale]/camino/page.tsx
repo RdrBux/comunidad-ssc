@@ -7,10 +7,16 @@ import { ROUTES } from "@/utils/constants";
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-	title: "El camino - Comunidad del Saber Supercomplejo",
-};
+export async function generateMetadata(): Promise<Metadata> {
+
+	const t = await getTranslations('namespace')
+
+	return {
+		title: t('camino'),
+	}
+}
 
 export default function Camino() {
 	const tHome = useTranslations('home.pathway');

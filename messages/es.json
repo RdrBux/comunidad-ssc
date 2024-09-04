@@ -356,5 +356,14 @@
 			"create-post": "Crear publicación",
 			"logout": "Cerrar sesión"
 		}
+	},
+	"namespace": {
+		"home": "Comunidad del Saber Supercomplejo",
+		"teoria": "La teoría - Comunidad del Saber Supercomplejo",
+		"comunidad": "La comunidad - Comunidad del Saber Supercomplejo",
+		"camino": "El camino - Comunidad del Saber Supercomplejo",
+		"blog": "Blog - Comunidad del Saber Supercomplejo",
+		"terms": "Términos y Condiciones del Servicio - Comunidad del Saber Supercomplejo",
+		"privacy": "Política de Privacidad - Comunidad del Saber Supercomplejo"
 	}
 }

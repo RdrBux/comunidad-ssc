@@ -5,6 +5,7 @@ import { Link } from "@/i18n/routing";
 import { ROUTES } from "@/utils/constants";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Metadata, ResolvingMetadata } from "next";
+import { getTranslations } from "next-intl/server";
 
 type Props = {
 	params: { name: Tables<'categories'>['name'] }
@@ -16,10 +17,12 @@ export async function generateMetadata(
 	parent: ResolvingMetadata
 ): Promise<Metadata> {
 
+	const t = await getTranslations('namespace')
+
 	const name = params.name
 
 	return {
-		title: `Categoría: ${name} | Comunidad del Saber Supercomplejo`
+		title: `${name} | ${t('home')}`,
 	}
 }
 

@@ -1,10 +1,16 @@
 import Navbar from "@/components/navbar";
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-	title: "Términos y Condiciones del Servicio - Comunidad del Saber Supercomplejo",
-};
+export async function generateMetadata(): Promise<Metadata> {
+
+	const t = await getTranslations('namespace')
+
+	return {
+		title: t('terms'),
+	}
+}
 
 export default function TermsAndConditions() {
 	const t = useTranslations('terms')

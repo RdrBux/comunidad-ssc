@@ -6,7 +6,7 @@ import { ROUTES } from "@/utils/constants";
 import { getUserById } from "@/utils/db";
 import { Tables } from "@/utils/supabase/types-supabase";
 import { Metadata, ResolvingMetadata } from "next";
-import { getLocale } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 
 type Props = {
@@ -19,15 +19,17 @@ export async function generateMetadata(
 	parent: ResolvingMetadata
 ): Promise<Metadata> {
 
+	const t = await getTranslations('namespace')
+
 	const id = params.id
 
 	const { data, error } = await getUserById(id)
 	if (error || !data) return ({
-		title: 'Blog | Comunidad del Saber Supercomplejo'
+		title: `Blog | ${t('home')}`
 	})
 
 	return {
-		title: `Perfil de ${data.full_name} | Comunidad del Saber Supercomplejo`
+		title: `${data.full_name} | ${t('home')}`
 	}
 }
 

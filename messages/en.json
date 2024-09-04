@@ -250,7 +250,7 @@
 		"sections": {
 			"1": {
 				"title": "Introduction",
-				"description": "Welcome to Comunidad del Saber Supercomplejo. In this Privacy Policy, we explain how we collect, use, share, and protect the personal information that users provide through our website."
+				"description": "Welcome to Community of Supercomplex Knowledge. In this Privacy Policy, we explain how we collect, use, share, and protect the personal information that users provide through our website."
 			},
 			"2": {
 				"title": "Information Collected",
@@ -298,7 +298,7 @@
 		"sections": {
 			"1": {
 				"title": "Introduction",
-				"description": "Welcome to Comunidad del Saber Supercomplejo. By using our website, you agree to comply with the following Terms of Service. We recommend that you read these terms carefully before using our services."
+				"description": "Welcome to Community of Supercomplex Knowledge. By using our website, you agree to comply with the following Terms of Service. We recommend that you read these terms carefully before using our services."
 			},
 			"2": {
 				"title": "Services Offered",
@@ -322,7 +322,7 @@
 			},
 			"7": {
 				"title": "Intellectual Property",
-				"description": "All content published on our website, including text, graphics, and design, is the property of Comunidad del Saber Supercomplejo, except for comments or contributions from third parties. Users may not use this content without our authorization."
+				"description": "All content published on our website, including text, graphics, and design, is the property of Community of Supercomplex Knowledge, except for comments or contributions from third parties. Users may not use this content without our authorization."
 			},
 			"8": {
 				"title": "Applicable Law",
@@ -356,5 +356,14 @@
 			"create-post": "Create post",
 			"logout": "Sign out"
 		}
+	},
+	"namespace": {
+		"home": "Community of Supercomplex Knowledge",
+		"teoria": "The theory - Community of Supercomplex Knowledge",
+		"comunidad": "The community - Community of Supercomplex Knowledge",
+		"camino": "The path - Community of Supercomplex Knowledge",
+		"blog": "Blog - Community of Supercomplex Knowledge",
+		"terms": "Terms of Service - Community of Supercomplex Knowledge",
+		"privacy": "Privacy Policies - Community of Supercomplex Knowledge"
 	}
 }

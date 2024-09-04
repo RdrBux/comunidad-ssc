@@ -3,10 +3,17 @@ import CategoriesList from "@/components/blog/categories-list";
 import PostsBlogHome from "@/components/blog/posts-blog-home";
 import Navbar from "@/components/navbar";
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-	title: "Blog - Comunidad del Saber Supercomplejo",
-};
+
+export async function generateMetadata(): Promise<Metadata> {
+
+	const t = await getTranslations('namespace')
+
+	return {
+		title: t('blog'),
+	}
+}
 
 export default function Blog() {
 	return (
