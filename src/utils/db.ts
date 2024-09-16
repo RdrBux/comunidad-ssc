@@ -57,6 +57,22 @@ export async function getRecentPosts(id: Tables<'posts'>['id'], locale: string) 
 	return { data, error }
 }
 
+export async function getSitemapPosts() {
+	const supabase = createClient();
+
+	const { data, error } = await supabase
+	.from('posts')
+	.select(`
+		id,
+		lang,
+		updated_at
+		`)
+
+	if (error) console.error(error)
+
+		return { data, error }
+}
+
 export async function getHighlightedPost() {
 	const supabase = createClient();
 

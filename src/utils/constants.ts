@@ -1,3 +1,5 @@
+export const BASE_URL = 'https://sabersupercomplejo.com';
+
 export const ROUTES = {
 	INICIO: '/',
 	COMUNIDAD: '/comunidad',

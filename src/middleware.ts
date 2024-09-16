@@ -7,8 +7,14 @@ import { updateSession } from './utils/supabase/middleware';
 const intlMiddleware = createIntlMiddleware(routing);
 
 export async function middleware(request: NextRequest) {
+    // Ignore sitemap route
+    if (request.nextUrl.pathname === '/sitemap.xml') {
+        return NextResponse.next();
+    }
+
     // Handle session update with Supabase
     const response = await updateSession(request);
+
 
     // Detect Instagram user-agent and set custom header if Instagram is detected
     const userAgent = request.headers.get('user-agent') || '';
