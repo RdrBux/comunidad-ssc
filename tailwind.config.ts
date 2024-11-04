@@ -37,7 +37,7 @@ const config = {
           '950': '#142e29',
         },
         'secondary': { //#1dd68f
-          '50': '#eafff5',
+        '50': '#eafff5',
           '100': '#cdfee4',
           '200': '#a0facf',
           '300': '#63f2b6',

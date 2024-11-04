@@ -37,6 +37,6 @@ export const config = {
         // Match only internationalized pathnames and other routes
         '/',
         '/(es|en)/:path*',
-        '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+        '/((?!_next/static|_next/image|pdf|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
     ],
 };

@@ -24,7 +24,6 @@ export default function LangSelector({ style }: { style: 'dark' | 'light' }) {
 
 	function handleClick(lang: 'es' | 'en') {
 		const newRoute = redirectedPathname(pathname, lang)
-		console.log(newRoute)
 		router.push(newRoute.includes('blog') ? `/${lang}/blog` : newRoute)
 	}
 

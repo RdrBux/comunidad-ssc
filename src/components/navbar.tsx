@@ -16,7 +16,7 @@ export default function Navbar({ style }: Props) {
 	const t = useTranslations('navigation')
 
 	return (
-		<div className={`${style === 'dark' ? 'border-b border-white/15 text-neutral-950' : 'border-b border-neutral-200'}  absolute z-20 top-0 left-0 right-0 `}>
+		<div className={`${style === 'dark' ? 'border-b border-white/15 text-neutral-950' : 'border-b border-neutral-200'} absolute z-20 top-0 left-0 right-0 `}>
 			<nav className="container mx-auto px-4 lg:px-16 flex items-center justify-between py-3 relative">
 				<Link className="w-10" aria-label="Inicio" href="/">
 					<Logo />
