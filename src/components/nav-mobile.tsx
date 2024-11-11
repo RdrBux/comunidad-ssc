@@ -10,12 +10,15 @@ import spainFlag from '../assets/spain-flag.png'
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { redirectedPathname } from "@/lib/utils";
+import { NavMobileCoursesLink } from "./courses-link";
 
 export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const router = useRouter()
 	const pathname = usePathname()
 	const t = useTranslations('navigation')
 	const locale = useLocale()
+
+	console.log(pathname)
 
 	function handleClick(lang: 'es' | 'en') {
 		router.replace(redirectedPathname(pathname, lang))
@@ -42,29 +45,30 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 
 						<ul className="mt-4 text-neutral-800 font-medium text-lg flex flex-col gap-1">
 							<li>
-								<Link className={`${pathname === ROUTES.TEORIA ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.TEORIA}>
+								<Link className={`${pathname.includes(ROUTES.TEORIA) ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.TEORIA}>
 									<BookText />
 									{t('teoria')}
 								</Link>
 							</li>
 							<li>
-								<Link className={`${pathname === ROUTES.COMUNIDAD ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.COMUNIDAD}>
+								<Link className={`${pathname.includes(ROUTES.COMUNIDAD) ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.COMUNIDAD}>
 									<Users />
 									{t('comunidad')}
 								</Link>
 							</li>
 							<li>
-								<Link className={`${pathname === ROUTES.CAMINO ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.CAMINO}>
+								<Link className={`${pathname.includes(ROUTES.CAMINO) ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.CAMINO}>
 									<Route />
 									{t('camino')}
 								</Link>
 							</li>
 							<li>
-								<Link className={`${pathname === ROUTES.BLOG ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.BLOG}>
+								<Link className={`${pathname.includes(ROUTES.BLOG) ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.BLOG}>
 									<NotebookPen />
 									{t('blog')}
 								</Link>
 							</li>
+							<NavMobileCoursesLink />
 						</ul>
 
 						<hr className="my-8" />
