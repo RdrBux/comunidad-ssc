@@ -18,8 +18,6 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 	const t = useTranslations('navigation')
 	const locale = useLocale()
 
-	console.log(pathname)
-
 	function handleClick(lang: 'es' | 'en') {
 		router.replace(redirectedPathname(pathname, lang))
 	}

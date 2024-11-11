@@ -27,6 +27,7 @@ export async function generateMetadata(
 }
 
 export default function CategoryPage({ params: { name } }: { params: { name: string } }) {
+	const decodedName = decodeURIComponent(name)
 	return (
 		<div>
 			<Navbar style="light" />
@@ -43,15 +44,15 @@ export default function CategoryPage({ params: { name } }: { params: { name: str
 						<BreadcrumbSeparator />
 
 						<BreadcrumbItem>
-							<BreadcrumbPage className="capitalize">{name}</BreadcrumbPage>
+							<BreadcrumbPage className="capitalize">{decodedName}</BreadcrumbPage>
 						</BreadcrumbItem>
 					</BreadcrumbList>
 				</Breadcrumb>
 
 
-				<h1 className="text-3xl font-bold text-neutral-950 tracking-tight mt-10 capitalize">{name}</h1>
+				<h1 className="text-3xl font-bold text-neutral-950 tracking-tight mt-10 capitalize">{decodedName}</h1>
 
-				<PostsByCategory category={name} />
+				<PostsByCategory category={decodedName} />
 			</main>
 		</div>
 	)
