@@ -5,7 +5,7 @@ import { sourceSerif } from "@/utils/fonts";
 import { Analytics } from '@vercel/analytics/react';
 import { getMessages, getTranslations } from "next-intl/server";
 import { NextIntlClientProvider } from 'next-intl';
-import StickyBanner from "@/components/sticky-banner";
+/* import StickyBanner from "@/components/sticky-banner"; */
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,7 +45,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={`${inter.className} ${sourceSerif.variable} tracking-tight antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          <StickyBanner />
+          {/* <StickyBanner /> */}
           <div className="relative">{children}</div>
         </NextIntlClientProvider>
         <Analytics />
