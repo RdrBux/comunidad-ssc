@@ -21,19 +21,21 @@
 				"2": "del Saber",
 				"3": "Supercomplejo"
 			},
-			"description": "“Un nuevo paradigma filosófico, científico y tecnológico ante la complejidad del universo y de la vida”"
+			"description": "“El nuevo paradigma filosófico, científico y tecnológico para comprender y transformar la complejidad y la supercomplejidad del universo, la vida y el cerebro humano”"
 		},
 		"theory": {
 			"category": "LA TEORÍA",
 			"title": "¿Qué es el Saber Supercomplejo?",
-			"paragraph-first": "Se trata de una propuesta paradigmática integradora y superadora del Pensamiento Complejo y de las Ciencias de la Complejidad, redefiniendo su objeto de estudio, es decir, los sistemas complejos, en la interrelación de sus componentes fundamentales: los flujos de energía, las morfologías estructurales y la conectividad temporal.",
-			"paragraph-second": "El SSC propone una reconfiguración de suprasistemas (micropartículas, macroscópico y biológico) que se superponen y articulan desde la supercomplejidad del universo y de la vida. También postula una metodología de descripción, predicción e intervención que construye y vincula mapas y algoritmos como herramientas para descubrir, entender y manipular las dinámicas y estructuras de sistemas complejos.",
+			"paragraph-first": "El Saber Supercomplejo (SSC) es el nuevo paradigma integrador que trasciende y supera tanto al Pensamiento Complejo como a las Ciencias de la Complejidad. Su propuesta redefine el objeto de estudio: los sistemas complejos, entendiéndolos como redes dinámicas donde interactúan tres componentes fundamentales —flujos de energía, morfologías estructurales y conectividad temporal— en un entramado evolutivo y circular.",
+			"paragraph-second": "A diferencia de los enfoques tradicionales, el SSC propone una visión combinatoria y relacional, capaz de mapear y transformar sistemas en todos los niveles: desde el universo de las micropartículas hasta el mundo biológico y social. Este paradigma articula suprasistemas —micropartículas, sistemas macroscópicos y biológicos— en constante superposición, mostrando cómo la complejidad y la supercomplejidad emergen y se retroalimentan en la evolución del universo y la vida.",
+			"paragraph-third": "Sus herramientas combinan mapas dinámicos adaptativos y algoritmos avanzados, permitiendo descubrir comportamientos de estabilidad y emergencia, anticipar escenarios y diseñar intervenciones estratégicas tanto en ciencia como en tecnología, instituciones y empresas.",
+			"paragraph-fourth": "Así, el SSC ofrece una visión profunda y renovada de la realidad, que habilita nuevas formas de innovación, optimización y gestión inteligente de recursos y procesos. Es la llave para quienes buscan liderar el futuro de la investigación y el desarrollo tecnológico en un mundo donde la complejidad es la norma.",
 			"button": "Leer la teoría"
 		},
 		"community": {
 			"category": "LA COMUNIDAD",
 			"title": "¿Qué es la Comunidad del SSC, qué objetivos tiene y qué beneficios tienen sus miembros?",
-			"paragraph-first": "Somos un equipo de investigación y desarrollo que tenemos el objetivo de instalar este paradigma como alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes.",
+			"paragraph-first": "Somos un equipo de investigación y desarrollo que tenemos el objetivo de instalar el Saber Supercomplejo como paradigma alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes.",
 			"paragraph-second": "El Programa de Intervención y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar el cumplimiento de sus funciones y objetivos.",
 			"button": "Leer sobre la comunidad"
 		},
@@ -65,14 +67,11 @@
 	},
 	"theory": {
 		"section-first": {
-			"paragraph-first": "Numerosos pensadores han coincidido en que el siglo XXI es el “siglo de la complejidad”. Ahora bien, el concepto de “complejidad” es polisémico, multívoco, multidimensional y polifacético. Hay cierto acuerdo en cuanto a la etimología de lo complejo como “aquello que está unido y entrelazado”. Una red de sistemas imbricados y conectados unos con otros sin vacíos.",
-			"paragraph-second": "Es a mediados del siglo XX que las Teorías de la Complejidad se comenzaron a construir como una alternativa a las explicaciones monocausales, simplificadas y deterministas, ancladas sobre los principios rectores del mecanicismo, el reduccionismo y el empirismo que predominaban en la ciencia de esa época.",
-			"paragraph-third": "El Pensamiento Complejo y las Ciencias de la Complejidad surgen y se consolidan como los dos enfoques más representativos. Es cierto que estos enfoques, en ocasiones, se perciben como enfoques opuestos y con un gran nivel de tensiones entre ellos, tensiones que surgen de las diferencias en sus metodologías, supuestos y áreas de énfasis."
+			"paragraph-first": "El siglo XXI se ha consolidado como el siglo de la complejidad, pero el concepto mismo de “complejidad” se ha multiplicado en sentidos y enfoques, generando un mosaico de perspectivas muchas veces dispersas y difíciles de articular. Frente a este escenario, el Saber Supercomplejo (SSC) emerge como una propuesta integradora, renovadora y aplicada, capaz de articular y superar tanto al Pensamiento Complejo como a las Ciencias de la Complejidad."
 		},
 		"section-second": {
-			"title": "Nuestra propuesta: El Saber Supercomplejo (SSC)",
-			"paragraph-first": "El objetivo de nuestra investigación y de nuestro trabajo es elaborar una propuesta unificadora y superadora del enorme mosaiquismo, que hoy ha hecho de las Teorías de la Complejidad un edificio con muchas teorías inconexas, de difícil acceso y escasa utilización en problemáticas sociales y humanas.",
-			"paragraph-first-strong": "El Saber Supercomplejo (SSC) se nutre de las jugosas raíces del Pensamiento Complejo y de las Ciencias de la Complejidad, como así también de los saberes preexistentes sobre los que abrevaban las primeras propuestas y también de los actuales, que fortalecen y dinamizan nuevas y superadoras perspectivas."
+			"title": "Del paradigma a la práctica",
+			"paragraph-first": "El SSC nace de la necesidad de unificar y potenciar los enfoques sobre la complejidad, superando la fragmentación teórica y generando una nueva gnoseología, metodología y caja de herramientas propias. Hoy el SSC es mucho más que un marco teórico: es un ecosistema internacional de investigación, desarrollo y transferencia, con impacto real en instituciones, empresas, equipos científicos, proyectos tecnológicos y movimientos educativos."
 		},
 		"object": {
 				"title": "Objeto de estudio",
@@ -87,108 +86,196 @@
 				"4": "Una propuesta de taxonomía de macrosistemas (micropartículas, macroscópicos y biológicos), sistemas y subsistemas complejos derivados y un modelo de triple solapamiento dinámico entre dichos macrosistemas que demuestran que no existe una flecha de la complejidad.",
 				"5": "Una metodología de descripción, predicción e intervención que construye y vincula mapas y algoritmos como herramientas para descubrir, entender y manipular las dinámicas y estructuras de sistemas complejos y presentar un programa de intervención y desarrollo y un software asociado para dar cuenta de la marcha y la eventual mejora de sistemas complejos concretos y con proyección a todas las grandes problemáticas sociales y planetarias."
 			}
+		},
+		"accomplishments": {
+			"title": "Principales logros y avances del Saber Supercomplejo",
+			"first": {
+				"title": "Profundización conceptual y diferenciación",
+				"bullets": {
+					"1": "Hemos definido con precisión que la complejidad es resultado de la interacción dinámica entre flujos de energía, morfologías estructurales y conectividad temporal.",
+					"2": "El concepto de supercomplejidad introduce la idea de que la riqueza del universo surge de la combinatoria y el solapamiento entre macrosistemas (micropartículas, macroscópico y biológico), conectados con el rol activo de los sujetos investigadores-desarrolladores y con instrumentos de modelado de última generación.",
+					"3": "El SSC enfatiza que no existe un orden absoluto: el universo se constituye en la tensión y la complementariedad constante entre orden y desorden.",
+					"4": "Abordamos la autonomía del universo y su reflejo en la autonomía del sujeto humano, destacando la importancia de la libertad y la creatividad en la evolución de los sistemas."
+				}
+			},
+			"second": {
+				"title": "Expansión y transversalidad en los campos del saber",
+				"bullets": {
+					"1": "El SSC ha trascendido su origen teórico-filosófico y hoy se aplica en ciencias naturales, filosofía, psicología, política, derecho, educación, gestión empresarial e innovación tecnológica.",
+					"2": "Hemos modelado sistemas complejos en 4D, reformulado el rol de los investigadores como creadores de mapas supercomplejos, y comenzado a construir una psicología supercompleja que integra lo subjetivo, lo relacional y lo simbólico.",
+					"3": "El SSC se utiliza en análisis constitucional, política exterior en derechos humanos, y transformación educativa basada en el desarrollo del pensamiento libre y el aprendizaje de patrones dinámicos."
+				}
+			},
+			"third": {
+				"title": "Desarrollo de herramientas prácticas y transferencia",
+				"bullets": {
+					"1": "Hemos diseñado y validado herramientas avanzadas: visualización de redes 4D multicapa, algoritmos propios para mapear y transformar sistemas, y criterios operativos para analizar nodos calientes, tibios y fríos.",
+					"2": "El software COMPLEX CUORE permite modelar, visualizar y modificar sistemas complejos reales, optimizando la toma de decisiones en empresas, gobiernos y organizaciones.",
+					"3": "Metodologías SSC ya se aplican para diagnóstico, intervención y optimización en ámbitos tan diversos como recursos naturales, salud, educación, energía, producción y justicia."
+				}
+			},
+			"fourth": {
+				"title": "Consolidación y legitimidad como paradigma",
+				"bullets": {
+					"1": "El SSC ha dejado de ser una hipótesis aislada para convertirse en un marco conceptual propio y diferenciado, que se distingue por su enfoque combinatorio y su capacidad de intervención real sobre sistemas en interacción.",
+					"2": "Mientras otros paradigmas buscan describir patrones en el caos, el SSC se focaliza en mapear, predecir y transformar la dinámica entre múltiples sistemas."
+				}
+			},
+			"fifth": {
+				"title": "Crecimiento como movimiento intelectual y comunidad internacional",
+				"bullets": {
+					"1": "Un libro de referencia, con segunda edición en camino, respalda y legitima el paradigma.",
+					"2": "Cursos, congresos, publicaciones y alianzas institucionales han expandido el alcance y la influencia del SSC.",
+					"3": "Se está formando una comunidad internacional de investigadores, profesionales y agentes de cambio, con iniciativas de divulgación, networking y colaboración multidisciplinaria."
+				}
+			}
 		}
 	},
 	"community": {
 		"about": {
-			"title": "Quiénes somos",
-			"paragraph-first": "Somos una comunidad dedicada a la investigación y desarrollo del paradigma del Saber Supercomplejo como una herramienta poderosa para entender y transformar la realidad multidimensional que nos rodea.",
-			"paragraph-second": "Nuestro Programa de Asistencia y Desarrollo está pensado para atender demandas de crecimiento y potenciación de administraciones de gobierno, empresas e instituciones interesadas en mejorar en el cumplimiento de sus funciones y objetivos. Las posibilidades de implementación del Programa son múltiples, a modo de ejemplo: sistemas de protección de recursos naturales; descubrimiento de nuevos elementos químicos y sus combinatorias; desarrollo astronómico y climatológico; diseño de fuentes de energía alternativas; atención a problemáticas sociales como el desarrollo de sistemas de salud, educativos, de justicia; estrategias de lucha contra la desnutrición, las enfermedades, la corrupción o el narcotráfico; potenciamiento de sistemas de producción y ventas en instituciones industriales y comerciales.",
-			"paragraph-third": "Esta propuesta surge luego de años de trabajo y estudio movida por la inquietud de ofrecer una teoría integradora y superadora del Pensamiento Complejo, las Ciencias de la Complejidad y otros enfoques relacionados que permita, además de un desarrollo teórico, su aplicación práctica y metodológica."
+			"title": "¿Quiénes somos?",
+			"paragraph-first": "Somos una comunidad internacional de investigadores, profesionales y agentes de cambio apasionados por el desarrollo y la aplicación del paradigma del Saber Supercomplejo (SSC). Nuestro objetivo es poner en práctica una visión integradora, innovadora y relacional que transforma la manera en que entendemos y mejoramos la realidad multidimensional de nuestro tiempo. "
+		},
+		"services": {
+			"1": {
+				"title": "1. Saber Supercomplejo: desarrollo, difusión e inspiración",
+				"paragraph-first": "El Saber Supercomplejo (SSC) es el núcleo teórico, científico y filosófico que impulsa nuestra comunidad. Nos dedicamos a la investigación avanzada, el desarrollo conceptual y la difusión global de este paradigma a través de:",
+				"bullets": {
+					"1": "Publicaciones científicas y libros de referencia",
+					"2": "Cursos de formación y capacitaciones especializadas",
+					"3": "Participación en congresos y redes internacionales",
+					"4": "Artículos, recursos y debates en nuestra página y foros"
+				},
+				"paragraph-second": "El SSC es la fuente que nutre una nueva forma de pensar y actuar frente a los desafíos complejos del siglo XXI."
+			},
+			"2": {
+				"title": "2. CO-ENERG: intervención, consultoría y transformación",
+				"paragraph-first": "CO-ENERG es la empresa spin-off creada por la Comunidad del SSC para llevar la potencia transformadora del Saber Supercomplejo al mundo real.",
+				"paragraph-second": "CO-ENERG colabora con empresas, instituciones públicas y privadas, y comunidades intermedias, brindando:",
+				"bullets": {
+					"1": "Diagnóstico sistémico avanzado",
+					"2": "Diseño y acompañamiento de procesos de mejora e innovación",
+					"3": "Implementación de soluciones tecnológicas y metodológicas",
+					"4": "Formación y mentoring para equipos directivos y operativos",
+					"5": "Desarrollo y adaptación del software COMPLEX CUORE para cada desafío"
+				},
+				"paragraph-third": "Las áreas de aplicación son múltiples: desde sostenibilidad ambiental, energía y biotecnología, hasta salud, educación, justicia, gestión pública, producción y ventas, entre otras."
+			}
 		},
 		"members": {
 			"director": {
 				"name": "Juan Pedro Rodríguez",
 				"role": "Director de la Comunidad del Saber Supercomplejo",
 				"description": {
-					"paragraph-first": "Es doctor en Educación. Docente titular en la UCSF y la UCA (Argentina).",
-					"paragraph-second": "Participó en el equipo de investigación sobre “La relación entre el orden y el desorden en la teoría del caos determinista y en la teoría del orden implicado: convergencias y divergencias”.",
+					"paragraph-first": "Es doctor en Educación. Docente titular en la UCSF y la UCA (Argentina). Complejólogo y especialista en Filosofía de la Ciencia y en Filosofía de la Educación.",
+					"paragraph-second": "Participó en el equipo de investigación sobre “La relación entre el orden y el desorden en la teoría del caos determinista y en la teoría del orden implicado: convergencias y divergencias” (UCSF). ",
 					"paragraph-third": "Autor de libros, artículos y expositor de ponencias en congresos internacionales. Colaborador en universidades europeas y americanas."
 				}
 			},
 			"co-director": {
 				"name": "Facundo Osuna",
-				"role": "Co-director de la Comunidad del Saber Supercomplejo",
+				"role": "Codirector de la Comunidad del Saber Supercomplejo. Director de Espacio Constitucional.",
 				"description": {
-					"paragraph-first": "Es abogado independiente con experiencia en el tercer sector.",
-					"paragraph-second": "Maestrando en Teoría Constitucional y Derechos Humanos."
+					"paragraph-first": "Es abogado, Licenciado en Relaciones Internacionales, maestrando en Teoría Constitucional y Derechos Humanos, Maestrando en Filosofía del Derecho. Especialista en Derecho Empresarial, Patentes y Propiedad Intelectual."
 				}
 			}
 		},
 		"mission": {
 			"title": "Misión",
-			"description": "Investigar, desarrollar y promover el Saber Supercomplejo como una alternativa integradora y superadora del Pensamiento Complejo y las Ciencias de la Complejidad. Nos proponemos generar comprensiones integrales y estrategias de intervención efectivas para abordar distintas problemáticas en los ámbitos institucionales, organizacionales y sociales."
+			"description": "Investigar, desarrollar y expandir el Saber Supercomplejo como un paradigma integrador, superador y transformador frente a la complejidad creciente del siglo XXI. Nuestra meta es generar comprensiones profundas y herramientas innovadoras que permitan intervenir, transformar y potenciar sistemas en todos los ámbitos: científico, institucional, organizacional y social."
 		},
 		"vision": {
 			"title": "Visión",
-			"description": "Expandir la propuesta del Saber Supercomplejo y su capacidad para ofrecer soluciones en diferentes ámbitos de la praxis social. Aspiramos a constituirnos como una referencia nacional e internacional a partir de una propuesta original y con apertura para integrar nuevas miradas. Un futuro mejor es posible y el Saber Supercomplejo quiere estar presente en el desarrollo de herramientas de acción para dar respuesta a problemáticas sociales y planetarias."
+			"description": "Ser referentes internacionales en pensamiento, innovación y acción supercompleja. Aspiramos a que el Saber Supercomplejo sea la base para diseñar y aplicar soluciones originales, escalables y éticas a los desafíos sociales, económicos, ambientales y tecnológicos más relevantes de nuestro tiempo.",
+			"description-second": "Imaginamos un futuro en el que la inteligencia colectiva y la acción basada en el SSC impulsen el desarrollo sostenible y el bienestar global."
 		},
 		"values": {
 			"title": "Valores",
 			"bullets": {
 				"1": {
-					"name": "Libertad de Pensamiento",
-					"description": "Fomentamos la diversidad de ideas para desarrollar comprensiones profundas y complejas."
+					"name": "Libertad y Pluralidad de Pensamiento",
+					"description": "Fomentamos la apertura intelectual, la diversidad de ideas y la creatividad crítica para generar avances genuinos."
 				},
 				"2": {
-					"name": "Trabajo en Equipo",
-					"description": "Creemos en la colaboración multidisciplinaria como clave para el avance del Saber Supercomplejo."
+					"name": "Colaboración Multidisciplinaria",
+					"description": "Valoramos el trabajo en red, la co-creación y la integración de saberes y talentos diversos."
 				},
 				"3": {
-					"name": "Resolución de Conflictos",
-					"description": "Desarrollamos metodologías para abordar conflictos complejos de manera constructiva."
+					"name": "Resolución Innovadora de Conflictos",
+					"description": "Abordamos los desafíos complejos con metodologías propias, favoreciendo la transformación constructiva."
 				},
 				"4": {
-					"name": "Transparencia",
-					"description": "Mantenemos una comunicación abierta y honesta con todos nuestros miembros y colaboradores."
+					"name": "Transparencia y Ética",
+					"description": "Practicamos la honestidad, el compromiso y la comunicación clara en cada proceso y proyecto."
+				},
+				"5": {
+					"name": "Aprendizaje Continuo",
+					"description": "Promovemos la formación constante, la curiosidad y la actualización como motores del desarrollo individual y colectivo."
+				},
+				"6": {
+					"name": "Impacto Social y Planetario",
+					"description": "Nos guía la vocación de servicio y la responsabilidad de contribuir a un mundo más justo, resiliente y próspero."
 				}
 			}
 		},
 		"benefits-members": {
-			"title": "Qué Ofrecemos a Nuestros Miembros",
+			"title": "¿Qué ofrecemos a nuestros miembros?",
 			"bullets": {
 				"1": {
-					"name": "Participación Activa",
-					"description": "formar parte del equipo de investigación y difusión del SSC."
+					"name": "Participación real",
+					"description": "Sumate a equipos de investigación, innovación y divulgación, aportando tu mirada y talento en proyectos SSC."
 				},
 				"2": {
-					"name": "Desarrollo Profesional",
-					"description": "oportunidades para ser desarrolladores en el “Supercomplex Program”."
+					"name": "Desarrollo profesional",
+					"description": "Accedé a oportunidades de formación, mentoría y certificación en los programas exclusivos del Saber Supercomplejo."
 				},
 				"3": {
-					"name": "Formación Continua",
-					"description": "capacitación constante con énfasis en el campo profesional o laboral del miembro."
+					"name": "Formación avanzada",
+					"description": "Cursos, workshops y laboratorios prácticos orientados a potenciar tu perfil profesional y tu impacto en la sociedad."
 				},
 				"4": {
-					"name": "Reconocimiento Académico",
-					"description": "certificaciones y reconocimiento por la pertenencia a la comunidad."
+					"name": "Reconocimiento y proyección",
+					"description": "Certificados oficiales, publicaciones bajo nuestro sello editorial y presencia en congresos y medios internacionales."
 				},
 				"5": {
-					"name": "Publicaciones",
-					"description": "oportunidad de publicar libros bajo nuestro sello editorial y artículos en nuestra página web."
+					"name": "Red internacional",
+					"description": "Networking con referentes, acceso a comunidades globales y posibilidades de colaboración interdisciplinaria."
 				},
 				"6": {
-					"name": "Eventos",
-					"description": "organización de congresos y encuentros de trabajo con instituciones afines."
-				},
-				"7": {
-					"name": "Team Building",
-					"description": "Participación en campamentos de integración y desarrollo de equipo."
+					"name": "Eventos y experiencias",
+					"description": "Participación en congresos, encuentros de integración, retiros creativos y actividades de team building."
 				}
 			}
 		},
 		"benefits-institutions": {
-			"title": "Qué Ofrecemos a Instituciones",
+			"title": "¿Qué ofrecemos a instituciones, empresas y comunidades?",
 			"bullets": {
 				"1": {
-					"name": "Programas de Intervención",
-					"description": "implementación del “Supercomplex Program” con el software “Supercomplex Systems Developer”."
+					"name": "Programas de intervención y consultoría",
+					"description": "Los servicios de CO-ENERG con el software COMPLEX CUORE y metodologías propias para la gestión inteligente de sistemas."
 				},
 				"2": {
-					"name": "Capacitación",
-					"description": "cursos específicos para profesionales y emprendedores sobre el SSC, adaptados a diversas áreas y problemáticas."
+					"name": "Capacitación a medida",
+					"description": "Cursos, talleres y formaciones diseñados específicamente para equipos directivos, profesionales, emprendedores y agentes de cambio."
+				},
+				"3": {
+					"name": "Diagnóstico y optimización sistémica",
+					"description": "Análisis profundo de procesos, estructuras y flujos para diseñar estrategias de innovación, resiliencia y crecimiento."
+				},
+				"4": {
+					"name": "Transferencia tecnológica",
+					"description": "Acceso a herramientas, recursos y acompañamiento personalizado para la transformación organizacional y la gestión del cambio."
+				},
+				"5": {
+					"name": "Alianzas y proyectos colaborativos",
+					"description": "Participación en iniciativas conjuntas de alto impacto con instituciones afines a nivel nacional e internacional."
 				}
 			}
+		},
+		"benefits-you": {
+			"title": "¿Por qué elegirnos?",
+			"paragraph-first": "Porque el Saber Supercomplejo te conecta con la vanguardia del conocimiento, la acción estratégica y una comunidad comprometida con el presente y el futuro.",
+			"paragraph-second": "Sumate y descubrí cómo la supercomplejidad puede transformar tu realidad."
 		}
 	},
 	"pathway": {

@@ -43,18 +43,10 @@ export default function Teoria() {
 						{t('section-first.paragraph-first')}
 					</p>
 
-					<p className="mt-8">
-						{t('section-first.paragraph-second')}
-					</p>
-
-					<p className="mt-8">
-						{t('section-first.paragraph-third')}
-					</p>
-
 					<h3 className={`font-source mt-12 text-4xl font-bold tracking-tight text-neutral-950`}>{t('section-second.title')}</h3>
 
 					<p className="mt-4">
-						{t('section-second.paragraph-first')} <span className="font-semibold">{t('section-second.paragraph-first-strong')}</span>
+						{t('section-second.paragraph-first')}
 					</p>
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('object.title')}</h4>
@@ -73,6 +65,56 @@ export default function Teoria() {
 							<li>{t('principles.bullets.4')}</li>
 							<li>{t('principles.bullets.5')}</li>
 						</ul>
+					</div>
+
+					<div className="mt-12">
+						<h4 className={`font-source text-3xl font-bold tracking-tight text-neutral-950`}>{t('accomplishments.title')}</h4>
+
+						<div className="mt-9">
+							<p className="font-bold text-lg">1. {t('accomplishments.first.title')}</p>
+							<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
+								<li>{t('accomplishments.first.bullets.1')}</li>
+								<li>{t('accomplishments.first.bullets.2')}</li>
+								<li>{t('accomplishments.first.bullets.3')}</li>
+								<li>{t('accomplishments.first.bullets.4')}</li>
+							</ul>
+						</div>
+
+						<div className="mt-9">
+							<p className="font-bold text-lg">2. {t('accomplishments.second.title')}</p>
+							<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
+								<li>{t('accomplishments.second.bullets.1')}</li>
+								<li>{t('accomplishments.second.bullets.2')}</li>
+								<li>{t('accomplishments.second.bullets.3')}</li>
+							</ul>
+						</div>
+
+						<div className="mt-9">
+							<p className="font-bold text-lg">3. {t('accomplishments.third.title')}</p>
+							<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
+								<li>{t('accomplishments.third.bullets.1')}</li>
+								<li>{t('accomplishments.third.bullets.2')}</li>
+								<li>{t('accomplishments.third.bullets.3')}</li>
+							</ul>
+						</div>
+
+						<div className="mt-9">
+							<p className="font-bold text-lg">4. {t('accomplishments.fourth.title')}</p>
+							<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
+								<li>{t('accomplishments.fourth.bullets.1')}</li>
+								<li>{t('accomplishments.fourth.bullets.2')}</li>
+							</ul>
+						</div>
+
+						<div className="mt-9">
+							<p className="font-bold text-lg">5. {t('accomplishments.fifth.title')}</p>
+							<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
+								<li>{t('accomplishments.fifth.bullets.1')}</li>
+								<li>{t('accomplishments.fifth.bullets.2')}</li>
+								<li>{t('accomplishments.fifth.bullets.3')}</li>
+							</ul>
+						</div>
+
 					</div>
 				</div>
 

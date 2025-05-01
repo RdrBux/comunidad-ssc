@@ -18,7 +18,6 @@ export default function Community() {
 						<h2 className="font-medium text-sm text-[#1AAD81] lg:text-base">{t('category')}</h2>
 						<h3 className={`font-source text-4xl leading-none lg:text-5xl text-tertiary-50 tracking-tight font-medium mt-4`}>{t('title')}</h3>
 						<p className="mt-8 lg:text-lg font-light text-neutral-300">{t('paragraph-first')}</p>
-						<p className="mt-4 lg:text-lg font-light text-neutral-300">{t('paragraph-second')}</p>
 						<ButtonSection route={ROUTES.COMUNIDAD} text={t('button')} />
 					</div>
 

@@ -39,7 +39,6 @@ export default function Team() {
 
 				<div className="text-sm lg:text-base px-2 mt-6 text-neutral-600">
 					<p>{t('co-director.description.paragraph-first')}</p>
-					<p className="mt-2">{t('co-director.description.paragraph-second')}</p>
 				</div>
 			</div>
 		</div>

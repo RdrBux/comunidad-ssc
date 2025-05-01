@@ -42,8 +42,6 @@ export default function Comunidad() {
 				<div className="mt-16">
 					<h3 className={`font-source text-3xl font-bold tracking-tight text-neutral-950`}>{t('about.title')}</h3>
 					<p className="mt-4">{t('about.paragraph-first')}</p>
-					<p className="mt-8">{t('about.paragraph-second')}</p>
-					<p className="mt-8">{t('about.paragraph-third')}</p>
 
 					<Team />
 
@@ -52,6 +50,8 @@ export default function Comunidad() {
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('vision.title')}</h4>
 					<p className="mt-4">{t('vision.description')}</p>
+					<p className="mt-2">{t('vision.description-second')}</p>
+
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('values.title')}</h4>
 					<ul className="list-disc flex flex-col gap-2 mt-4 pl-6">
@@ -59,6 +59,8 @@ export default function Comunidad() {
 						<li><span className="font-semibold">{t('values.bullets.2.name')}:</span> {t('values.bullets.2.description')}</li>
 						<li><span className="font-semibold">{t('values.bullets.3.name')}:</span> {t('values.bullets.3.description')}</li>
 						<li><span className="font-semibold">{t('values.bullets.4.name')}:</span> {t('values.bullets.4.description')}</li>
+						<li><span className="font-semibold">{t('values.bullets.5.name')}:</span> {t('values.bullets.5.description')}</li>
+						<li><span className="font-semibold">{t('values.bullets.6.name')}:</span> {t('values.bullets.6.description')}</li>
 					</ul>
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('benefits-members.title')}</h4>
@@ -69,14 +71,20 @@ export default function Comunidad() {
 						<li><span className="font-semibold">{t('benefits-members.bullets.4.name')}:</span> {t('benefits-members.bullets.4.description')}</li>
 						<li><span className="font-semibold">{t('benefits-members.bullets.5.name')}:</span> {t('benefits-members.bullets.5.description')}</li>
 						<li><span className="font-semibold">{t('benefits-members.bullets.6.name')}:</span> {t('benefits-members.bullets.6.description')}</li>
-						<li><span className="font-semibold">{t('benefits-members.bullets.7.name')}:</span> {t('benefits-members.bullets.7.description')}</li>
 					</ul>
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('benefits-institutions.title')}</h4>
 					<ul className="list-disc flex flex-col gap-2 mt-4 pl-6">
 						<li><span className="font-semibold">{t('benefits-institutions.bullets.1.name')}:</span> {t('benefits-institutions.bullets.1.description')}</li>
 						<li><span className="font-semibold">{t('benefits-institutions.bullets.2.name')}:</span> {t('benefits-institutions.bullets.2.description')}</li>
+						<li><span className="font-semibold">{t('benefits-institutions.bullets.3.name')}:</span> {t('benefits-institutions.bullets.3.description')}</li>
+						<li><span className="font-semibold">{t('benefits-institutions.bullets.4.name')}:</span> {t('benefits-institutions.bullets.4.description')}</li>
+						<li><span className="font-semibold">{t('benefits-institutions.bullets.5.name')}:</span> {t('benefits-institutions.bullets.5.description')}</li>
 					</ul>
+
+					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('benefits-you.title')}</h4>
+					<p className="mt-4">{t('benefits-you.paragraph-first')}</p>
+					<p className="mt-2"><b>{t('benefits-you.paragraph-second')}</b></p>
 				</div>
 
 				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/comunidad' text={`${tNav('comunidad')} - ${tName('name')}`} /></div>

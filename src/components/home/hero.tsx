@@ -22,7 +22,7 @@ export default function Hero() {
 						{t('title.1')} <br /> {t('title.2')} <br /> {t('title.3')}
 					</h1>
 					<div className="border-l-8 border-neutral-900/40 pl-4 mt-12">
-						<p className="max-w-lg text-neutral-300 text-lg lg:text-2xl font-light">{t('description')}</p>
+						<p className="max-w-xl text-neutral-300 text-lg lg:text-2xl font-light">{t('description')}</p>
 					</div>
 				</div>
 			</div>

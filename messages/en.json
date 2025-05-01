@@ -21,13 +21,15 @@
 				"2": "Supercomplex",
 				"3": "Knowledge"
 			},
-			"description": "“A new philosophical, scientific, and technological paradigm for the complexity of the universe and life”"
+			"description": "“The new philosophical, scientific, and technological paradigm for understanding and transforming the complexity and supercomplexity of the universe, life, and the human brain.”"
 		},
 		"theory": {
 			"category": "THE THEORY",
 			"title": "What is Supercomplex Knowledge?",
-			"paragraph-first": "It is an integrative and surpassing paradigmatic proposal of Complex Thought and Complexity Sciences, redefining its object of study —complex systems— through the interrelationship of their fundamental components: energy flows, structural morphologies, and temporal connectivity.",
-			"paragraph-second": "The SK proposes a reconfiguration of supersystems (microparticles, macroscopic, and biological) that overlap and interconnect from the supercomplexity of the universe and life. It also postulates a methodology for describing, predicting, and intervening by building and linking maps and algorithms as tools to discover, understand, and manipulate the dynamics and structures of complex systems.",
+			"paragraph-first": "Supercomplex Knowledge (SK) is the new integrative paradigm that transcends and surpasses both Complex Thought and the Sciences of Complexity. It redefines the object of study: complex systems, understood as dynamic networks where three fundamental components interact—energy flows, structural morphologies, and temporal connectivity—within an evolutionary and circular framework.",
+			"paragraph-second": "Unlike traditional approaches, SK proposes a combinatorial and relational perspective capable of mapping and transforming systems at all levels—from the universe of microparticles to the biological and social world. This paradigm articulates supersystems—microparticles, macroscopic and biological systems—in constant superposition, demonstrating how complexity and supercomplexity emerge and mutually reinforce themselves in the evolution of the universe and life.",
+			"paragraph-third": "Its tools combine adaptive dynamic mapping and advanced algorithms, enabling the discovery of stability and emergent behaviors, scenario forecasting, and the design of strategic interventions in science, technology, institutions, and business.",
+			"paragraph-fourth": "Thus, SK offers a profound and renewed vision of reality, enabling new forms of innovation, optimization, and intelligent management of resources and processes. It is the key for those seeking to lead the future of research and technological development in a world where complexity is the norm.",
 			"button": "Read the theory"
 		},
 		"community": {
@@ -65,14 +67,11 @@
 	},
 	"theory": {
 		"section-first": {
-			"paragraph-first": "Many thinkers agree that the 21st century is the “century of complexity.” However, the concept of “complexity” is polysemous, multivocal, multidimensional, and multifaceted. There is some consensus on the etymology of “complex” as “that which is united and intertwined.” A network of systems embedded and connected to each other without gaps.",
-			"paragraph-second": "It was in the mid-20th century that Complexity Theories began to emerge as an alternative to monocausal, simplified, and deterministic explanations, anchored in the guiding principles of mechanism, reductionism, and empiricism that predominated in the science of that time.",
-			"paragraph-third": "Complex Thought and Complexity Sciences emerged and consolidated as the two most representative approaches. These approaches are sometimes perceived as opposed to each other, with significant tensions between them, arising from differences in their methodologies, assumptions, and areas of emphasis."
+			"paragraph-first": "Many thinkers agree that the 21st century is the “century of complexity.” However, the concept of “complexity” is polysemous, multivocal, multidimensional, and multifaceted. There is some consensus on the etymology of “complex” as “that which is united and intertwined.” A network of systems embedded and connected to each other without gaps."
 		},
 		"section-second": {
 			"title": "Our Proposal: Supercomplex Knowledge (SK)",
-			"paragraph-first": "The goal of our research and work is to develop a unifying and surpassing proposal to address the vast mosaic that has made Complexity Theories an edifice with many disconnected theories, difficult to access and rarely applied to social and human issues. ",
-			"paragraph-first-strong": "Supercomplex Knowledge (SK) draws from the rich roots of Complex Thought and Complexity Sciences, as well as from the preexisting knowledge upon which the initial proposals were based, and from current knowledge that strengthens and energizes new and superior perspectives."
+			"paragraph-first": "The goal of our research and work is to develop a unifying and surpassing proposal to address the vast mosaic that has made Complexity Theories an edifice with many disconnected theories, difficult to access and rarely applied to social and human issues. "
 		},
 		"object": {
 				"title": "Object of Study",
@@ -87,7 +86,50 @@
 					"4": "A proposed taxonomy of macrosystems (microparticles, macroscopic, and biological), complex systems and subsystems derived from them, and a model of dynamic triple overlapping among these macrosystems, demonstrating that there is no arrow of complexity.",
 					"5": "A methodology of description, prediction, and intervention that builds and links maps and algorithms as tools to discover, understand, and manipulate the dynamics and structures of complex systems, presenting an intervention and development program along with associated software to monitor and potentially improve concrete complex systems with applications to all major social and planetary issues."
 				}
+			},
+			"accomplishments": {
+			"title": "Principales logros y avances del Saber Supercomplejo",
+			"first": {
+				"title": "Profundización conceptual y diferenciación",
+				"bullets": {
+					"1": "Hemos definido con precisión que la complejidad es resultado de la interacción dinámica entre flujos de energía, morfologías estructurales y conectividad temporal.",
+					"2": "El concepto de supercomplejidad introduce la idea de que la riqueza del universo surge de la combinatoria y el solapamiento entre macrosistemas (micropartículas, macroscópico y biológico), conectados con el rol activo de los sujetos investigadores-desarrolladores y con instrumentos de modelado de última generación.",
+					"3": "El SSC enfatiza que no existe un orden absoluto: el universo se constituye en la tensión y la complementariedad constante entre orden y desorden.",
+					"4": "Abordamos la autonomía del universo y su reflejo en la autonomía del sujeto humano, destacando la importancia de la libertad y la creatividad en la evolución de los sistemas."
+				}
+			},
+			"second": {
+				"title": "Expansión y transversalidad en los campos del saber",
+				"bullets": {
+					"1": "El SSC ha trascendido su origen teórico-filosófico y hoy se aplica en ciencias naturales, filosofía, psicología, política, derecho, educación, gestión empresarial e innovación tecnológica.",
+					"2": "Hemos modelado sistemas complejos en 4D, reformulado el rol de los investigadores como creadores de mapas supercomplejos, y comenzado a construir una psicología supercompleja que integra lo subjetivo, lo relacional y lo simbólico.",
+					"3": "El SSC se utiliza en análisis constitucional, política exterior en derechos humanos, y transformación educativa basada en el desarrollo del pensamiento libre y el aprendizaje de patrones dinámicos."
+				}
+			},
+			"third": {
+				"title": "Desarrollo de herramientas prácticas y transferencia",
+				"bullets": {
+					"1": "Hemos diseñado y validado herramientas avanzadas: visualización de redes 4D multicapa, algoritmos propios para mapear y transformar sistemas, y criterios operativos para analizar nodos calientes, tibios y fríos.",
+					"2": "El software COMPLEX CUORE permite modelar, visualizar y modificar sistemas complejos reales, optimizando la toma de decisiones en empresas, gobiernos y organizaciones.",
+					"3": "Metodologías SSC ya se aplican para diagnóstico, intervención y optimización en ámbitos tan diversos como recursos naturales, salud, educación, energía, producción y justicia."
+				}
+			},
+			"fourth": {
+				"title": "Consolidación y legitimidad como paradigma",
+				"bullets": {
+					"1": "El SSC ha dejado de ser una hipótesis aislada para convertirse en un marco conceptual propio y diferenciado, que se distingue por su enfoque combinatorio y su capacidad de intervención real sobre sistemas en interacción.",
+					"2": "Mientras otros paradigmas buscan describir patrones en el caos, el SSC se focaliza en mapear, predecir y transformar la dinámica entre múltiples sistemas."
+				}
+			},
+			"fifth": {
+				"title": "Crecimiento como movimiento intelectual y comunidad internacional",
+				"bullets": {
+					"1": "Un libro de referencia, con segunda edición en camino, respalda y legitima el paradigma.",
+					"2": "Cursos, congresos, publicaciones y alianzas institucionales han expandido el alcance y la influencia del SSC.",
+					"3": "Se está formando una comunidad internacional de investigadores, profesionales y agentes de cambio, con iniciativas de divulgación, networking y colaboración multidisciplinaria."
+				}
 			}
+		}
 	},
 	"community": {
 		"about": {

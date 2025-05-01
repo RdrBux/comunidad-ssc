@@ -41,7 +41,7 @@ export default function Theory() {
 			<div className="container mx-auto px-4 lg:px-16 py-24 lg:py-32">
 				<div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
-					<div className="px-[80px] lg:px-24">
+					<div className="lg:-mt-40 px-[80px] lg:px-24">
 						<ImgNet />
 					</div>
 
@@ -50,6 +50,9 @@ export default function Theory() {
 						<h3 className={`${isInstagram ? 'text-4xl' : 'text-[2.75rem]'} font-source leading-none lg:text-6xl text-tertiary-50 tracking-tight font-medium mt-4`}>{t('title')}</h3>
 						<p className="mt-8 lg:text-lg font-light text-neutral-300">{t('paragraph-first')}</p>
 						<p className="mt-4 lg:text-lg font-light text-neutral-300">{t('paragraph-second')}</p>
+						<p className="mt-4 lg:text-lg font-light text-neutral-300">{t('paragraph-third')}</p>
+						<p className="mt-4 lg:text-lg font-light text-neutral-300">{t('paragraph-fourth')}</p>
+
 						<ButtonSection route={ROUTES.TEORIA} text={t('button')} />
 					</div>
 
