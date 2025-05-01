@@ -43,13 +43,13 @@ export default function LangSelector({ style }: { style: 'dark' | 'light' }) {
 					<DropdownMenuSeparator />
 
 					<DropdownMenuItem asChild>
-						<button onClick={() => handleClick('en')} className="flex items-center gap-2">
+						<button onClick={() => handleClick('en')} className="flex items-center w-full gap-2">
 							<Image className="w-5" src={ukFlag} alt="Ícono bandera de Reino Unido" width={32} height={32} />
 							English
 						</button>
 					</DropdownMenuItem>
 					<DropdownMenuItem asChild>
-						<button onClick={() => handleClick('es')} className="flex items-center gap-2">
+						<button onClick={() => handleClick('es')} className="flex items-center w-full gap-2">
 							<Image className="w-5" src={spainFlag} alt="Ícono bandera de España" width={32} height={32} />
 							Español
 						</button>

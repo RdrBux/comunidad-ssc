@@ -22,7 +22,7 @@ export default function Footer() {
 						<div className="hidden lg:flex gap-4 items-center">
 							<div className="w-12"><Logo /></div>
 							<div className="text-neutral-300">
-								<p>© 2024</p>
+								<p>© 2025</p>
 								<p>{t('copyright')}</p>
 							</div>
 						</div>
@@ -100,7 +100,7 @@ export default function Footer() {
 						<div className="flex lg:hidden mt-16 gap-4 items-center">
 							<div className="w-12"><Logo /></div>
 							<div className="text-neutral-300">
-								<p>© 2024</p>
+								<p>© 2025</p>
 								<p>{t('copyright')}</p>
 							</div>
 						</div>

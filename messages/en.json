@@ -35,7 +35,7 @@
 		"community": {
 			"category": "THE COMMUNITY",
 			"title": "What is the SK Community, what are its objectives, and what benefits do its members have?",
-			"paragraph-first": "We are a research and development team aiming to establish this paradigm as an alternative and integrative one, generating comprehensive and multidimensional understandings of reality and creating superior intervention strategies to address emerging social and planetary challenges.",
+			"paragraph-first": "We are a research and development team committed to establishing SK as an alternative and integrative paradigm, generating comprehensive and multidimensional understandings of reality and advanced strategies for addressing emerging social and planetary challenges.",
 			"paragraph-second": "The Intervention and Development Program is designed to meet the growth and enhancement demands of government administrations, businesses, and institutions interested in improving the fulfillment of their functions and objectives.",
 			"button": "Read about the community"
 		},
@@ -67,11 +67,12 @@
 	},
 	"theory": {
 		"section-first": {
-			"paragraph-first": "Many thinkers agree that the 21st century is the “century of complexity.” However, the concept of “complexity” is polysemous, multivocal, multidimensional, and multifaceted. There is some consensus on the etymology of “complex” as “that which is united and intertwined.” A network of systems embedded and connected to each other without gaps."
+			"paragraph-first": "The 21st century has solidified itself as the century of complexity, yet the very concept of “complexity” has multiplied in meanings and approaches, generating a mosaic of often fragmented and difficult-to-articulate perspectives. In response, Supercomplex Knowledge (SK) emerges as an integrative, transformative, and applied proposal, capable of unifying and surpassing both Complex Thought and the Sciences of Complexity."
 		},
 		"section-second": {
-			"title": "Our Proposal: Supercomplex Knowledge (SK)",
-			"paragraph-first": "The goal of our research and work is to develop a unifying and surpassing proposal to address the vast mosaic that has made Complexity Theories an edifice with many disconnected theories, difficult to access and rarely applied to social and human issues. "
+			"title": "From Paradigm to Practice",
+			"paragraph-first": "SK arises from the need to unify and enhance approaches to complexity, overcoming theoretical fragmentation and generating a new epistemology, methodology, and proprietary toolkit. ",
+			"paragraph-second": "Today, SK is far more than a theoretical framework—it is an international ecosystem of research, development, and knowledge transfer with real-world impact on institutions, businesses, scientific teams, technological projects, and educational movements."
 		},
 		"object": {
 				"title": "Object of Study",
@@ -88,149 +89,195 @@
 				}
 			},
 			"accomplishments": {
-			"title": "Principales logros y avances del Saber Supercomplejo",
+			"title": "Key Achievements and Advances of Supercomplex Knowledge",
 			"first": {
-				"title": "Profundización conceptual y diferenciación",
+				"title": "Conceptual Deepening and Differentiation",
 				"bullets": {
-					"1": "Hemos definido con precisión que la complejidad es resultado de la interacción dinámica entre flujos de energía, morfologías estructurales y conectividad temporal.",
-					"2": "El concepto de supercomplejidad introduce la idea de que la riqueza del universo surge de la combinatoria y el solapamiento entre macrosistemas (micropartículas, macroscópico y biológico), conectados con el rol activo de los sujetos investigadores-desarrolladores y con instrumentos de modelado de última generación.",
-					"3": "El SSC enfatiza que no existe un orden absoluto: el universo se constituye en la tensión y la complementariedad constante entre orden y desorden.",
-					"4": "Abordamos la autonomía del universo y su reflejo en la autonomía del sujeto humano, destacando la importancia de la libertad y la creatividad en la evolución de los sistemas."
+					"1": "We have precisely defined complexity as the result of dynamic interactions between energy flows, structural morphologies, and temporal connectivity.",
+					"2": "The concept of supercomplexity introduces the idea that the richness of the universe arises from the combinatorics and overlap between macrosystems (microparticles, macroscopic, and biological), connected with the active role of researcher-developers and cutting-edge modeling tools.",
+					"3": "SK emphasizes that no absolute order exists: the universe is constituted in the tension and constant complementarity between order and disorder.",
+					"4": "We address the autonomy of the universe and its reflection in human autonomy, highlighting the role of freedom and creativity in the evolution of systems."
 				}
 			},
 			"second": {
-				"title": "Expansión y transversalidad en los campos del saber",
+				"title": "Expansion and Transdisciplinarity Across Fields of Knowledge",
 				"bullets": {
-					"1": "El SSC ha trascendido su origen teórico-filosófico y hoy se aplica en ciencias naturales, filosofía, psicología, política, derecho, educación, gestión empresarial e innovación tecnológica.",
-					"2": "Hemos modelado sistemas complejos en 4D, reformulado el rol de los investigadores como creadores de mapas supercomplejos, y comenzado a construir una psicología supercompleja que integra lo subjetivo, lo relacional y lo simbólico.",
-					"3": "El SSC se utiliza en análisis constitucional, política exterior en derechos humanos, y transformación educativa basada en el desarrollo del pensamiento libre y el aprendizaje de patrones dinámicos."
+					"1": "SK has transcended its theoretical-philosophical origins and is now applied in natural sciences, philosophy, psychology, politics, law, education, business management, and technological innovation.",
+					"2": "We have modeled 4D complex systems, reformulated the role of researchers as creators of supercomplex maps, and begun constructing a supercomplex psychology integrating subjectivity, relationality, and symbolism.",
+					"3": "SK is used in constitutional analysis, human rights foreign policy, and educational transformation based on free thought development and dynamic pattern learning."
 				}
 			},
 			"third": {
-				"title": "Desarrollo de herramientas prácticas y transferencia",
+				"title": "Development of Practical Tools and Knowledge Transfer",
 				"bullets": {
-					"1": "Hemos diseñado y validado herramientas avanzadas: visualización de redes 4D multicapa, algoritmos propios para mapear y transformar sistemas, y criterios operativos para analizar nodos calientes, tibios y fríos.",
-					"2": "El software COMPLEX CUORE permite modelar, visualizar y modificar sistemas complejos reales, optimizando la toma de decisiones en empresas, gobiernos y organizaciones.",
-					"3": "Metodologías SSC ya se aplican para diagnóstico, intervención y optimización en ámbitos tan diversos como recursos naturales, salud, educación, energía, producción y justicia."
+					"1": "We have designed and validated advanced tools: 4D multilayer network visualization, proprietary algorithms for system mapping and transformation, and operational criteria for analyzing hot, warm, and cold nodes.",
+					"2": "The COMPLEX CUORE software enables modeling, visualizing, and modifying real-world complex systems, optimizing decision-making in businesses, governments, and organizations.",
+					"3": "SK methodologies are already applied for diagnosis, intervention, and optimization in diverse fields—natural resources, healthcare, education, energy, production, and justice."
 				}
 			},
 			"fourth": {
-				"title": "Consolidación y legitimidad como paradigma",
+				"title": "Consolidation and Legitimacy as a Paradigm",
 				"bullets": {
-					"1": "El SSC ha dejado de ser una hipótesis aislada para convertirse en un marco conceptual propio y diferenciado, que se distingue por su enfoque combinatorio y su capacidad de intervención real sobre sistemas en interacción.",
-					"2": "Mientras otros paradigmas buscan describir patrones en el caos, el SSC se focaliza en mapear, predecir y transformar la dinámica entre múltiples sistemas."
+					"1": "SK has evolved from an isolated hypothesis into a distinct conceptual framework, characterized by its combinatorial approach and capacity for real-world intervention in interacting systems.",
+					"2": "While other paradigms seek to describe patterns in chaos, SCK focuses on mapping, predicting, and transforming the dynamics of multiple systems."
 				}
 			},
 			"fifth": {
-				"title": "Crecimiento como movimiento intelectual y comunidad internacional",
+				"title": "Growth as an Intellectual Movement and International Community",
 				"bullets": {
-					"1": "Un libro de referencia, con segunda edición en camino, respalda y legitima el paradigma.",
-					"2": "Cursos, congresos, publicaciones y alianzas institucionales han expandido el alcance y la influencia del SSC.",
-					"3": "Se está formando una comunidad internacional de investigadores, profesionales y agentes de cambio, con iniciativas de divulgación, networking y colaboración multidisciplinaria."
+					"1": "A reference book, with a second edition forthcoming, legitimizes the paradigm.",
+					"2": "Courses, conferences, publications, and institutional alliances have expanded SCK’s reach and influence.",
+					"3": "An international community of researchers, professionals, and change-makers is forming, with initiatives in dissemination, networking, and multidisciplinary collaboration."
 				}
 			}
 		}
 	},
 	"community": {
 		"about": {
-			"title": "Who We Are",
-			"paragraph-first": "We are a community dedicated to researching and developing the Supercomplex Knowledge paradigm as a powerful tool to understand and transform the multidimensional reality that surrounds us.",
-			"paragraph-second": "Our Assistance and Development Program is designed to address the growth and enhancement needs of government administrations, businesses, and institutions interested in improving the fulfillment of their functions and objectives. The implementation possibilities of the Program are numerous, such as: natural resource protection systems; discovery of new chemical elements and their combinations; astronomical and climatological development; design of alternative energy sources; addressing social issues such as the development of health, education, and justice systems; strategies to combat malnutrition, diseases, corruption, or drug trafficking; enhancement of production and sales systems in industrial and commercial institutions.",
-			"paragraph-third": "This proposal arises after years of work and study, driven by the desire to offer an integrative and surpassing theory of Complex Thought, Complexity Sciences, and other related approaches, allowing not only theoretical development but also practical and methodological application."
+			"title": "Who Are We?",
+			"paragraph-first": "We are an international community of researchers, professionals, and change-makers passionate about developing and applying the Supercomplex Knowledge (SK) paradigm. Our goal is to implement an integrative, innovative, and relational vision that transforms how we understand and improve the multidimensional reality of our time."
+		},
+		"services": {
+			"title": "What We Do and For Whom?",
+			"1": {
+				"title": "1. Supercomplex Knowledge: Development, Dissemination, and Inspiration",
+				"paragraph-first": "SCK is the theoretical, scientific, and philosophical core driving our community. We engage in advanced research, conceptual development, and global dissemination through:",
+				"bullets": {
+					"1": "Scientific publications and reference books",
+					"2": "Specialized training courses",
+					"3": "Participation in international conferences and networks",
+					"4": "Articles, resources, and debates on our website and forums"
+				}
+			},
+			"2": {
+				"title": "2. CO-ENERG: Intervention, Consulting, and Transformation",
+				"paragraph-first": "CO-ENERG is the spin-off company created by the SK Community to bring the transformative power of Supercomplex Knowledge into the real world.",
+				"paragraph-second": "CO-ENERG collaborates with businesses, public and private institutions, and intermediary communities, providing:",
+				"bullets": {
+					"1": "Advanced systemic diagnostics",
+					"2": "Design and support for improvement and innovation processes",
+					"3": "Implementation of technological and methodological solutions",
+					"4": "Training and mentoring for leadership and operational teams",
+					"5": "Customized adaptation of the COMPLEX CUORE software"
+				},
+				"paragraph-third": "Areas of application span sustainability, biotechnology, healthcare, education, justice, public policy, production, and sales, among others."
+			}
 		},
 		"members": {
 			"director": {
 				"name": "Juan Pedro Rodríguez",
 				"role": "Director of the Supercomplex Knowledge Community",
 				"description": {
-					"paragraph-first": "He holds a Ph.D. in Education and is a full professor at UCSF and UCA (Argentina).",
-					"paragraph-second": "He participated in the research team on “The relationship between order and disorder in deterministic chaos theory and in the theory of the implicate order: convergences and divergences.”",
-					"paragraph-third": "He is an author of books and articles and a presenter at international conferences, collaborating with European and American universities."
+					"paragraph-first": "PhD in Education. Professor at UCSF and UCA (Argentina). Specialist in Philosophy of Science and Philosophy of Education.",
+					"paragraph-second": "Researcher on “The Relationship Between Order and Disorder in Deterministic Chaos Theory and Implicate Order Theory: Convergences and Divergences” (UCSF).",
+					"paragraph-third": "Author of books, articles, and speaker at international conferences. Collaborator with European and American universities."
 				}
 			},
 			"co-director": {
 				"name": "Facundo Osuna",
-				"role": "Co-director of the Supercomplex Knowledge Community",
+				"role": "Co-Director of the SK Community. Director of Constitutional Space.",
 				"description": {
-					"paragraph-first": "He is an independent lawyer with experience in the third sector.",
-					"paragraph-second": "Master in Constitutional Theory and Human Rights"
+					"paragraph-first": "Lawyer, Licentiate in International Relations, Master’s candidate in Constitutional Theory and Human Rights, Master’s candidate in Philosophy of Law.",
+					"paragraph-second": "Specialist in Corporate Law, Patents, and Intellectual Property."
 				}
 			}
 		},
 		"mission": {
 			"title": "Mission",
-			"description": "To research, develop, and promote Supercomplex Knowledge as an integrative and surpassing alternative to Complex Thought and Complexity Sciences. We aim to generate comprehensive understandings and effective intervention strategies to address various issues in institutional, organizational, and social contexts."
+			"description": "To research, develop, and expand Supercomplex Knowledge as an integrative, transformative paradigm addressing the growing complexity of the 21st century. Our goal is to generate deep understanding and innovative tools for intervening in and enhancing systems across scientific, institutional, organizational, and social domains."
 		},
 		"vision": {
 			"title": "Vision",
-			"description": "To expand the proposal of Supercomplex Knowledge and its ability to offer solutions in different areas of social praxis. We aspire to become a national and international reference, based on an original proposal open to integrating new perspectives. A better future is possible, and Supercomplex Knowledge aims to be present in developing action tools to respond to social and planetary challenges."
+			"description": "To be international leaders in supercomplex thought, innovation, and action.",
+			"description-second": "We envision SK as the foundation for designing and applying original, scalable, and ethical solutions to the most pressing social, economic, environmental, and technological challenges of our time."
 		},
 		"values": {
 			"title": "Values",
 			"bullets": {
 				"1": {
-					"name": "Freedom of Thought",
-					"description": "We encourage the diversity of ideas to develop deep and complex understandings."
+					"name": "Freedom and Plurality of Thought",
+					"description": "We foster intellectual openness, diversity of ideas, and critical creativity to generate genuine progress."
 				},
 				"2": {
-					"name": "Teamwork",
-					"description": "We believe in multidisciplinary collaboration as key to advancing Supercomplex Knowledge."
+					"name": "Multidisciplinary Collaboration",
+					"description": "We value networking, co-creation, and the integration of diverse knowledge and talents."
 				},
 				"3": {
-					"name": "Conflict Resolution",
-					"description": "We develop methodologies to address complex conflicts constructively."
+					"name": "Innovative Conflict Resolution",
+					"description": "We address complex challenges with our own methodologies, fostering constructive transformation."
 				},
 				"4": {
-					"name": "Transparency",
-					"description": "We maintain open and honest communication with all our members and collaborators."
+					"name": "Transparency and Ethics",
+					"description": "We practice honesty, commitment, and clear communication in every process and project."
+				},
+				"5": {
+					"name": "Continuous Learning",
+					"description": "We promote ongoing training, curiosity, and self-development as drivers of individual and collective development."
+				},
+				"6": {
+					"name": "Social and Planetary Impact",
+					"description": "We are guided by a vocation for service and the responsibility to contribute to a more just, resilient, and prosperous world."
 				}
 			}
 		},
 		"benefits-members": {
-			"title": "What We Offer to Our Members",
+			"title": "Member Benefits",
 			"bullets": {
 				"1": {
-					"name": "Active Participation",
-					"description": "Become part of the SK research and dissemination team."
+					"name": "Real Participation",
+					"description": "Join research, innovation, and dissemination teams, contributing your perspective and talent to SK projects."
 				},
 				"2": {
 					"name": "Professional Development",
-					"description": "Opportunities to be developers in the “Supercomplex Program”."
+					"description": "Access training, mentoring, and certification opportunities in exclusive Supercomplex Knowledge programs."
 				},
 				"3": {
-					"name": "Continuous Training",
-					"description": "Ongoing training with an emphasis on the member's professional or occupational field."
+					"name": "Advanced Training:",
+					"description": "Courses, workshops, and practical labs aimed at enhancing your professional profile and your impact on society."
 				},
 				"4": {
-					"name": "Academic Recognition",
-					"description": "Certifications and recognition for belonging to the community."
+					"name": "Recognition and Outreach",
+					"description": "Official certificates, publications under our imprint, and presence at international conferences and media outlets."
 				},
 				"5": {
-					"name": "Publications",
-					"description": "Opportunity to publish books under our editorial label and articles on our website."
+					"name": "International Network",
+					"description": "Networking with leading experts, access to global communities, and opportunities for interdisciplinary collaboration."
 				},
 				"6": {
-					"name": "Events",
-					"description": "Organization of congresses and work meetings with related institutions."
-				},
-				"7": {
-					"name": "Team Building",
-					"description": "Participation in integration and team development camps."
+					"name": "Events and Experiences",
+					"description": "Participation in conferences, integration meetings, creative retreats, and team-building activities."
 				}
 			}
 		},
 		"benefits-institutions": {
-			"title": "What We Offer to Institutions",
+			"title": "Institutional and Corporate Offerings",
 			"bullets": {
 				"1": {
-					"name": "Intervention Programs",
-					"description": "Implementation of the “Supercomplex Program” with the “Supercomplex Systems Developer” software."
+					"name": "Intervention and consulting programs",
+					"description": "CO-ENERG services with COMPLEX CUORE software and proprietary methodologies for intelligent systems management."
 				},
 				"2": {
-					"name": "Training",
-					"description": "Specific courses for professionals and entrepreneurs on SK, adapted to various areas and challenges."
+					"name": "Customized training",
+					"description": "Courses, workshops, and training specifically designed for management teams, professionals, entrepreneurs, and change agents."
+				},
+				"3": {
+					"name": "Systemic diagnosis and optimization",
+					"description": "In-depth analysis of processes, structures, and flows to design strategies for innovation, resilience, and growth."
+				},
+				"4": {
+					"name": "Technology transfer",
+					"description": "Access to tools, resources, and personalized support for organizational transformation and change management."
+				},
+				"5": {
+					"name": "Partnerships and collaborative projects",
+					"description": "Participation in high-impact joint initiatives with like-minded institutions at the national and international levels."
 				}
 			}
+		},
+		"benefits-you": {
+			"title": "Why Choose Us?",
+			"paragraph-first": "Because Supercomplex Knowledge connects you with the forefront of knowledge, strategic action, and a community committed to shaping the present and future.",
+			"paragraph-second": "Join us and discover how supercomplexity can transform your reality."
 		}
 	},
 	"pathway": {

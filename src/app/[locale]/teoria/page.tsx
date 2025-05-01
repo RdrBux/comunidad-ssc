@@ -48,6 +48,9 @@ export default function Teoria() {
 					<p className="mt-4">
 						{t('section-second.paragraph-first')}
 					</p>
+					<p className="mt-4">
+						{t('section-second.paragraph-second')}
+					</p>
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('object.title')}</h4>
 

@@ -43,6 +43,31 @@ export default function Comunidad() {
 					<h3 className={`font-source text-3xl font-bold tracking-tight text-neutral-950`}>{t('about.title')}</h3>
 					<p className="mt-4">{t('about.paragraph-first')}</p>
 
+					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('services.title')}</h4>
+
+					<h5 className="mt-9 font-source font-bold text-xl">{t('services.1.title')}</h5>
+					<p className="mt-4">{t('services.1.paragraph-first')}</p>
+					<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
+						<li>{t('services.1.bullets.1')}</li>
+						<li>{t('services.1.bullets.2')}</li>
+						<li>{t('services.1.bullets.3')}</li>
+						<li>{t('services.1.bullets.4')}</li>
+					</ul>
+
+
+					<h5 className="mt-6 font-source font-bold text-xl">{t('services.2.title')}</h5>
+					<p className="mt-4">{t('services.2.paragraph-first')}</p>
+					<p className="mt-4">{t('services.2.paragraph-second')}</p>
+
+					<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
+						<li>{t('services.2.bullets.1')}</li>
+						<li>{t('services.2.bullets.2')}</li>
+						<li>{t('services.2.bullets.3')}</li>
+						<li>{t('services.2.bullets.4')}</li>
+						<li>{t('services.2.bullets.5')}</li>
+					</ul>
+					<p className="mt-4">{t('services.2.paragraph-third')}</p>
+
 					<Team />
 
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('mission.title')}</h4>

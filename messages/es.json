@@ -71,7 +71,8 @@
 		},
 		"section-second": {
 			"title": "Del paradigma a la práctica",
-			"paragraph-first": "El SSC nace de la necesidad de unificar y potenciar los enfoques sobre la complejidad, superando la fragmentación teórica y generando una nueva gnoseología, metodología y caja de herramientas propias. Hoy el SSC es mucho más que un marco teórico: es un ecosistema internacional de investigación, desarrollo y transferencia, con impacto real en instituciones, empresas, equipos científicos, proyectos tecnológicos y movimientos educativos."
+			"paragraph-first": "El SSC nace de la necesidad de unificar y potenciar los enfoques sobre la complejidad, superando la fragmentación teórica y generando una nueva gnoseología, metodología y caja de herramientas propias.",
+			"paragraph-second": "Hoy el SSC es mucho más que un marco teórico: es un ecosistema internacional de investigación, desarrollo y transferencia, con impacto real en instituciones, empresas, equipos científicos, proyectos tecnológicos y movimientos educativos."
 		},
 		"object": {
 				"title": "Objeto de estudio",
@@ -137,6 +138,7 @@
 			"paragraph-first": "Somos una comunidad internacional de investigadores, profesionales y agentes de cambio apasionados por el desarrollo y la aplicación del paradigma del Saber Supercomplejo (SSC). Nuestro objetivo es poner en práctica una visión integradora, innovadora y relacional que transforma la manera en que entendemos y mejoramos la realidad multidimensional de nuestro tiempo. "
 		},
 		"services": {
+			"title": "¿Qué hacemos y para quién?",
 			"1": {
 				"title": "1. Saber Supercomplejo: desarrollo, difusión e inspiración",
 				"paragraph-first": "El Saber Supercomplejo (SSC) es el núcleo teórico, científico y filosófico que impulsa nuestra comunidad. Nos dedicamos a la investigación avanzada, el desarrollo conceptual y la difusión global de este paradigma a través de:",
@@ -145,8 +147,7 @@
 					"2": "Cursos de formación y capacitaciones especializadas",
 					"3": "Participación en congresos y redes internacionales",
 					"4": "Artículos, recursos y debates en nuestra página y foros"
-				},
-				"paragraph-second": "El SSC es la fuente que nutre una nueva forma de pensar y actuar frente a los desafíos complejos del siglo XXI."
+				}
 			},
 			"2": {
 				"title": "2. CO-ENERG: intervención, consultoría y transformación",
@@ -176,7 +177,8 @@
 				"name": "Facundo Osuna",
 				"role": "Codirector de la Comunidad del Saber Supercomplejo. Director de Espacio Constitucional.",
 				"description": {
-					"paragraph-first": "Es abogado, Licenciado en Relaciones Internacionales, maestrando en Teoría Constitucional y Derechos Humanos, Maestrando en Filosofía del Derecho. Especialista en Derecho Empresarial, Patentes y Propiedad Intelectual."
+					"paragraph-first": "Es abogado, Licenciado en Relaciones Internacionales, maestrando en Teoría Constitucional y Derechos Humanos, Maestrando en Filosofía del Derecho.",
+					"paragraph-second": "Especialista en Derecho Empresarial, Patentes y Propiedad Intelectual."
 				}
 			}
 		},
