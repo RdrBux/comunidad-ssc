@@ -43,7 +43,9 @@ export default function Pathway() {
 					<div className="lg:-order-1">
 						<h2 className="font-medium text-sm text-[#1AAD81] lg:text-base">{t('category')}</h2>
 						<h3 className={`font-source text-4xl leading-none lg:text-5xl text-tertiary-50 tracking-tight font-medium mt-4`}>{t('title')}</h3>
-						<p className="mt-8 lg:text-lg font-light text-neutral-300">{t('paragraph')}</p>
+						<p className="mt-8 lg:text-lg font-light text-neutral-300">{t('paragraph-first')}</p>
+						<p className="mt-4 lg:text-lg font-light text-neutral-300"><b>{t('paragraph-second-bold')}</b> {t('paragraph-second')}</p>
+						<p className="mt-4 lg:text-lg font-light text-neutral-300"><b>{t('paragraph-third-bold')}</b> {t('paragraph-third')}</p>
 						<ButtonSection route={ROUTES.CAMINO} text={t('button')} />
 					</div>
 

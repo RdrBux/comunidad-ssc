@@ -42,7 +42,11 @@
 		"pathway": {
 			"category": "EL CAMINO",
 			"title": "¿Qué acciones permiten que nuestros proyectos, nuestra comunidad y sus miembros crezcan?",
-			"paragraph": "Se trata de construir escenarios concretos de crecimiento de la teoría y de las propuestas de intervención desde este nuevo paradigma. Un futuro mejor es posible y el Saber Supercomplejo quiere estar presente en el desarrollo de comprensiones y alternativas de acción para potencial el desarrollo institucional, personal y profesional y, con ello, brindar propuestas concretas para las grandes problemáticas sociales y planetarias.",
+			"paragraph-first": "Nuestras propuestas de desarrollo, colaboración y crecimiento:",
+			"paragraph-second-bold": "Saber Supercomplejo",
+			"paragraph-second": "es el núcleo teórico, científico y filosófico que impulsa nuestra comunidad. Nos dedicamos a la investigación avanzada, el desarrollo conceptual y la difusión global de este paradigma.",
+			"paragraph-third-bold": "CO-ENERG",
+			"paragraph-third": "es la empresa spin-off creada por la Comunidad del SSC para llevar la potencia transformadora del Saber Supercomplejo al mundo real colaborando con empresas, instituciones públicas y privadas y comunidades intermedias.",
 			"button": "Leer sobre el camino"
 		},
 		"articles": {

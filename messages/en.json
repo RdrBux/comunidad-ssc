@@ -42,7 +42,11 @@
 		"pathway": {
 			"category": "THE PATH",
 			"title": "What actions enable our projects, our community, and its members to grow?",
-			"paragraph": "It is about building concrete scenarios for the growth of the theory and intervention proposals from this new paradigm. A better future is possible, and Supercomplex Knowledge aims to be present in developing understandings and alternative actions to enhance institutional, personal, and professional development. Through this, we provide concrete solutions to major social and planetary challenges.",
+			"paragraph-first": "Our development, collaboration, and growth proposals:",
+			"paragraph-second-bold": "Supercomplex Knowledge",
+			"paragraph-second": "is the theoretical, scientific, and philosophical core driving our community. We engage in advanced research, conceptual development, and global dissemination.",
+			"paragraph-third-bold": "CO-ENERG",
+			"paragraph-third": "is the spin-off company applying SK’s transformative power in the real world, collaborating with businesses, institutions, and communities.",
 			"button": "Read about the path"
 		},
 		"articles": {
