@@ -40,37 +40,72 @@ export default function Camino() {
 
 				<div className="mt-24 lg:mt-12 flex flex-col gap-4">
 
-					<h3 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>
+					<h3 className={`font-source mt-12 text-3xl lg:text-4xl font-bold tracking-tight text-neutral-950`}>
 						{t('title')}
 					</h3>
 
-					<h4 className={`font-source mt-6 text-2xl text-neutral-950 font-bold`}>{t('2024.july.title')}</h4>
+					<div>
+						<h4 className={`font-source mt-9 text-2xl text-neutral-950 font-bold`}>{t('ssc.title')}</h4>
 
-					<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
-						<li><span className="font-semibold">{t('2024.july.bullets.1.name')}:</span> {t('2024.july.bullets.1.description')}</li>
-						<li><span className="font-semibold">{t('2024.july.bullets.2.name')}:</span> {t('2024.july.bullets.2.description')}</li>
-					</ul>
+						<p className="mt-4">{t('ssc.paragraph-first')}</p>
+						<p className="mt-2">{t('ssc.paragraph-second')}</p>
 
-					<h4 className={`font-source mt-6 text-2xl text-neutral-950 font-bold`}>{t('2024.october.title')}</h4>
+						<h5 className={`font-source mt-9 text-xl text-neutral-950 font-bold`}>{t('ssc.bullets.title')}</h5>
 
-					<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
-						<li><span className="font-semibold">{t('2024.october.bullets.1.name')}:</span> {t('2024.october.bullets.1.description')}</li>
-						<li><span className="font-semibold">{t('2024.october.bullets.2.name')}:</span> {t('2024.october.bullets.2.description')}</li>
-					</ul>
+						<ul className="list-disc flex flex-col gap-4 mt-4 pl-6">
+							<li>
+								<p className="font-semibold">{t('ssc.bullets.1.title')}:</p>
+								<p>{t('ssc.bullets.1.description')}</p>
+							</li>
+							<li>
+								<p className="font-semibold">{t('ssc.bullets.2.title')}:</p>
+								<p>{t('ssc.bullets.2.description-first')}</p>
+								<p>{t('ssc.bullets.2.description-second')}</p>
+							</li>
+							<li>
+								<p className="font-semibold">{t('ssc.bullets.3.title')}:</p>
+								<p>{t('ssc.bullets.3.description-first')}</p>
+								<p>{t('ssc.bullets.3.description-second')}</p>
+							</li>
+							<li>
+								<p className="font-semibold">{t('ssc.bullets.4.title')}:</p>
+								<p>{t('ssc.bullets.4.description-first')}</p>
+								<p>{t('ssc.bullets.4.description-second')}</p>
+							</li>
+							<li>
+								<p className="font-semibold">{t('ssc.bullets.5.title')}:</p>
+								<p>{t('ssc.bullets.5.description')}</p>
+							</li>
+						</ul>
+					</div>
 
-					<h4 className={`font-source mt-6 text-2xl text-neutral-950 font-bold`}>{t('2024.november.title')}</h4>
+					<div>
+						<h4 className={`font-source mt-16 text-2xl text-neutral-950 font-bold`}>{t('coenerg.title')}</h4>
 
-					<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
-						<li>{t('2024.november.bullets.1.description')}</li>
-						<li>{t('2024.november.bullets.2.description')}</li>
-						<li>{t('2024.november.bullets.3.description')}</li>
-					</ul>
+						<p className="mt-4">{t('coenerg.paragraph-first')}</p>
+						<p className="mt-2">{t('coenerg.paragraph-second')}</p>
+						<p className="mt-2">{t('coenerg.paragraph-third')}</p>
 
-					<h4 className={`font-source mt-6 text-2xl text-neutral-950 font-bold`}>{t('2024.december.title')}</h4>
+						<ul className="list-disc flex flex-col gap-2 mt-2 pl-6">
+							<li>
+								{t('coenerg.bullets.1')}
+							</li>
+							<li>
+								{t('coenerg.bullets.2')}
+							</li><li>
+								{t('coenerg.bullets.3')}
+							</li>
+						</ul>
 
-					<ul className="list-disc flex flex-col gap-4 mt-2 pl-6">
-						<li>{t('2024.december.bullets.1.description')}</li>
-					</ul>
+						<p className="mt-4">{t('coenerg.paragraph-fourth')}</p>
+					</div>
+
+					<div>
+						<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('why-us.title')}</h4>
+						<p className="mt-4">{t('why-us.paragraph-first')}</p>
+						<p className="mt-2"><span className="font-semibold">{t('why-us.paragraph-second')}</span></p>
+					</div>
+
 				</div>
 
 				<div className="mt-16"><SharePage url='https://sabersupercomplejo.com/camino' text={`${tNav('camino')} - ${tName('name')}`} /></div>

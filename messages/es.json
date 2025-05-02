@@ -168,6 +168,7 @@
 			}
 		},
 		"members": {
+			"title": "Nuestro equipo",
 			"director": {
 				"name": "Juan Pedro Rodríguez",
 				"role": "Director de la Comunidad del Saber Supercomplejo",
@@ -285,56 +286,54 @@
 		}
 	},
 	"pathway": {
-		"title": "Cronograma de eventos para el presente año",
-		"2024": {
-			"july": {
-				"title": "Julio del 2024",
-				"bullets": {
-					"1": {
-						"name": "Lanzamiento de la Comunidad",
-						"description": "la Comunidad del Saber Supercomplejo es un equipo de investigación y desarrollo cuyo objetivo es instalar este paradigma como alternativo e integrador, generando comprensiones integrales y multidimensionales de la realidad y estrategias de intervención superadoras de problemáticas sociales y planetarias emergentes. Se hace la presentación del Programa de Intervención y Desarrollo SuperComplex Program y del software SuperComplex Systems Developer, diseñados para analizar e intervenir en sistemas de alta complejidad."
-					},
-					"2": {
-						"name": "Presentación del libro",
-						"description": "el libro es nuestra primera presentación en sociedad. Se trata de un libro que pretende revolucionar el escenario de la ciencia, la filosofía y la tecnología actuales. El Saber Supercomplejo representa la construcción de un paradigma que intenta integrar y superar al Pensamiento Complejo y a las Ciencias de la Complejidad, comenzando por la redefinición de su objeto de estudio, postulando una nueva gnoseología de base (el constructivismo complejo) y una reconfiguración de los componentes de los sistemas complejos (flujos de energía, morfologías estructurales y conectividad temporal en interacción). Articulando, de esta manera, una taxonomía completa de los macrosistemas micropartículas, macroscópicos y biológicos con sus respectivos solapamientos, generadores de comportamientos realmente increíbles y muy poco tenidos en cuenta. Se propone, además, una relectura del espacio y el tiempo en clave de supercomplejidad; una metodología de descripción que articula lo matemático, lo informático y lo conceptual. Se postula, también, una revisión de las categorías antropológicas actuales postulando el advenimiento del “Homo Supercomplexus” en esta nueva era del Antropoceno y el Tecnoceno."
-					}
-				}
-			},
-			"october": {
-				"title": "Octubre del 2024",
-				"bullets": {
-					"1": {
-						"name": "Curso “Decodificando la Complejidad desde el Saber Supercomplejo”",
-						"description": "el formato es de cuatro encuentros en vivo on-line de dos horas con cupos reducidos y dos encuentros extras para formular interrogantes, aportes o consultas sobre la publicación (optativo) Se incluye material y los miembros de la Comunidad del Saber Supercomplejo lo tienen bonificado. Se otorgarán certificados de asistencia para este curso y de aprobación (80 horas) (optativo) para quienes presenten un artículo, el que surgirá de la interacción del participante con los responsables y el que será publicado en nuestra página web."
-					},
-					"2": {
-						"name": "Nuestro segundo libro",
-						"description": "comenzaremos a trabajar en nuestro segundo libro."
-					}
-				}
-			},
-			"november": {
-				"title": "Noviembre del 2024",
-				"bullets": {
-					"1": {
-						"description": "Publicación del libro sobre Saber Supercomplejo en redes internacionales y traducido a varios idiomas."
-					},
-					"2": {
-						"description": "Participación en congresos internacionales."
-					},
-					"3": {
-						"description": "Preparación de artículos para revistas científicas internacionales."
-					}
-				}
-			},
-			"december": {
-				"title": "Diciembre del 2024",
-				"bullets": {
-					"1": {
-						"description": "Primer campamento (team building) de la CSS."
-					}
+		"title": "Nuestros proyectos y empresas",
+		"ssc": {
+			"title": "SABER SUPERCOMPLEJO: Investigación, Innovación y Difusión Global",
+			"paragraph-first": "Saber Supercomplejo es el núcleo teórico, científico y filosófico que impulsa nuestra comunidad y nos posiciona como referentes internacionales en el campo de la complejidad y la supercomplejidad.",
+			"paragraph-second": "Aquí, investigación avanzada, desarrollo conceptual y transferencia práctica se integran para expandir los límites del conocimiento y su impacto real en el mundo.",
+			"bullets": {
+				"title": "¿Qué hacemos desde el Saber Supercomplejo?",
+				"1": {
+					"title": "Publicaciones y Producción Académica",
+					"description": "Libros, artículos científicos y capítulos en obras colectivas consolidan al SSC como referencia ineludible para quienes buscan entender y transformar sistemas complejos. Nuestra producción se expone en congresos y foros internacionales, generando redes y pensamiento de vanguardia."
+				},
+				"2": {
+					"title": "Cursos, Seminarios y Formación Continua",
+					"description-first": "Programas de formación de excelencia dirigidos a profesionales, investigadores, estudiantes e instituciones. Desde la introducción a la supercomplejidad hasta aplicaciones avanzadas en ciencia, educación, gestión, tecnología y arte.",
+					"description-second": "Destacan nuestros talleres de modelado de sistemas, pensamiento supercomplejo y formación en herramientas propias como el software COMPLEX CUORE."
+				},
+				"3": {
+					"title": "Innovación en Inteligencia Artificial",
+					"description-first": "Desarrollamos proyectos colaborativos con equipos de IA, integrando el paradigma SSC en el diseño de algoritmos, análisis de datos y la creación de inteligencia artificial explicable y ética.",
+					"description-second": "Así nacen herramientas pioneras como el KIT SSC, que permite modelar, analizar y anticipar comportamientos en sistemas complejos combinando la potencia de la IA con la visión SSC."
+				},
+				"4": {
+					"title": "Experiencias Educativas Transformadoras",
+					"description-first": "Diseñamos experiencias como el COMPLEX ART LAB, donde la complejidad se vive y se explora de manera multisensorial, integrando arte, tecnología y aprendizaje colectivo.",
+					"description-second": "Estas propuestas impactan en escuelas, universidades y espacios innovadores, haciendo del aprendizaje vivencial y la creatividad sistémica una realidad accesible."
+				},
+				"5": {
+					"title": "Herramientas y Recursos Exclusivos",
+					"description": "Creamos, implementamos y mejoramos recursos como el KIT SSC (metodología avanzada de análisis sistémico), el software COMPLEX CUORE (visualización y modelado 4D), y materiales didácticos que potencian el trabajo colaborativo y la transferencia efectiva del conocimiento a la práctica."
 				}
 			}
+		},
+		"coenerg": {
+			"title": "CO-ENERG: Transformación y Potenciación Institucional y Empresarial",
+			"paragraph-first": "CO-ENERG es la primera empresa especializada en intervención, transformación y potenciación de sistemas institucionales, empresariales y comunitarios a partir del Saber Supercomplejo.",
+			"paragraph-second": "Sabemos que cada organización es un entramado único de flujos de energía, estructuras dinámicas y tiempos conectivos. Por eso, no aplicamos fórmulas genéricas: construimos mapas evolutivos y algoritmos adaptativos personalizados a través de nuestra plataforma COMPLEX CUORE, integrando el análisis técnico con una profunda lectura axiológica y simbólica del sistema.",
+			"paragraph-third": "Cada intervención de CO-ENERG es un proceso artesanal y transformador, donde se combinan:",
+			"bullets": {
+				"1": "La inteligencia humana y la creatividad colectiva,",
+				"2": "Modelización avanzada y herramientas tecnológicas propias,",
+				"3": "El enfoque axiológico, relacional y prospectivo que distingue al Saber Supercomplejo."
+			},
+			"paragraph-fourth": "Así, CO-ENERG se consolida como puente entre la ciencia emergente, la tecnología de vanguardia y el sentido profundo de los procesos humanos, generando valor, resiliencia e innovación sostenible para quienes buscan liderar el futuro."
+		},
+		"why-us": {
+			"title": "¿Por qué elegirnos?",
+			"paragraph-first": "Tanto en el desarrollo teórico como en la aplicación concreta, el Saber Supercomplejo y CO-ENERG representan una oportunidad única para investigadores, innovadores, empresas e instituciones que buscan comprender, anticipar y transformar la complejidad de nuestro tiempo.",
+			"paragraph-second": "Sumate al ecosistema que está redefiniendo el paradigma de la complejidad, abriendo caminos para el desarrollo, la innovación y el bienestar global."
 		}
 	},
 	"privacy": {

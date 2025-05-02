@@ -168,6 +168,7 @@
 			}
 		},
 		"members": {
+			"title": "Our Team",
 			"director": {
 				"name": "Juan Pedro Rodríguez",
 				"role": "Director of the Supercomplex Knowledge Community",
@@ -285,56 +286,54 @@
 		}
 	},
 	"pathway": {
-		"title": "Schedule of Events for This Year",
-		"2024": {
-			"july": {
-				"title": "July 2024",
-				"bullets": {
-					"1": {
-						"name": "Community Launch",
-						"description": "The Community of Supercomplex Knowledge is a research and development team whose goal is to establish this paradigm as an alternative and integrative approach, generating comprehensive and multidimensional understandings of reality and superior intervention strategies for emerging social and planetary challenges. The launch includes a presentation of the Intervention and Development Program (“SuperComplex Program”) and the software “SuperComplex Systems Developer”, designed to analyze and intervene in highly complex systems."
-					},
-					"2": {
-						"name": "Book Presentation",
-						"description": "This book represents our first public appearance. It aims to revolutionize the current landscape of science, philosophy, and technology. Supercomplex Knowledge represents the construction of a paradigm that seeks to integrate and surpass Complex Thought and Complexity Sciences, beginning with the redefinition of its object of study, proposing a new foundational gnoseology (complex constructivism) and a reconfiguration of the components of complex systems (energy flows, structural morphologies, and temporal connectivity in interaction). This includes a complete taxonomy of macrosystems—microparticles, macroscopic, and biological—with their respective overlaps, generating truly incredible and often overlooked behaviors. It also proposes a reinterpretation of space and time from a supercomplex perspective; a methodology of description that integrates mathematical, computational, and conceptual elements. Additionally, it suggests a revision of current anthropological categories, proposing the emergence of “Homo Supercomplexus” in this new era of the Anthropocene and Technocene."
-					}
-				}
-			},
-			"october": {
-				"title": "October 2024",
-				"bullets": {
-					"1": {
-						"name": "Course: “Decoding Complexity from Supercomplex Knowledge”",
-						"description": "This course will consist of four live online sessions, each lasting two hours, with limited slots, plus two additional optional sessions for questions, contributions, or consultations about the publication. The course includes materials, and members of the Community of Supercomplex Knowledge will receive a discount. Certificates of attendance will be provided for this course, and optional certification of completion (80 hours) will be available for those who submit an article, which will result from the participant's interaction with the organizers and will be published on our website."
-					},
-					"2": {
-						"name": "Our Second Book",
-						"description": "Work will begin on our second book."
-					}
-				}
-			},
-			"november": {
-				"title": "November 2024",
-				"bullets": {
-					"1": {
-						"description": "Publication of the Book on Supercomplex Knowledge: The book will be released on international platforms and translated into several languages."
-					},
-					"2": {
-						"description": "Participation in International Congresses."
-					},
-					"3": {
-						"description": "Preparation of Articles for International Scientific Journals."
-					}
-				}
-			},
-			"december": {
-				"title": "December 2024",
-				"bullets": {
-					"1": {
-						"description": "First Team Building Camp for the SKC."
-					}
+		"title": "Our Projects and Enterprises",
+		"ssc": {
+			"title": "SUPERCOMPLEX KNOWLEDGE: Research, Innovation, and Global Dissemination",
+			"paragraph-first": "Supercomplex Knowledge is the theoretical, scientific, and philosophical core that drives our community and positions us as international leaders in the field of complexity and supercomplexity.",
+			"paragraph-second": "Here, advanced research, conceptual development, and practical transfer are integrated to expand the boundaries of knowledge and its real impact on the world.",
+			"bullets": {
+				"title": "What do we do from Supercomplex Knowledge?",
+				"1": {
+					"title": "Publications and Academic Production",
+					"description": "Books, scientific articles, and conference presentations establishing SK as a leading framework for understanding and transforming complex systems."
+				},
+				"2": {
+					"title": "Courses, Seminars, and Continuous Training",
+					"description-first": "Programs ranging from introductory to advanced applications in science, education, management, technology, and art.",
+					"description-second": "Highlights include our workshops on systems modeling, supercomplex thinking, and training in proprietary tools such as COMPLEX CUORE software."
+				},
+				"3": {
+					"title": "Artificial Intelligence Innovation",
+					"description-first": "Collaborative AI projects integrating SK into algorithm design, data analysis, and ethical, explainable AI.",
+					"description-second": "This is how pioneering tools like the SK KIT are born, which allows you to model, analyze, and anticipate behavior in complex systems by combining the power of AI with SK vision."
+				},
+				"4": {
+					"title": "Transformative Educational Experiences",
+					"description-first": "Initiatives like COMPLEX ART LAB, merging art, technology, and systemic creativity for experiential learning.",
+					"description-second": "These proposals impact schools, universities, and innovative spaces, making experiential learning and systemic creativity an accessible reality."
+				},
+				"5": {
+					"title": "Exclusive Tools and Resources",
+					"description": "The SK KIT (systemic analysis methodology), COMPLEX CUORE (4D modeling software), and didactic materials for collaborative work."
 				}
 			}
+		},
+		"coenerg": {
+			"title": "CO-ENERG: Institutional and Corporate Transformation",
+			"paragraph-first": "CO-ENERG is the first company specializing in the intervention and enhancement of institutional, corporate, and community systems through SK.",
+			"paragraph-second": "We understand that every organization is a unique network of energy flows, dynamic structures, and connective timelines. Therefore, we don't apply generic formulas: we build evolutionary maps and customized adaptive algorithms through our COMPLEX CUORE platform, integrating technical analysis with a deep axiological and symbolic reading of the system.",
+			"paragraph-third": "Each CO-ENERG intervention is a bespoke, transformative process combining:",
+			"bullets": {
+				"1": "Human intelligence and collective creativity",
+				"2": "Advanced modeling and proprietary technological tools",
+				"3": "The axiological, relational, and forward-looking approach unique to SK"
+			},
+			"paragraph-fourth": "Thus, CO-ENERG consolidates its position as a bridge between emerging science, cutting-edge technology, and the profound meaning of human processes, generating value, resilience, and sustainable innovation for those seeking to lead the future."
+		},
+		"why-us": {
+			"title": "Why Choose Us?",
+			"paragraph-first": "In both theoretical development and practical application, Supercomplex Knowledge and CO-ENERG represent a unique opportunity for researchers, innovators, businesses, and institutions seeking to understand, anticipate, and transform the complexity of our era.",
+			"paragraph-second": "Join the ecosystem redefining the paradigm of complexity—paving the way for development, innovation, and global well-being."
 		}
 	},
 	"privacy": {
