@@ -66,7 +66,7 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 									{t('blog')}
 								</Link>
 							</li>
-							<NavMobileCoursesLink />
+							{/* <NavMobileCoursesLink /> */}
 						</ul>
 
 						<hr className="my-8" />

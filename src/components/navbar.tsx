@@ -28,7 +28,7 @@ export default function Navbar({ style }: Props) {
 					<li><NavLink route={ROUTES.COMUNIDAD} text={t('comunidad')} style={style} /></li>
 					<li><NavLink route={ROUTES.CAMINO} text={t('camino')} style={style} /></li>
 					<li><NavLink route={ROUTES.BLOG} text={t('blog')} style={style} /></li>
-					<NavCoursesLink style={style} />
+					{/* <NavCoursesLink style={style} /> */}
 				</ul>
 
 				<div className="flex gap-2">
