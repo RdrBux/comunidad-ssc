@@ -7,7 +7,7 @@ export default function Team() {
 	const t = useTranslations('community.members')
 
 	return (
-		<div className="mt-6">
+		<div className="mt-12">
 			<div className="p-6 pb-8 border rounded-md shadow">
 				<div className="flex items-center gap-4">
 					<div className="w-20 h-20 shrink-0 overflow-hidden rounded-md bg-secondary-300">
