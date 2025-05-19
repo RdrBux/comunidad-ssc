@@ -70,7 +70,6 @@ export default function Comunidad() {
 					</ul>
 					<p className="mt-4">{t('services.2.paragraph-third')}</p>
 
-
 					<h4 className={`font-source mt-12 text-3xl font-bold tracking-tight text-neutral-950`}>{t('mission.title')}</h4>
 					<p className="mt-4">{t('mission.description')}</p>
 
