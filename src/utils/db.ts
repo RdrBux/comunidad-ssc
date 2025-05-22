@@ -146,7 +146,6 @@ export async function getCategoriesCount(locale: string) {
 	const supabase = createClient()
 
 	const { data, error } = await supabase.rpc('get_category_counts');
-	console.log({data, error})
 
   if (error) console.error(error)
 
