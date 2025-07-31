@@ -35,6 +35,7 @@ export default function Footer() {
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.COMUNIDAD}>{tNav('comunidad')}</Link></li>
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.CAMINO}>{tNav('camino')}</Link></li>
 							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.BLOG}>{tNav('blog')}</Link></li>
+							<li><Link className="hover:text-secondary-500 duration-300" href={ROUTES.LIBROS}>{tNav('libros')}</Link></li>
 						</ul>
 
 						<a className="hidden lg:block underline hover:text-secondary-500 duration-300" href="mailto:sabersupercomplejo@gmail.com">sabersupercomplejo@gmail.com</a>

@@ -7,6 +7,7 @@ export const ROUTES = {
 	TEORIA: '/teoria',
 	BLOG: '/blog',
 	CURSOS: '/cursos',
+	LIBROS: '/libros',
 } as const;
 
 export type AppRoute = typeof ROUTES[keyof typeof ROUTES];

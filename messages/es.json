@@ -6,6 +6,7 @@
 		"comunidad": "La comunidad",
 		"camino": "El camino",
 		"blog": "Blog",
+		"libros": "Libros",
 		"menu": "Menú",
 		"navigation": "Navegación",
 		"lang": "Idioma",
@@ -448,6 +449,9 @@
 			"create-post": "Crear publicación",
 			"logout": "Cerrar sesión"
 		}
+	},
+	"libros": {
+		"title": "Libros"
 	},
 	"namespace": {
 		"home": "Comunidad del Saber Supercomplejo",

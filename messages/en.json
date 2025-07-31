@@ -6,6 +6,7 @@
 		"comunidad": "The community",
 		"camino": "The path",
 		"blog": "Blog",
+		"libros": "Books",
 		"menu": "Menu",
 		"navigation": "Navigation",
 		"lang": "Language",
@@ -448,6 +449,9 @@
 			"create-post": "Create post",
 			"logout": "Sign out"
 		}
+	},
+	"libros": {
+		"title": "Libros"
 	},
 	"namespace": {
 		"home": "Community of Supercomplex Knowledge",

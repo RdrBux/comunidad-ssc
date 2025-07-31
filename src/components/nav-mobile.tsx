@@ -3,7 +3,7 @@
 import { Link } from "@/i18n/routing";
 import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle, DrawerTrigger } from "./ui/drawer";
 import { ROUTES } from "@/utils/constants";
-import { BookText, Menu, NotebookPen, Route, Users } from "lucide-react";
+import { BookA, BookText, Menu, NotebookPen, Route, Users } from "lucide-react";
 import Image from "next/image";
 import ukFlag from '../assets/uk-flag.png'
 import spainFlag from '../assets/spain-flag.png'
@@ -64,6 +64,12 @@ export default function NavMobile({ style }: { style: 'light' | 'dark' }) {
 								<Link className={`${pathname.includes(ROUTES.BLOG) ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.BLOG}>
 									<NotebookPen />
 									{t('blog')}
+								</Link>
+							</li>
+							<li>
+								<Link className={`${pathname.includes(ROUTES.LIBROS) ? 'bg-neutral-100' : ''} py-2 px-4 rounded-md flex items-center gap-3`} href={ROUTES.LIBROS}>
+									<BookA />
+									{t('libros')}
 								</Link>
 							</li>
 							{/* <NavMobileCoursesLink /> */}

@@ -4,6 +4,9 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	experimental: {
+    esmExternals: 'loose', // para que acepte .mjs sin romperse
+  },
 	images: {
 		remotePatterns: [
 			{
