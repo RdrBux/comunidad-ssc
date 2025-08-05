@@ -451,7 +451,43 @@
 		}
 	},
 	"libros": {
-		"title": "Libros"
+		"title": "Libros",
+		"books": {
+			"saber-supercomplejo": {
+				"title": "Saber Supercomplejo",
+				"subtitle": "El nuevo paradigma emergente ante la complejidad del universo, la vida y el cerebro humano",
+				"author": "Juan Pedro Rodríguez",
+				"description": {
+					"paragraph-first": "Este libro propone una nueva forma de entender el universo, la vida y la mente: el <semibold>Saber Supercomplejo (SSC)</semibold>. Se trata de un paradigma que busca ir más allá de las limitaciones de las Ciencias de la Complejidad y del Pensamiento Complejo, ofreciendo una mirada integral, práctica y profundamente transformadora sobre los sistemas que nos rodean.",
+					"paragraph-second": "En lugar de explicar el mundo con herramientas fragmentadas, el SSC plantea una visión transdisciplinaria y evolutiva. Propone una base científica renovada, basada en el constructivismo complejo multiescalar y en tres ejes clave para describir y transformar la realidad:",
+					"key-axes": {
+						"1": "los <semibold>Flujos de Energía</semibold>,",
+						"2": "la <semibold>Morfología Estructural</semibold>,",
+						"3": "y la <semibold>Conectividad Temporal</semibold>."
+					},
+					"paragraph-third": "Esta tríada permite pensar cualquier sistema —desde una célula hasta una red social— como un conjunto dinámico de relaciones entre energía, forma y tiempo.",
+					"paragraph-fourth": "El libro también ofrece una clasificación innovadora de los sistemas complejos, y analiza cómo surgen la estabilidad, el cambio repentino y la evolución progresiva. Para eso, recorre los tres grandes planos de organización del universo: el de las micropartículas, el del mundo visible (macroscópico) y el de los sistemas biológicos. Pero no los estudia por separado, sino en su interacción profunda.",
+					"paragraph-fifth": "Lo más potente del SSC es que <semibold>no se queda en la teoría</semibold>: propone herramientas concretas para pensar y rediseñar sistemas reales. Entre ellas se destacan los <semibold>Mapas Dinámicos Adaptativos</semibold>, las <semibold>ecuaciones supercomplejas</semibold> y el simulador tetradimensional <semibold>COMPLEX CUORE</semibold>, una tecnología única para visualizar y transformar sistemas en tiempo real.",
+					"paragraph-sixth": "Además, este enfoque cambia también nuestra forma de aprender. El SSC propone una combinación original entre cómputo, mapeo y cronometraje que permite pensar, crear y decidir mejor. De ahí surge una nueva forma de ser: el <semibold>Homo Supercomplexus</semibold>, una persona capaz de enfrentarse a la complejidad con creatividad, conciencia y responsabilidad.",
+					"paragraph-seventh": "Este libro es una guía para quienes intuyen que el futuro necesita nuevas ideas y nuevas herramientas. Es también una invitación a imaginar y construir soluciones más integrales, sabias y humanas para los desafíos actuales."
+				},
+				"features": {
+					"darwin-access": "Incluye acceso gratuito al nodo inteligente <bold>DARWIN SSC</bold> (versión especializada de ChatGPT adaptada al paradigma)."
+				},
+				"preview": {
+					"title": "Vista previa (prólogo y tercer capítulo)",
+					"link": "preview-link"
+				},
+				"purchase": {
+					"title": "Accede a la obra completa",
+					"description": "Explora todos los desarrollos teóricos, herramientas prácticas y recursos digitales del paradigma supercomplejo. Disponible en <semibold>Google Books</semibold> y <semibold>Amazon Kindle</semibold>.",
+					"platforms": {
+						"google-books": "Google Books",
+						"amazon-kindle": "Amazon Kindle"
+					}
+				}
+			}
+		}
 	},
 	"namespace": {
 		"home": "Comunidad del Saber Supercomplejo",

@@ -1,13 +1,23 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
-import { useTranslations } from "next-intl";
 import Link from "next/link";
-import ssTapa from "@/assets/ss-tapa-es.jpg"
-import Image from "next/image";
+import ssTapaEs from "@/assets/ss-tapa-es.jpg"
+import ssTapaEn from "@/assets/ss-tapa-en.jpg"
+import Image, { StaticImageData } from "next/image";
+import { getLocale, getTranslations } from "next-intl/server";
 
-export default function Page() {
-	const t = useTranslations('libros');
+export default async function Page() {
+	const locale = await getLocale();
+
+	const t = await getTranslations('libros');
+
+	const imageMap: { [key: string]: StaticImageData } = {
+		es: ssTapaEs,
+		en: ssTapaEn,
+	};
+
+	const ssTapa = imageMap[locale];
 
 	return (
 		<div>
@@ -19,10 +29,10 @@ export default function Page() {
 						<article className="flex flex-col lg:flex-row gap-8 items-center p-4 rounded border">
 							<Image className="h-80 w-fit rounded" src={ssTapa} alt="Libro Saber Supercomplejo" />
 							<div className="grid gap-2">
-								<h2 className="font-source font-semibold text-3xl tracking-tighter leading-tight">Saber Supercomplejo</h2>
-								<p className="text-neutral-600">El nuevo paradigma emergente ante la complejidad del universo, la vida y el cerebro humano</p>
-								<p className="text-neutral-600">Por <span className="font-semibold text-neutral-950">Juan Pedro Rodríguez</span></p>
-								<Button className="w-fit mt-4">Conseguilo</Button>
+								<h2 className="font-source font-semibold text-3xl tracking-tighter leading-tight">{t('books.saber-supercomplejo.title')}</h2>
+								<p className="text-neutral-600">{t('books.saber-supercomplejo.subtitle')}</p>
+								<p className="text-neutral-600">{locale === 'en' ? 'By' : 'Por'} <span className="font-semibold text-neutral-950">{t('books.saber-supercomplejo.author')}</span></p>
+								<Button className="w-fit mt-4">{locale === 'en' ? 'Get it' : 'Conseguilo'}</Button>
 							</div>
 						</article>
 					</Link>
