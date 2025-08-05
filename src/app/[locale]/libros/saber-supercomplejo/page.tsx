@@ -24,6 +24,8 @@ export default async function Page() {
 	const btnGoogle = locale === 'en' ? btnEnGoogle : btnEsGoogle;
 	const btnAmazon = locale === 'en' ? btnEnAmazon : btnEsAmazon;
 
+	const linkAmazon = locale === 'en' ? 'https://www.amazon.com/dp/B0FHG711PG' : "https://www.amazon.com/dp/B0FHG73VHN"
+
 	return (
 		<>
 			<Navbar style="light" />
@@ -48,20 +50,24 @@ export default async function Page() {
 							{locale === 'en' ? 'By' : 'Por'} <span className="font-semibold text-neutral-950">{t('books.saber-supercomplejo.author')}</span>
 						</p>
 						<div className="flex gap-4 flex-wrap mt-2">
-							<a
-								href="https://play.google.com/store/books/details/Supercomplex_Knowledge?id=I6ZtEQAAQBAJ"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<Image
-									src={btnGoogle}
-									alt={`Disponible en ${t('books.saber-supercomplejo.purchase.platforms.google-books')}`}
-									className="h-12 w-fit shrink-0"
-								/>
-							</a>
+							{
+								locale === 'en' && (
+									<a
+										href="https://play.google.com/store/books/details/Supercomplex_Knowledge?id=I6ZtEQAAQBAJ"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Image
+											src={btnGoogle}
+											alt={`${t('books.saber-supercomplejo.purchase.platforms.google-books')}`}
+											className="h-12 w-fit shrink-0"
+										/>
+									</a>
+								)
+							}
 
 							<a
-								href="https://www.amazon.com/dp/B0FHG73VHN"
+								href={linkAmazon}
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -143,20 +149,24 @@ export default async function Page() {
 						})}
 					</p>
 					<div className="flex gap-4 flex-wrap items-center justify-center">
-						<a
-							href="https://play.google.com/store/books/details/Supercomplex_Knowledge?id=I6ZtEQAAQBAJ"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<Image
-								src={btnGoogle}
-								alt={`${t('books.saber-supercomplejo.purchase.platforms.google-books')}`}
-								className="h-12 w-fit shrink-0"
-							/>
-						</a>
+						{
+							locale === 'en' && (
+								<a
+									href="https://play.google.com/store/books/details/Supercomplex_Knowledge?id=I6ZtEQAAQBAJ"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Image
+										src={btnGoogle}
+										alt={`${t('books.saber-supercomplejo.purchase.platforms.google-books')}`}
+										className="h-12 w-fit shrink-0"
+									/>
+								</a>
+							)
+						}
 
 						<a
-							href="https://www.amazon.com/dp/B0FHG73VHN"
+							href={linkAmazon}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
