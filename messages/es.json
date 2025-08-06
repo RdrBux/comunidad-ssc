@@ -480,7 +480,7 @@
 				},
 				"purchase": {
 					"title": "Accede a la obra completa",
-					"description": "Explora todos los desarrollos teóricos, herramientas prácticas y recursos digitales del paradigma supercomplejo. Disponible en <semibold>Amazon Kindle</semibold>.",
+					"description": "Explora todos los desarrollos teóricos, herramientas prácticas y recursos digitales del paradigma supercomplejo. Disponible en <semibold>Google Books</semibold> y en <semibold>Amazon Kindle</semibold>.",
 					"platforms": {
 						"google-books": "Google Books",
 						"amazon-kindle": "Amazon Kindle"
