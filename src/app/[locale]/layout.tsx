@@ -5,6 +5,7 @@ import { sourceSerif } from "@/utils/fonts";
 import { Analytics } from '@vercel/analytics/react';
 import { getMessages, getTranslations } from "next-intl/server";
 import { NextIntlClientProvider } from 'next-intl';
+import { GoogleTagManager } from '@next/third-parties/google'
 /* import StickyBanner from "@/components/sticky-banner"; */
 
 const inter = Inter({ subsets: ["latin"] });
@@ -43,6 +44,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <GoogleTagManager gtmId="GTM-MS4PCMM6" />
       <body className={`${inter.className} ${sourceSerif.variable} tracking-tight antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {/* <StickyBanner /> */}
